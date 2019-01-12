@@ -58,7 +58,7 @@ public class PrimMST {
 		return answer;
 	}
 
-	private static void updateMap(Map<Integer, List<Node>> adjNodes, int fromNode, int toNode, int weight) {
+	static void updateMap(Map<Integer, List<Node>> adjNodes, int fromNode, int toNode, int weight) {
 		List<Node> nodes;
 
 		nodes = adjNodes.getOrDefault(fromNode, new ArrayList<>());
