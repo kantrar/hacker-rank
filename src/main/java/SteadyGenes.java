@@ -1,5 +1,3 @@
-import static java.lang.Math.min;
-
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -68,7 +66,7 @@ public class SteadyGenes {
 		if (removeRight == -1) {
 			return removeLeft;
 		}
-		return min(removeLeft, removeRight);
+		return Math.min(removeLeft, removeRight);
 	}
 
 	private static int[] countGenes(String gene) {

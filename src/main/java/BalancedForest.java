@@ -19,6 +19,7 @@ public class BalancedForest {
 
 		@Override
 		public boolean equals(Object obj) {
+
 			if (!(obj instanceof Node)) {
 				return false;
 			}
@@ -56,7 +57,10 @@ public class BalancedForest {
 		Node node = nodeList.stream().filter(x -> x.getSeq() == seq).collect(Collectors.toList()).get(0);
 
 		for (int i = 0; i < node.edges.size(); i++) {
-
+			for(int j = i; j< node.edges.size(); j++) {
+				node.edges.get(i);
+				node.edges.get(j);
+			}
 		}
 	}
 
@@ -110,14 +114,14 @@ public class BalancedForest {
 			Node from = new Node(edge[0], c[edge[0] - 1]);
 			Node to = new Node(edge[1], c[edge[1] - 1]);
 
-			from = updateNodeList(nodeList, from, to);
-			to = updateNodeList(nodeList, to, from);
+			updateNodeList(nodeList, from, to);
+			updateNodeList(nodeList, to, from);
 		}
 
 		return nodeList;
 	}
 
-	private static Node updateNodeList(List<Node> nodeList, Node from, Node to) {
+	private static void updateNodeList(List<Node> nodeList, Node from, Node to) {
 		int fromPos = nodeList.indexOf(from);
 
 		if (fromPos == -1) {
@@ -128,7 +132,5 @@ public class BalancedForest {
 		}
 
 		from.edges.add(new Edge(to.seq, 0));
-
-		return from;
 	}
 }

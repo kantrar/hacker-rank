@@ -1,47 +1,45 @@
 public class CountingInversion {
 
 	static long countInversions(int[] arr) {
-		return mergeSort(arr, 0, arr.length);
+		int[] temp = new int[arr.length];
+		return mergeSort(arr, temp, 0, arr.length);
 	}
 
-	private static long mergeSort(int[] arr, int start, int end) {
+	private static long mergeSort(int[] arr, int[] temp, int start, int end) {
 		if (end - start <= 1) {
 			return 0L;
 		}
 
-		int answer = 0;
-		int[] newArr = arr.clone();
+		long answer = 0;
 
 		int mid = (start + end) / 2;
-		answer += mergeSort(arr, start, mid);
-		answer += mergeSort(arr, mid, end);
+		answer += mergeSort(arr, temp, start, mid);
+		answer += mergeSort(arr, temp, mid, end);
 
 		int i = start;
 		int j = mid;
 		int idx = start;
+
 		while (i < mid && j < end) {
 			if (arr[i] <= arr[j]) {
-				newArr[idx++] = arr[i];
-				i++;
-			}
-			if (arr[i] > arr[j]) {
+				temp[idx++] = arr[i++];
+			} else {
 				answer += (mid - i);
-				newArr[idx++] = arr[j];
-				j++;
+				temp[idx++] = arr[j++];
 			}
 		}
 
 		while (i < mid) {
-			newArr[idx++] = arr[i];
-			i++;
+			temp[idx++] = arr[i++];
 		}
 
 		while (j < end) {
-			newArr[idx++] = arr[j];
-			j++;
+			temp[idx++] = arr[j++];
 		}
 
-		System.arraycopy(newArr, 0, arr, 0, newArr.length);
+		for (int k = start; k < end; k++) {
+			arr[k] = temp[k];
+		}
 
 		return answer;
 	}
