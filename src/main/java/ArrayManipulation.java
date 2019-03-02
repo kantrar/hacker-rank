@@ -24,6 +24,7 @@ public class ArrayManipulation {
 				max = s;
 			}
 		}
+
 		return max;
 	}
 
