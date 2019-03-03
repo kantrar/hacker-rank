@@ -1,136 +1,171 @@
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Scanner;
 
+
+// Incomplete
 public class BalancedForest {
 
+	private static int timing = 0;
+
 	private static class Node {
-		private int seq;
-		private int value;
-		private List<Edge> edges;
+		int seq;
+		int value;
+		int arriveTime;
+		int leaveTime;
+		long sumDistance;
+		List<Node> adjNodes = new ArrayList<>();
 
 		public Node(int s, int v) {
 			this.seq = s;
 			this.value = v;
-			this.edges = new ArrayList<>();
+		}
+	}
+
+	static long balancedForest(int[] c, int[][] edges) {
+
+		int[][] newEdges = new int[edges.length + 1][2];
+
+		for (int i = 0; i < edges.length; i++) {
+			newEdges[i][0] = edges[i][0];
+			newEdges[i][1] = edges[i][1];
 		}
 
-		@Override
-		public boolean equals(Object obj) {
+		newEdges[edges.length][0] = 0;
+		newEdges[edges.length][1] = 1;
 
-			if (!(obj instanceof Node)) {
-				return false;
+		long answer = Long.MAX_VALUE;
+
+		List<Node> nodes = buildNode(c, newEdges);
+		Node root = nodes.get(0);
+
+		traverse(root, null);
+
+		for (int i = 0; i < newEdges.length; i++) {
+			Node from1 = nodes.get(newEdges[i][0]);
+			Node to1 = nodes.get(newEdges[i][1]);
+
+			Node sx = getArriveLaterNode(from1, to1);
+
+			for (int j = i + 1; j < newEdges.length; j++) {
+				Node from2 = nodes.get(newEdges[j][0]);
+				Node to2 = nodes.get(newEdges[j][1]);
+
+				Node sy = getArriveLaterNode(from2, to2);
+
+				long sum1, sumx, sumy;
+				if (isAncestor(sx, sy)) {
+					sum1 = root.sumDistance - sx.sumDistance;
+					sumx = sx.sumDistance - sy.sumDistance;
+					sumy = sy.sumDistance;
+				} else if (isAncestor(sy, sx)) {
+					sum1 = root.sumDistance - sy.sumDistance;
+					sumx = sx.sumDistance;
+					sumy = sy.sumDistance - sx.sumDistance;
+				} else {
+					sum1 = root.sumDistance - sx.sumDistance - sy.sumDistance;
+					sumx = sx.sumDistance;
+					sumy = sy.sumDistance;
+				}
+
+				long tempAnswer = findAnswerFromSum(sum1, sumx, sumy);
+				if (tempAnswer != -1 && tempAnswer < answer) {
+					answer = tempAnswer;
+				}
 			}
-			return this.seq == ((Node) obj).seq;
 		}
 
-		public int getSeq() {
-			return seq;
+		return answer == Long.MAX_VALUE ? -1 : answer;
+	}
+
+	private static List<Node> buildNode(int[] c, int[][] edges) {
+		// add node zero (seq = 0, value = 0) to solve the case that the added edge is cut
+		List<Node> nodes = new ArrayList<>();
+		nodes.add(new Node(0, 0));
+		for (int i = 0; i < c.length; i++) {
+			nodes.add(new Node(i + 1, c[i]));
 		}
-	}
 
-	private static class Edge {
-		private int seq;
-		private Integer weight;
+		for (int i = 0; i < edges.length; i++) {
+			Node fromNode = nodes.get(edges[i][0]);
+			Node toNode = nodes.get(edges[i][1]);
 
-		public Edge(int seq, int w) {
-			this.seq = seq;
-			this.weight = w;
+			fromNode.adjNodes.add(toNode);
+			toNode.adjNodes.add(fromNode);
 		}
+
+		return nodes;
 	}
 
-	static int balancedForest(int[] c, int[][] edges) {
-		List<Node> nodeList = createNodes(c, edges);
+	private static void traverse(Node root, Node prev) {
+		root.arriveTime = timing++;
+		root.sumDistance = root.value;
 
-		DFS(nodeList, 1, 0);
-
-		sortEdges(nodeList);
-
-		computeCombinations(nodeList, 1);
-
-		return 0;
-	}
-
-	private static void computeCombinations(List<Node> nodeList, int seq) {
-		Node node = nodeList.stream().filter(x -> x.getSeq() == seq).collect(Collectors.toList()).get(0);
-
-		for (int i = 0; i < node.edges.size(); i++) {
-			for(int j = i; j< node.edges.size(); j++) {
-				node.edges.get(i);
-				node.edges.get(j);
+		for (Node nextNode : root.adjNodes) {
+			if (prev == null || nextNode.seq != prev.seq) {
+				traverse(nextNode, root);
+				root.sumDistance += nextNode.sumDistance;
 			}
 		}
+
+		root.leaveTime = timing++;
 	}
 
-	// Sort by its weight
-	private static void sortEdges(List<Node> nodeList) {
-		for (Node node : nodeList) {
-			Collections.sort(node.edges, Comparator.comparing(o -> o.weight));
-		}
+	private static Node getArriveLaterNode(Node node1, Node node2) {
+		return node1.arriveTime < node2.arriveTime ? node2 : node1;
 	}
 
-	private static int DFS(List<Node> nodeList, int seq, Integer parent) {
-		int sumWeight = 0;
+	private static boolean isAncestor(Node node1, Node node2) {
+		return node1.arriveTime < node2.arriveTime && node1.leaveTime > node2.leaveTime;
+	}
 
-		Node node = nodeList.stream().filter(x -> x.getSeq() == seq).collect(Collectors.toList()).get(0);
+	private static long findAnswerFromSum(long a, long b, long c) {
+		long[] inputs = new long[] {a, b, c};
+		Arrays.sort(inputs);
 
-		List<Edge> destinations = node.edges;
-
-		if (destinations.size() == 1) {
-			return node.value;
+		if (inputs[1] == inputs[2]) {
+			long diff = inputs[1] - inputs[0];
+			return diff > 0 ? diff : -1;
 		}
 
-		for (int i = 0; i < destinations.size(); i++) {
+		return -1;
+	}
 
-			Edge nextEdge = destinations.get(i);
+	private static final Scanner scanner = new Scanner(System.in);
 
-			// destination seq
-			int to = nextEdge.seq;
+	public static void main(String[] args) {
+		int q = scanner.nextInt();
+		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-			if (to == parent) {
-				continue;
+		for (int qItr = 0; qItr < q; qItr++) {
+			int n = scanner.nextInt();
+			scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+			int[] c = new int[n];
+
+			String[] cItems = scanner.nextLine().split(" ");
+			scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+			for (int i = 0; i < n; i++) {
+				int cItem = Integer.parseInt(cItems[i]);
+
+				c[i] = cItem;
 			}
 
-			// the value we get if we traverse along this path
-			int w = DFS(nodeList, to, seq);
-			nextEdge.weight = w;
+			int[][] edges = new int[n - 1][2];
 
-			//			destinations.set(i, distance);
+			for (int i = 0; i < n - 1; i++) {
 
-			sumWeight += w;
+				edges[i][0] = scanner.nextInt();
+				edges[i][1] = scanner.nextInt();
+
+			}
+
+			balancedForest(c, edges);
+
 		}
 
-		// the value we get if we traverse along this node and along the path
-		return node.value + sumWeight;
-	}
-
-	private static List<Node> createNodes(int[] c, int[][] edges) {
-		List<Node> nodeList = new ArrayList<>();
-
-		for (int[] edge : edges) {
-
-			Node from = new Node(edge[0], c[edge[0] - 1]);
-			Node to = new Node(edge[1], c[edge[1] - 1]);
-
-			updateNodeList(nodeList, from, to);
-			updateNodeList(nodeList, to, from);
-		}
-
-		return nodeList;
-	}
-
-	private static void updateNodeList(List<Node> nodeList, Node from, Node to) {
-		int fromPos = nodeList.indexOf(from);
-
-		if (fromPos == -1) {
-			nodeList.add(from);
-			from = nodeList.get(nodeList.size() - 1);
-		} else {
-			from = nodeList.get(fromPos);
-		}
-
-		from.edges.add(new Edge(to.seq, 0));
+		scanner.close();
 	}
 }

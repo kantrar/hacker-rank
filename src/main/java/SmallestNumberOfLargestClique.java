@@ -8,12 +8,16 @@ public class SmallestNumberOfLargestClique {
 			return 2;
 		}
 
-		int maxClique = 2;
+		if (m <= n - 1) {
+			return 2;
+		}
 
-		int left = 2;
+		int maxClique = 3;
+
+		int left = 3;
 		int right = n;
 
-		while (left + 1 < right) {
+		while (left  <= right) {
 			int clique = (left + right) / 2;
 			int edge = turanFunction(n, clique);
 

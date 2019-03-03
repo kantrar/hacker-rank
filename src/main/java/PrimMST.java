@@ -15,6 +15,15 @@ public class PrimMST {
 			this.node = node;
 			this.weight = weight;
 		}
+
+//		@Override
+//		public boolean equals(Object obj) {
+//			if (!(obj instanceof Node)) {
+//				return false;
+//			}
+//			Node n = (Node) obj;
+//			return this.node == n.node;
+//		}
 	}
 
 	static int prims(int n, int[][] edges, int start) {
@@ -46,7 +55,7 @@ public class PrimMST {
 			Node removedNode;
 			do {
 				removedNode = potentialNodes.remove(0);
-			} while(visitedNodes.contains(removedNode.node));
+			} while (visitedNodes.contains(removedNode.node));
 
 			answer += removedNode.weight;
 			visitedNodes.add(removedNode.node);
