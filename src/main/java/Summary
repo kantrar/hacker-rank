@@ -1,0 +1,50 @@
+String
+- String a = "abc";
+	char[] charArray = a.toCharArray();
+
+- StringBuilder;
+	// no import
+	StringBuilder builder = new StringBuilder();
+	builder.append('a');
+	String string = builder.toString();
+
+	StringBuilder builder = new StringBuilder('abc');
+    builder.setCharAt('a');
+    String string = builder.toString();
+
+- substring - the result must be assigned to the new string
+ index = -1 or length causes an exception
+	String a = "abc";
+	String b = a.substring(0, 3);
+
+- concat - the result must be assigned to the new string
+	String c = a.concat(b);
+	System.out.println(c);
+
+PriorityQueue - default = MinPriorityQueue
+
+Stack??
+
+SET
+	Set<Integer> setA = new HashSet<>();
+	Set<Integer> setB = new HashSet<>();
+	setA.add(1);
+	setB.add(2);
+- union:
+	setA.addAll(setB);
+- intersect:
+	setA.retainAll(setB);
+- difference (A - B)
+	setA.removeAll(setB);
+
+Sorting
+- sort a list of primitive types
+	List<Integer> intergerList = new ArrayList<>();
+ 	Collections.sort(integerList);
+- sort a list of objects
+	List<Node> nodeList = new ArrayList<>();
+	Collections.sort(list, Comparator.comparingInt(Node::getSeq).thenComparingInt(Node::getValue));
+
+AVL Tree
+-
+
