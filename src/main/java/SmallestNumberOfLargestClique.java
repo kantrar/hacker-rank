@@ -1,3 +1,4 @@
+// Incomplete
 public class SmallestNumberOfLargestClique {
 	public static int clique(int n, int m) {
 		// Write your code here

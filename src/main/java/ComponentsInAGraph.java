@@ -3,8 +3,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+// Might use DFS to solve the problem as well
 public class ComponentsInAGraph {
 
+	// Incorrect
 	static int[] componentsInGraph(int[][] gb) {
 		if (gb.length == 0) {
 			return new int[] {0, 0};
@@ -13,6 +15,7 @@ public class ComponentsInAGraph {
 		int[] parents = new int[30001];
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
+
 		Map<Integer, Integer> frequencies = new HashMap<>();
 
 		for (int[] vertices : gb) {
@@ -26,12 +29,19 @@ public class ComponentsInAGraph {
 
 				if (rootParentU < rootParentV) {
 					updateFrequency(frequencies, rootParentU, rootParentV);
+
+					parents[u] = rootParentU;
+					parents[parents[v]] = rootParentU;
 					parents[v] = rootParentU;
 				} else {
 					updateFrequency(frequencies, rootParentV, rootParentU);
+
+					parents[v] = rootParentV;
+					parents[parents[u]] = rootParentV;
 					parents[u] = rootParentV;
 				}
 			}
+
 		}
 
 		for (Integer frequency : frequencies.values()) {
@@ -48,19 +58,25 @@ public class ComponentsInAGraph {
 	}
 
 	private static int getRootparent(int[] parents, int u) {
-		while (parents[u] != u && parents[u] != 0) {
-			u = parents[u];
+		//		int beforeParent = parents[u];
+		int tempNode = u;
+		while (parents[tempNode] != tempNode && parents[tempNode] != 0) {
+			tempNode = parents[tempNode];
 		}
-		return u;
+		//		parents[beforeParent] = tempNode;
+		return tempNode;
 	}
 
 	private static void updateFrequency(Map<Integer, Integer> frequencies, int u, int v) {
 		int currentFrequencyU = frequencies.getOrDefault(u, 1);
 		int currentFrequencyV = frequencies.getOrDefault(v, 1);
 
-		frequencies.put(u, currentFrequencyU + currentFrequencyV);
+		int newFrequency = currentFrequencyU + currentFrequencyV;
+		frequencies.put(u, newFrequency);
+		frequencies.remove(v);
 	}
 
+	// Correct
 	static int[] componentsInGraph2(int[][] gb) {
 		Map<Integer, Set<Integer>> map = new HashMap<>();
 
