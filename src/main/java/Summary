@@ -12,6 +12,7 @@ Sorting, Aggregate
 
 
 String
+- cannot compare string by >, <
 - String a = "abc";
 	char[] charArray = a.toCharArray();
 

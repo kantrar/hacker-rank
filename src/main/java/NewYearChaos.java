@@ -17,11 +17,6 @@ public class NewYearChaos {
 			for (int j = q.length - 1; j >= 1; j--) {
 				int currentAtBeforeJ = q[j - 1];
 				counts[currentAtBeforeJ] += swapIfNeeded(q, j - 1, j);
-				// Doesn't need this part
-				//				if (counts[currentAtBeforeJ] > 2) {
-				//					System.out.println("Too chaotic");
-				//					return;
-				//				}
 			}
 		}
 
