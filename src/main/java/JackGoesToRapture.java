@@ -50,7 +50,7 @@ public class JackGoesToRapture {
 		}
 	}
 
-	// This (Dijkstra's algorithm) fails one test case due to timeout.
+	// Dijkstra's algorithm
 	public static long getCost(int gNodes, List<Integer> gFrom, List<Integer> gTo, List<Integer> gWeight) {
 		List<Node> nodes = buildNodes(gNodes);
 		buildGraph(nodes, gFrom, gTo, gWeight);

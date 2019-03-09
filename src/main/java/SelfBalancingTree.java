@@ -66,6 +66,8 @@ public class SelfBalancingTree {
 				// left-right
 				Node newChild = leftRotate(root.left);
 				root.left = newChild;
+
+				// setHeight(root); // not necessary as root's height is the same
 				return rightRotate(root);
 			}
 		} else if (bf < -1) {
@@ -76,6 +78,8 @@ public class SelfBalancingTree {
 				// right-left
 				Node newChild = rightRotate(root.right);
 				root.right = newChild;
+
+				// setHeight(root); // not necessary as root's height is the same
 				return leftRotate(root);
 			} else if (leftHeight < rightHeight) {
 				// right-right
