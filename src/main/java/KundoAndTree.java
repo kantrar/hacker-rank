@@ -1,173 +1,121 @@
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
-
-// Incorrect, Incomplete
 public class KundoAndTree {
-	private static int time = 1;
-	private static List<Node> nodes;
-	private static List<Edge> redEdges = new ArrayList<>();
+	private static final long MOD = 1000000007;
 
-	private static class Node {
-		int arrivalTime;
-		int leaveTime;
-		int noNodesAfter; // include itself
-		List<Node> nextNodes = new ArrayList<>();
-	}
+	private static class DisjointSet {
+		DisjointSet parent = this;
+		int size = 1;
 
-	private static class Edge {
-		Node fromNode;
-		Node toNode;
+		public void union(DisjointSet other) {
+			if (this == other) {
+				return;
+			}
 
-		private Edge(Node from, Node to) {
-			this.fromNode = from;
-			this.toNode = to;
+			DisjointSet root = findRoot();
+			DisjointSet otherRoot = other.findRoot();
+
+			if (root == otherRoot) {
+				return;
+			}
+
+			if (root.size >= otherRoot.size) {
+				otherRoot.parent = root;
+				root.size += otherRoot.size;
+			} else {
+				root.parent = otherRoot;
+				otherRoot.size += root.size;
+			}
 		}
 
-		private int getFromNodeArrivalTime() {
-			return fromNode.arrivalTime;
+		private DisjointSet findRoot() {
+			if (parent != this) {
+				parent = parent.findRoot();
+			}
+
+			return parent;
 		}
 	}
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int noNodes = scanner.nextInt();
 
-		int[][] edgesInput = new int[noNodes - 1][2];
-		char[] colours = new char[noNodes - 1];
+		// nodes
+		int n = scanner.nextInt();
+		// each distinct nodes
+		DisjointSet[] components = new DisjointSet[n + 1];
 
-		for (int i = 0; i < noNodes - 1; i++) {
-			edgesInput[i][0] = scanner.nextInt();
-			edgesInput[i][1] = scanner.nextInt();
-			colours[i] = scanner.next().charAt(0);
+		// edge == nodes - 1
+		for (int i = 0; i < n - 1; i++) {
+			int a = scanner.nextInt();
+			int b = scanner.nextInt();
+			char color = scanner.next().charAt(0);
+
+			if (color == 'r') {
+				continue;
+			}
+
+			DisjointSet aComponent = createComponentIfNeeded(components, a);
+			DisjointSet bComponent = createComponentIfNeeded(components, b);
+
+			aComponent.union(bComponent);
 		}
 
-		if (noNodes <= 2) {
-			System.out.println(0);
-			return;
-		}
+		Set<DisjointSet> uniqueComponents = new HashSet<>();
+		for (int i = 1; i <= n; i++) {
+			DisjointSet component = components[i];
 
-		System.out.println(findNumberOfTriplets(noNodes, edgesInput, colours));
-	}
-
-	private static long findNumberOfTriplets(int noNodes, int[][] edgesInput, char[] colours) {
-		long answer = 0;
-
-		buildGraphs(noNodes, edgesInput, colours);
-
-		Node rootNode = getNodeBySeq(1);
-		calculateTime(rootNode, null);
-
-		redEdges.sort(Comparator.comparingInt(Edge::getFromNodeArrivalTime));
-
-		for (int i = 0; i < redEdges.size(); i++) {
-			Node node1 = redEdges.get(i).fromNode;
-			Node pairOfNode1 = redEdges.get(i).toNode;
-
-			swapNode(node1, pairOfNode1);
-
-			for (int j = i + 1; j < redEdges.size(); j++) {
-				Node node2 = redEdges.get(j).fromNode;
-				Node pairOfNode2 = redEdges.get(j).toNode;
-
-				swapNode(node2, pairOfNode2);
-
-				if (sameEdge(node1, pairOfNode1, node2, pairOfNode2)) {
-					continue;
-				}
-
-				if (isOnSamePath(node1, pairOfNode1, node2, pairOfNode2)) {
-					int nodesAtOneEnd = findAllNodesAfter(pairOfNode2);
-					int nodesBetween = findAllNodesAfter(pairOfNode1) - findAllNodesAfter(pairOfNode2);
-					int nodesAtTheOtherEnd = findAllNodesAfter(rootNode) - findAllNodesAfter(pairOfNode1);
-
-					answer += nodesAtOneEnd * nodesBetween * nodesAtTheOtherEnd;
-				} else {
-					int nodesAtOneEnd = findAllNodesAfter(pairOfNode1);
-					int nodesBetween =
-							findAllNodesAfter(rootNode) - findAllNodesAfter(pairOfNode1) - findAllNodesAfter(pairOfNode2);
-					int nodesAtTheOtherEnd = findAllNodesAfter(pairOfNode2);
-
-					answer += nodesAtOneEnd * nodesBetween * nodesAtTheOtherEnd;
-				}
+			if (component != null) {
+				uniqueComponents.add(component.findRoot());
 			}
 		}
 
+		long allPossibleTriplets = chooseThreeFrom(n);
 
-
-		return answer;
-	}
-
-	private static void buildGraphs(int noNodes, int[][] edges, char[] colours) {
-		nodes = new ArrayList<>();
-
-		for (int i = 0; i < noNodes; i++) {
-			nodes.add(new Node());
+		for (DisjointSet component : uniqueComponents) {
+			allPossibleTriplets -= chooseThreeFrom(component.size);
+			allPossibleTriplets -= chooseTwoFrom(component.size) * chooseOneFrom(n - component.size);
 		}
 
-		for (int i = 0; i < edges.length; i++) {
-			Node n1 = getNodeBySeq(edges[i][0]);
-			Node n2 = getNodeBySeq(edges[i][1]);
-
-			n1.nextNodes.add(n2);
-			n2.nextNodes.add(n1);
-
-			if (colours[i] == 'r') {
-				redEdges.add(new Edge(n1, n2));
-			}
-		}
+		System.out.println(allPossibleTriplets % MOD);
 	}
 
-	private static Node getNodeBySeq(int seq) {
-		return nodes.get(seq - 1);
-	}
-
-	private static void calculateTime(Node currentNode, Node parentNode) {
-		int noNodesAfter = 1;
-		currentNode.arrivalTime = time++;
-
-		for (Node next : currentNode.nextNodes) {
-			if (next != parentNode) {
-				calculateTime(next, currentNode);
-				noNodesAfter += next.noNodesAfter;
-			}
+	private static long chooseNFromK(int n, int k) {
+		if (n < k) {
+			return 0;
 		}
 
-		currentNode.noNodesAfter = noNodesAfter;
-		currentNode.leaveTime = time++;
-	}
-
-	private static boolean sameEdge(Node node1, Node pairOfNode1, Node node2, Node pairOfNode2) {
-		if (node1 == node2 && pairOfNode1 == pairOfNode2) {
-			return true;
+		long res = 1;
+		for (int i = n; i > (n - k); i--) {
+			res *= i;
 		}
 
-		return false;
+		for (int i = 1; i <= k; i++) {
+			res /= i;
+		}
+		return res;
 	}
 
-	private static boolean isOnSamePath(Node node1, Node pairOfNode1, Node node2, Node pairOfNode2) {
-		if (pairOfNode1.arrivalTime <= node2.arrivalTime && pairOfNode1.leaveTime >= node2.leaveTime) {
-			return true;
+	private static long chooseOneFrom(int size) {
+		return chooseNFromK(size, 1);
+	}
+
+	private static long chooseTwoFrom(int size) {
+		return chooseNFromK(size, 2);
+	}
+
+	private static long chooseThreeFrom(int size) {
+		return chooseNFromK(size, 3);
+	}
+
+	private static DisjointSet createComponentIfNeeded(DisjointSet[] components, int c) {
+		if (components[c] == null) {
+			components[c] = new DisjointSet();
 		}
 
-		return false;
-	}
-
-	// To ensure that n1 is always a parent of n2
-	private static void swapNode(Node n1, Node n2) {
-		if (n1.arrivalTime < n2.arrivalTime) {
-			return;
-		}
-
-		Node temp = n1;
-		n1 = n2;
-		n2 = temp;
-	}
-
-	private static int findAllNodesAfter(Node node) {
-		return node.noNodesAfter;
+		return components[c];
 	}
 
 }

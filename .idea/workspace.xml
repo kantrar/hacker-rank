@@ -2,12 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639c5f65-f285-4475-8ac3-115bcc8acc9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/KundoAndTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MedianUpdates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CloudyDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CoinOnTheTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DisjointSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GenaPlayingHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GridlandMetro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KundoAndTree2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MrKMarsh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NameTheProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NuclearFusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SummingPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TheMaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VisuallyBalancedSections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CloudyDayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CoinOnTheTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/GridlandMetroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MrKMarshTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/NameTheProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/NuclearFusionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/VisuallyBalancedSectionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArithmeticExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArithmeticExpressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SelfBalancingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SelfBalancingTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KundoAndTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KundoAndTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinarySearch.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,28 +67,29 @@
     <session id="145310645">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="46" />
+          <entry key="project.closed" value="57" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="7" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="13" />
+          <entry key="project.open.time.2" value="19" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Summary" value="6" />
-          <entry key="class" value="5" />
-          <entry key="java" value="284" />
+          <entry key="class" value="13" />
+          <entry key="java" value="330" />
           <entry key="js" value="1" />
           <entry key="snippet" value="2" />
           <entry key="swp" value="1" />
@@ -78,8 +98,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="281" />
+          <entry key="CLASS" value="13" />
+          <entry key="JAVA" value="327" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Scratch" value="5" />
           <entry key="XML" value="8" />
@@ -88,16 +108,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Summary" value="1199" />
-          <entry key="dummy" value="117" />
-          <entry key="java" value="84298" />
+          <entry key="dummy" value="137" />
+          <entry key="java" value="109753" />
           <entry key="txt" value="54" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="84298" />
-          <entry key="PLAIN_TEXT" value="1370" />
+          <entry key="JAVA" value="109753" />
+          <entry key="PLAIN_TEXT" value="1390" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
@@ -105,48 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/KundoAndTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+            <state relative-caret-position="705">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -164,9 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1362432</find>
-      <find>edges</find>
-      <find>int</find>
       <find>Incomplete</find>
       <find>long</find>
       <find>188</find>
@@ -194,6 +174,9 @@
       <find>wrong</find>
       <find>FastReader</find>
       <find>colour_red</find>
+      <find>System.out.println</find>
+      <find>rightcol</find>
+      <find>elements</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -209,28 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/NikitaAndTheGameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NikitaAndTheGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CountingInversion.java" />
-        <option value="$PROJECT_DIR$/protobuf-3.6.1/java/core/src/main/java/com/google/protobuf/TextFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SteadyGenes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LowestCommonAncestor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Scratch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueueUsingTwoStacks.java" />
-        <option value="$PROJECT_DIR$/test/GuessGameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AliceAndBobSillyGame.java" />
-        <option value="$PROJECT_DIR$/test/SwapNodeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SwapNode.java" />
-        <option value="$PROJECT_DIR$/test/ArrayManipulationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ArrayManipulation.java" />
-        <option value="$PROJECT_DIR$/test/BiggerIsGreaterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AScratch.java" />
-        <option value="$PROJECT_DIR$/test/BombermanGameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BombermanGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/test/SmallestNumberOfLargestCliqueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PrimMST.java" />
-        <option value="$PROJECT_DIR$/test/BalancedForestTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BalancedForest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ComponentsInAGraph.java" />
         <option value="$PROJECT_DIR$/test/ComponentsInAGraphTest.java" />
@@ -258,8 +219,30 @@
         <option value="$PROJECT_DIR$/src/main/java/ArithmeticExpressions.java" />
         <option value="$PROJECT_DIR$/test/ArithmeticExpressionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MedianUpdates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/KundoAndTree.java" />
+        <option value="$PROJECT_DIR$/test/MinimumAverageWaitingTimeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/KundoAndTree2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/KundoAndTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GridlandMetro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TheMaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/test/GridlandMetroTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GenaPlayingHanoi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SummingPiece.java" />
+        <option value="$PROJECT_DIR$/test/MrKMarshTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MrKMarsh.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/test/BinarySearchTest.java" />
+        <option value="$PROJECT_DIR$/test/NameTheProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NameTheProduct.java" />
+        <option value="$PROJECT_DIR$/test/VisuallyBalancedSectionsTest.java" />
+        <option value="$PROJECT_DIR$/test/NuclearFusionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NuclearFusion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VisuallyBalancedSections.java" />
+        <option value="$PROJECT_DIR$/test/CoinOnTheTableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CoinOnTheTable.java" />
+        <option value="$PROJECT_DIR$/test/CloudyDayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CloudyDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DisjointSet.java" />
       </list>
     </option>
   </component>
@@ -297,7 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,26 +306,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="StringCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StringCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="shortcut&#9;PSI&#9;JAVA://java.awt.MenuShortcut" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/gun/IdeaProjects/StringCalculator/test/CoinOnTheTableTest.java&#10;shortcut&#9;PSI&#9;JAVA://java.awt.MenuShortcut" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552213329145" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552915496121" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -358,9 +336,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -368,6 +343,9 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
@@ -383,43 +361,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KundoAndTree">
-    <configuration name="KundoAndTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KundoAndTree" />
+  <component name="RunManager" selected="Application.DisjointSet">
+    <configuration name="DisjointSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DisjointSet" />
       <module name="StringCalculator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianUpdates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MedianUpdates" />
-      <module name="StringCalculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArithmeticExpressionsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CloudyDayTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArithmeticExpressionsTest" />
+      <option name="MAIN_CLASS_NAME" value="CloudyDayTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoinOnTheTableTest.testCoinOnTheTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortTest" />
+      <option name="MAIN_CLASS_NAME" value="CoinOnTheTableTest" />
+      <option name="METHOD_NAME" value="testCoinOnTheTable" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordCrackerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NuclearFusionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordCrackerTest" />
+      <option name="MAIN_CLASS_NAME" value="NuclearFusionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisuallyBalancedSectionsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VisuallyBalancedSectionsTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -427,19 +410,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PasswordCrackerTest.test" />
-      <item itemvalue="JUnit.MergeSortTest" />
-      <item itemvalue="JUnit.ArithmeticExpressionsTest.test" />
-      <item itemvalue="Application.MedianUpdates" />
-      <item itemvalue="Application.KundoAndTree" />
+      <item itemvalue="JUnit.CoinOnTheTableTest.testCoinOnTheTable" />
+      <item itemvalue="JUnit.CloudyDayTest.test" />
+      <item itemvalue="JUnit.VisuallyBalancedSectionsTest.test" />
+      <item itemvalue="JUnit.NuclearFusionTest.test" />
+      <item itemvalue="Application.DisjointSet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KundoAndTree" />
-        <item itemvalue="Application.MedianUpdates" />
-        <item itemvalue="JUnit.ArithmeticExpressionsTest.test" />
-        <item itemvalue="JUnit.PasswordCrackerTest.test" />
-        <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="Application.DisjointSet" />
+        <item itemvalue="JUnit.CloudyDayTest.test" />
+        <item itemvalue="JUnit.CoinOnTheTableTest.testCoinOnTheTable" />
+        <item itemvalue="JUnit.NuclearFusionTest.test" />
+        <item itemvalue="JUnit.VisuallyBalancedSectionsTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -496,43 +479,55 @@
       <workItem from="1551882338981" duration="1844000" />
       <workItem from="1551969227737" duration="2713000" />
       <workItem from="1552056522876" duration="19111000" />
+      <workItem from="1552214942895" duration="219000" />
+      <workItem from="1552215166593" duration="113000" />
+      <workItem from="1552215300011" duration="6436000" />
+      <workItem from="1552313225391" duration="2037000" />
+      <workItem from="1552321175293" duration="289000" />
+      <workItem from="1552338423894" duration="5582000" />
+      <workItem from="1552478281469" duration="911000" />
+      <workItem from="1552484931471" duration="5124000" />
+      <workItem from="1552573474475" duration="13967000" />
+      <workItem from="1552624485032" duration="1344000" />
+      <workItem from="1552627384444" duration="2044000" />
+      <workItem from="1552667202164" duration="33155000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortTest - 2019.03.08 at 23h 11m 11s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 18h 56m 12s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.03.08 at 23h 11m 23s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 18h 57m 01s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.03.08 at 23h 11m 40s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 12m 41s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordCrackerTest_test - 2019.03.09 at 08h 21m 57s.xml">
-      <configuration name="PasswordCrackerTest.test" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 12m 59s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordCrackerTest_test - 2019.03.09 at 08h 22m 17s.xml">
-      <configuration name="PasswordCrackerTest.test" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 21m 24s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArithmeticExpressionsTest_test - 2019.03.09 at 09h 02m 07s.xml">
-      <configuration name="ArithmeticExpressionsTest.test" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 22m 04s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordCrackerTest_test - 2019.03.09 at 09h 02m 46s.xml">
-      <configuration name="PasswordCrackerTest.test" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 22m 35s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArithmeticExpressionsTest_test - 2019.03.09 at 09h 02m 46s.xml">
-      <configuration name="ArithmeticExpressionsTest.test" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 29m 35s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArithmeticExpressionsTest_test - 2019.03.09 at 09h 02m 55s.xml">
-      <configuration name="ArithmeticExpressionsTest.test" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 29m 56s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArithmeticExpressionsTest_test - 2019.03.09 at 18h 38m 45s.xml">
-      <configuration name="ArithmeticExpressionsTest.test" configurationId="JUnit" />
+    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 31m 50s.xml">
+      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249069000" />
+    <option name="totallyTimeSpent" value="320290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +542,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40200287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46924177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,17 +551,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32409638" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3554217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3554217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39518073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32409638" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32409638" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.32409638" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32409638" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -693,21 +689,117 @@
           <properties />
           <option name="timeStamp" value="238" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/MinimumAverageWaitingTimeTest.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/GridlandMetroTest.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SummingPiece.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/MrKMarshTest.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/VisuallyBalancedSectionsTest.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/NuclearFusionTest.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/CloudyDayTest.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="parents[1235]" language="JAVA" />
         <watch expression="parents[108]" language="JAVA" />
+        <watch expression="leftMatrix[otherRow][col]" language="JAVA" />
+        <watch expression="(leftMatrix[row][otherCol] != -1 &amp;&amp; leftMatrix[row][col] != -1)" language="JAVA" />
+        <watch expression="leftMatrix[row][otherCol]" language="JAVA" />
+        <watch expression="leftMatrix[row][col] " language="JAVA" />
+        <watch expression="cityPopulation.get(0)" language="JAVA" />
       </configuration>
       <configuration name="Application">
-        <watch expression="map.get(65280)" language="JAVA" />
+        <watch expression="leftMatrix[row][otherCol] - leftMatrix[row][leftCol] == otherCol - leftCol" language="JAVA" />
         <watch expression="n1 + n2" language="JAVA" />
+        <watch expression="towers.get(destination)" language="JAVA" />
+        <watch expression="leftMatrix[row][otherCol]" language="JAVA" />
+        <watch expression="(leftMatrix[row][otherCol] - leftMatrix[row][leftCol]) == (otherCol - leftCol)" language="JAVA" />
+        <watch expression="leftMatrix[row][otherCol] -leftMatrix[row][leftCol]" language="JAVA" />
+        <watch expression="otherCol - leftCol" language="JAVA" />
+        <watch expression="leftMatrix[row][otherCol] - leftMatrix[row][leftCol] == otherCol - leftCol" language="JAVA" />
+        <watch expression="leftMatrix[row][otherCol]" language="JAVA" />
+        <watch expression="leftMatrix[otherRow][leftCol]" language="JAVA" />
+        <watch expression="(leftMatrix[row][otherCol] != -1 &amp;&amp; leftMatrix[row][leftCol] != -1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>currentRow == 2 &amp;&amp; currentCol == 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 1 &amp;&amp; col ==0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>max == 8</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 0 &amp;&amp; otherRow == 2 &amp;&amp; col == 2 &amp;&amp; otherCol ==3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 0 &amp;&amp; otherRow == 2 &amp;&amp; col == 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>otherCol ==4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>otherRow ==3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>otherCol == 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>i == 49</expression-string>
         <language-id>JAVA</language-id>
@@ -718,345 +810,65 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>i == 48</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>source == 1 &amp;&amp; edge.to == 6</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>source == 1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>source == 6</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>source == 6 &amp;&amp; previousNode == 1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cost == 1196</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>u == 108 || v == 108 || rootParentU == 108 || rootParentV == 108</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>currentFrequencyU &gt;= 2 || currentFrequencyV &gt;= 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>n1 + n2</expression-string>
+        <expression-string>cityPopulation.get(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map.get(65280)</expression-string>
+        <expression-string>leftMatrix[row][col]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>newArray[i]</expression-string>
+        <expression-string>leftMatrix[row][otherCol]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sortedArray[i]</expression-string>
+        <expression-string>leftMatrix[row][otherCol] - leftMatrix[row][col] == otherCol - col;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sortedArray[int]</expression-string>
+        <expression-string>(leftMatrix[row][otherCol] != -1 &amp;&amp; leftMatrix[row][col] != -1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>source</expression-string>
+        <expression-string>leftMatrix[otherRow][col]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parents[108]</expression-string>
+        <expression-string>leftMatrix[otherRow]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parents[1235]</expression-string>
+        <expression-string>(leftMatrix[row][otherCol] != -1 &amp;&amp; leftMatrix[row][leftCol] != -1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Integer.MAX_VALUE</expression-string>
+        <expression-string>leftMatrix[row][otherCol] - leftMatrix[row][leftCol] == otherCol - leftCol</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>java.awt.TexturePaintContext</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>answer</expression-string>
+        <expression-string>leftMatrix[otherRow][otherCol] - leftMatrix[otherRow][leftCol] == otherCol - leftCol</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/GuessGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GoodLandElectricity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EvenTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EqualizeArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedForest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BetweenTwoSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BombermanGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BracketBalanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Candies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CoinChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ComponentsInAGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HighestValuePalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NewYearChaos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RecursiveDigitSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MaxMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayManipulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/HighestValuePalindromeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Summary">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ChiefHopper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RoadsAndLibraries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CycleDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PasswordCracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="58" column="32" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LilysHomework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/JackGoesToRaptureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1073" column="19" selection-start-line="1073" selection-start-column="19" selection-end-line="1073" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CountingInversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MergeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-          <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,9 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,9 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
           <caret line="86" column="44" lean-forward="true" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,17 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
-          <folding>
-            <element signature="e#15586#15587#0" expanded="true" />
-            <element signature="e#15631#15632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ArithmeticExpressionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1146,25 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArithmeticExpressions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/StringTokenizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="235" column="12" selection-start-line="235" selection-start-column="12" selection-end-line="235" selection-end-column="12" />
-          <folding>
-            <element signature="e#7978#7979#0" expanded="true" />
-            <element signature="e#8023#8024#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,55 +955,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearch.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="279">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KundoAndTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+        <state relative-caret-position="225">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MinimumAverageWaitingTimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KundoAndTree2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GridlandMetro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="94" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/GridlandMetroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TheMaximumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArithmeticExpressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KundoAndTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="118" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="922" selection-start-line="922" selection-end-line="922" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MrKMarsh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SummingPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GenaPlayingHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/core/IsEqual.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MrKMarshTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BinarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="119" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/util/AbstractMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/NameTheProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VisuallyBalancedSections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NameTheProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NuclearFusion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/NuclearFusionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="522" column="19" selection-start-line="522" selection-start-column="19" selection-end-line="522" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="260" column="12" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/VisuallyBalancedSectionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="e#5300#5301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/rmi/server/RemoteObjectInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#5896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CoinOnTheTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="942">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CoinOnTheTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CloudyDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CloudyDayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
         </state>
       </provider>
     </entry>

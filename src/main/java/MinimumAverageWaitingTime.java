@@ -8,33 +8,30 @@ import java.util.TreeMap;
 
 public class MinimumAverageWaitingTime {
 	private static class Order {
-		int orderTime;
-		int cookingTime;
+		long orderTime;
+		long cookingTime;
+		boolean done;
 
-		public Order(int orderTime, int cookingTime) {
+		public Order(long orderTime, long cookingTime) {
 			this.orderTime = orderTime;
 			this.cookingTime = cookingTime;
 		}
 
-		public int getCookingTime() {
+		public long getCookingTime() {
 			return cookingTime;
-		}
-
-		public int getOrderTime() {
-			return orderTime;
 		}
 	}
 
 	static long minimumAverage(int[][] customers) {
 		long sumWaitingTime = 0;
 
-		Map<Integer, List<Order>> orderMap = new TreeMap<>();
-		Queue<Order> cookingTimeQueue = new PriorityQueue<>(Comparator.comparingInt(Order::getCookingTime));
-		Queue<Integer> timeQueue = new PriorityQueue<>();
+		Map<Long, List<Order>> orderMap = new TreeMap<>();
+		Queue<Order> cookingTimeQueue = new PriorityQueue<>(Comparator.comparingLong(Order::getCookingTime));
+		Queue<Long> timeQueue = new PriorityQueue<>();
 
 		for (int i = 0; i < customers.length; i++) {
-			int orderTime = customers[i][0];
-			int cookingTime = customers[i][1];
+			long orderTime = customers[i][0];
+			long cookingTime = customers[i][1];
 
 			Order newOrder = new Order(orderTime, cookingTime);
 			List<Order> currentOrders = orderMap.getOrDefault(orderTime, new ArrayList<>());
@@ -42,11 +39,11 @@ public class MinimumAverageWaitingTime {
 			orderMap.put(orderTime, currentOrders);
 		}
 
-		int finishTime = 0;
+		long finishTime = 0;
 
 		timeQueue.addAll(orderMap.keySet());
 		while (!timeQueue.isEmpty()) {
-			int time = timeQueue.remove();
+			long time = timeQueue.remove();
 
 			List<Order> orderAtCurrentTime = orderMap.getOrDefault(time, null);
 			if (orderAtCurrentTime != null) {
@@ -55,6 +52,10 @@ public class MinimumAverageWaitingTime {
 
 			while (!cookingTimeQueue.isEmpty() && time >= finishTime) {
 				Order currentOrder = cookingTimeQueue.remove();
+				if (currentOrder.done) {
+					break;
+				}
+				currentOrder.done = true;
 				sumWaitingTime += (time + currentOrder.cookingTime) - currentOrder.orderTime;
 				finishTime = time + currentOrder.cookingTime;
 				timeQueue.add(finishTime);
