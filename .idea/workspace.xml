@@ -2,31 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639c5f65-f285-4475-8ac3-115bcc8acc9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CloudyDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CoinOnTheTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DisjointSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GenaPlayingHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GridlandMetro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KundoAndTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MrKMarsh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NameTheProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NuclearFusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SummingPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TheMaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VisuallyBalancedSections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CloudyDayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CoinOnTheTableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/GridlandMetroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MrKMarshTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NameTheProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NuclearFusionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/VisuallyBalancedSectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bonetrousle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CutTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FindSumPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FindTheNearestClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JourneyToTheMoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LegoBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MinimumPenaltyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueensAttackII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SherlockAndCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ShortestReach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TheStoryOfATree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BonetrousleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CutTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FindSumPairsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/JourneyToTheMoonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/QueensAttackIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SherlockAndCostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TheStoryOfATreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KundoAndTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KundoAndTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NQueen.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,29 +64,29 @@
     <session id="145310645">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="57" />
+          <entry key="project.closed" value="66" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.1" value="14" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="19" />
+          <entry key="project.open.time.2" value="22" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="6" />
+          <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="59" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Summary" value="6" />
-          <entry key="class" value="13" />
-          <entry key="java" value="330" />
+          <entry key="class" value="14" />
+          <entry key="java" value="358" />
           <entry key="js" value="1" />
           <entry key="snippet" value="2" />
           <entry key="swp" value="1" />
@@ -98,8 +95,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="327" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="355" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Scratch" value="5" />
           <entry key="XML" value="8" />
@@ -108,16 +105,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Summary" value="1199" />
-          <entry key="dummy" value="137" />
-          <entry key="java" value="109753" />
+          <entry key="dummy" value="146" />
+          <entry key="java" value="121813" />
           <entry key="txt" value="54" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="109753" />
-          <entry key="PLAIN_TEXT" value="1390" />
+          <entry key="JAVA" value="121813" />
+          <entry key="PLAIN_TEXT" value="1399" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
@@ -126,10 +123,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FindSumPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+            <state relative-caret-position="195">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -147,10 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Incomplete</find>
-      <find>long</find>
-      <find>188</find>
-      <find>1163</find>
       <find>(235)</find>
       <find>(87)</find>
       <find>(90)</find>
@@ -172,11 +165,15 @@
       <find>Collections.sort</find>
       <find>Scanner</find>
       <find>wrong</find>
-      <find>FastReader</find>
       <find>colour_red</find>
       <find>System.out.println</find>
       <find>rightcol</find>
       <find>elements</find>
+      <find>Math.abs</find>
+      <find>12</find>
+      <find>new Node</find>
+      <find>FastReader</find>
+      <find>S</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -192,27 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BalancedForest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ComponentsInAGraph.java" />
-        <option value="$PROJECT_DIR$/test/ComponentsInAGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/KruskalReallySpecialSubtree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SmallestNumberOfLargestClique.java" />
-        <option value="$PROJECT_DIR$/test/JackGoesToRaptureTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MaxMin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RecursiveDigitSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NewYearChaos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Summary" />
-        <option value="$PROJECT_DIR$/test/HighestValuePalindromeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HighestValuePalindrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CycleDetection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RoadsAndLibraries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ChiefHopper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LilysHomework.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PasswordCracker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MergeSort.java" />
-        <option value="$PROJECT_DIR$/test/MergeSortTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BiggerIsGreater.java" />
-        <option value="$PROJECT_DIR$/test/PasswordCrackerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SelfBalancingTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/JackGoesToRapture.java" />
         <option value="$PROJECT_DIR$/src/main/java/JackGoesToRapture2.java" />
@@ -243,6 +219,27 @@
         <option value="$PROJECT_DIR$/test/CloudyDayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CloudyDay.java" />
         <option value="$PROJECT_DIR$/src/main/java/DisjointSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NQueen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueensAttackII.java" />
+        <option value="$PROJECT_DIR$/test/QueensAttackIITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JourneyToTheMoon.java" />
+        <option value="$PROJECT_DIR$/test/JourneyToTheMoonTest.java" />
+        <option value="$PROJECT_DIR$/test/SherlockAndCostTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SherlockAndCost.java" />
+        <option value="$PROJECT_DIR$/test/CutTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CutTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" />
+        <option value="$PROJECT_DIR$/test/BonetrousleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bonetrousle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TopologicalSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ShortestReach.java" />
+        <option value="$PROJECT_DIR$/test/TheStoryOfATreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TheStoryOfATree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MinimumPenaltyPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LegoBlocks.java" />
+        <option value="$PROJECT_DIR$/test/FindSumPairsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FindSumPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FindTheNearestClone.java" />
       </list>
     </option>
   </component>
@@ -269,10 +266,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="165" />
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -280,7 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,6 +305,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +315,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/gun/IdeaProjects/StringCalculator/test/CoinOnTheTableTest.java&#10;shortcut&#9;PSI&#9;JAVA://java.awt.MenuShortcut" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552915496121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553399153044" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -330,10 +325,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -343,9 +341,6 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
@@ -361,48 +356,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DisjointSet">
-    <configuration name="DisjointSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DisjointSet" />
+  <component name="RunManager" selected="Application.FindTheNearestClone">
+    <configuration name="FindTheNearestClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindTheNearestClone" />
       <module name="StringCalculator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudyDayTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumPenaltyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumPenaltyPath" />
+      <module name="StringCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestReach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortestReach" />
+      <module name="StringCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindSumPairsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CloudyDayTest" />
+      <option name="MAIN_CLASS_NAME" value="FindSumPairsTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinOnTheTableTest.testCoinOnTheTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheStoryOfATreeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CoinOnTheTableTest" />
-      <option name="METHOD_NAME" value="testCoinOnTheTable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NuclearFusionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StringCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NuclearFusionTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisuallyBalancedSectionsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StringCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VisuallyBalancedSectionsTest" />
+      <option name="MAIN_CLASS_NAME" value="TheStoryOfATreeTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -410,19 +399,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CoinOnTheTableTest.testCoinOnTheTable" />
-      <item itemvalue="JUnit.CloudyDayTest.test" />
-      <item itemvalue="JUnit.VisuallyBalancedSectionsTest.test" />
-      <item itemvalue="JUnit.NuclearFusionTest.test" />
-      <item itemvalue="Application.DisjointSet" />
+      <item itemvalue="Application.MinimumPenaltyPath" />
+      <item itemvalue="Application.ShortestReach" />
+      <item itemvalue="JUnit.TheStoryOfATreeTest.test" />
+      <item itemvalue="JUnit.FindSumPairsTest.test" />
+      <item itemvalue="Application.FindTheNearestClone" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DisjointSet" />
-        <item itemvalue="JUnit.CloudyDayTest.test" />
-        <item itemvalue="JUnit.CoinOnTheTableTest.testCoinOnTheTable" />
-        <item itemvalue="JUnit.NuclearFusionTest.test" />
-        <item itemvalue="JUnit.VisuallyBalancedSectionsTest.test" />
+        <item itemvalue="Application.FindTheNearestClone" />
+        <item itemvalue="JUnit.FindSumPairsTest.test" />
+        <item itemvalue="Application.MinimumPenaltyPath" />
+        <item itemvalue="JUnit.TheStoryOfATreeTest.test" />
+        <item itemvalue="Application.ShortestReach" />
       </list>
     </recent_temporary>
   </component>
@@ -490,44 +479,52 @@
       <workItem from="1552573474475" duration="13967000" />
       <workItem from="1552624485032" duration="1344000" />
       <workItem from="1552627384444" duration="2044000" />
-      <workItem from="1552667202164" duration="33155000" />
+      <workItem from="1552667202164" duration="35944000" />
+      <workItem from="1552989752159" duration="7411000" />
+      <workItem from="1553081688558" duration="1133000" />
+      <workItem from="1553091505360" duration="858000" />
+      <workItem from="1553097519896" duration="3536000" />
+      <workItem from="1553116564141" duration="1537000" />
+      <workItem from="1553171550473" duration="2115000" />
+      <workItem from="1553225651134" duration="5002000" />
+      <workItem from="1553270013223" duration="16986000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 18h 56m 12s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="TheStoryOfATreeTest_test - 2019.03.23 at 14h 24m 19s.xml">
+      <configuration name="TheStoryOfATreeTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 18h 57m 01s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="TheStoryOfATreeTest_test - 2019.03.23 at 14h 26m 23s.xml">
+      <configuration name="TheStoryOfATreeTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 12m 41s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="TheStoryOfATreeTest_test - 2019.03.23 at 14h 30m 04s.xml">
+      <configuration name="TheStoryOfATreeTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 12m 59s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="TheStoryOfATreeTest_test - 2019.03.23 at 14h 30m 11s.xml">
+      <configuration name="TheStoryOfATreeTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 21m 24s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="TheStoryOfATreeTest_test - 2019.03.23 at 14h 31m 11s.xml">
+      <configuration name="TheStoryOfATreeTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 22m 04s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="TheStoryOfATreeTest_test - 2019.03.23 at 16h 10m 41s.xml">
+      <configuration name="TheStoryOfATreeTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 22m 35s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="FindSumPairsTest_test - 2019.03.24 at 09h 17m 29s.xml">
+      <configuration name="FindSumPairsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 29m 35s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="FindSumPairsTest_test - 2019.03.24 at 09h 18m 04s.xml">
+      <configuration name="FindSumPairsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 29m 56s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="FindSumPairsTest_test - 2019.03.24 at 09h 18m 06s.xml">
+      <configuration name="FindSumPairsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloudyDayTest_test - 2019.03.18 at 19h 31m 50s.xml">
-      <configuration name="CloudyDayTest.test" configurationId="JUnit" />
+    <history-entry file="FindSumPairsTest_test - 2019.03.24 at 09h 18m 08s.xml">
+      <configuration name="FindSumPairsTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320290000" />
+    <option name="totallyTimeSpent" value="361657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +539,40 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46924177" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.48211733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32409638" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40120482" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3939759" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32409638" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.32409638" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32289156" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.33333334" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="10" side_tool="true" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.47567955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,7 +592,6 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32409638" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,38 +602,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.33333334" />
       <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37982833" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32409638" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3060241" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39638555" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295129" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32409638" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32409638" />
-      <window_info anchor="bottom" id="CheckStyle" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.33333334" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="10" side_tool="true" weight="0.3297568" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,6 +729,30 @@
           <properties />
           <option name="timeStamp" value="421" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/SherlockAndCostTest.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/CutTreeTest.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ShortestReach.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindSumPairs.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -744,22 +766,53 @@
         <watch expression="cityPopulation.get(0)" language="JAVA" />
       </configuration>
       <configuration name="Application">
-        <watch expression="leftMatrix[row][otherCol] - leftMatrix[row][leftCol] == otherCol - leftCol" language="JAVA" />
-        <watch expression="n1 + n2" language="JAVA" />
-        <watch expression="towers.get(destination)" language="JAVA" />
-        <watch expression="leftMatrix[row][otherCol]" language="JAVA" />
-        <watch expression="(leftMatrix[row][otherCol] - leftMatrix[row][leftCol]) == (otherCol - leftCol)" language="JAVA" />
-        <watch expression="leftMatrix[row][otherCol] -leftMatrix[row][leftCol]" language="JAVA" />
-        <watch expression="otherCol - leftCol" language="JAVA" />
-        <watch expression="leftMatrix[row][otherCol] - leftMatrix[row][leftCol] == otherCol - leftCol" language="JAVA" />
-        <watch expression="leftMatrix[row][otherCol]" language="JAVA" />
-        <watch expression="leftMatrix[otherRow][leftCol]" language="JAVA" />
-        <watch expression="(leftMatrix[row][otherCol] != -1 &amp;&amp; leftMatrix[row][leftCol] != -1)" language="JAVA" />
+        <watch expression="board[1][0];" language="JAVA" />
+        <watch expression="board[0][1]" language="JAVA" />
+        <watch expression="edge.cost" language="JAVA" />
+        <watch expression="edge.fromNode.penalty" language="JAVA" />
+        <watch expression="srcNode.penalty" language="JAVA" />
+        <watch expression="srcNode.penalty" language="JAVA" />
+        <watch expression="edge.fromNode.penalty" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>newDistance == 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>edge.fromNode.seq == 7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>prevNode == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>srcNode.seq == 4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>srcNode.seq == 5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>to == 1 || to ==2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p == 11</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>currentRow == 2 &amp;&amp; currentCol == 1</expression-string>
         <language-id>JAVA</language-id>
@@ -775,43 +828,38 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>row == 0 &amp;&amp; otherRow == 2 &amp;&amp; col == 2 &amp;&amp; otherCol ==3</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>row == 0 &amp;&amp; otherRow == 2 &amp;&amp; col == 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>otherCol ==4</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>otherRow ==3</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>otherCol == 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i == 49</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i==49</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>edge.fromNode.penalty</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>srcNode.penalty</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>srcNode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>edge.cost</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>board[0][1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>board[1][0];</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>cityPopulation.get(0)</expression-string>
         <language-id>JAVA</language-id>
@@ -827,218 +875,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>leftMatrix[row][otherCol] - leftMatrix[row][col] == otherCol - col;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(leftMatrix[row][otherCol] != -1 &amp;&amp; leftMatrix[row][col] != -1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>leftMatrix[otherRow][col]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>leftMatrix[otherRow]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(leftMatrix[row][otherCol] != -1 &amp;&amp; leftMatrix[row][leftCol] != -1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>leftMatrix[row][otherCol] - leftMatrix[row][leftCol] == otherCol - leftCol</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>leftMatrix[otherRow][otherCol] - leftMatrix[otherRow][leftCol] == otherCol - leftCol</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PasswordCrackerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/BiggerIsGreaterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BiggerIsGreater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SelfBalancingTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JackGoesToRapture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JackGoesToRapture2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="44" lean-forward="true" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MedianUpdates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="162" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <element signature="e#2901#2902#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
-            <element signature="e#2964#2965#0" expanded="true" />
-            <element signature="e#3002#3003#0" expanded="true" />
-            <element signature="e#3029#3030#0" expanded="true" />
-            <element signature="e#3071#3072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ArithmeticExpressionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/StringTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="235" column="12" selection-start-line="235" selection-start-column="12" selection-end-line="235" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="657" selection-start-line="657" selection-end-line="657" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MinimumAverageWaitingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MinimumAverageWaitingTimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KundoAndTree2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GridlandMetro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="94" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/GridlandMetroTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TheMaximumSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArithmeticExpressions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KundoAndTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="118" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="922" selection-start-line="922" selection-end-line="922" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MrKMarsh.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1091,9 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="119" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,21 +941,12 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/util/AbstractMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/NameTheProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,9 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,15 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,11 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,32 +1013,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="e#5300#5301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/rmi/server/RemoteObjectInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CoinOnTheTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="942">
           <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,9 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,9 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,10 +1068,215 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/JourneyToTheMoonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/QueensAttackIITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JourneyToTheMoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueensAttackII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="171" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SherlockAndCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SherlockAndCostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CutTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CutTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BonetrousleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bonetrousle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TopologicalSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ShortestReach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LegoBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPenaltyPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="145" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#3205#3206#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TheStoryOfATreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TheStoryOfATree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FindSumPairsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MedianUpdates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="99" column="53" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindTheNearestClone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindSumPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
