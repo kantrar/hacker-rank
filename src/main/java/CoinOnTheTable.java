@@ -94,7 +94,7 @@ public class CoinOnTheTable {
 		grid.changeCount = newChangeCount;
 		grid.count = currentGrid.count + 1;
 
-		if(!queue.contains(grid)) {
+		if (!queue.contains(grid)) {
 			queue.add(grid);
 		}
 	}

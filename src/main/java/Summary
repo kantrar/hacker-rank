@@ -1,6 +1,7 @@
 Sorting, Aggregate
 - sort an array of primitive types
-	Arrays.sort(new int[] {1,2,3};
+	Arrays.sort(new int[] {1,2,3});
+	Arrays.sort(new int[] {1,2,3}, Collections.reverseOrder());
 - Sum an array of primitive types
 	Arrays.stream(counts).sum()
 - sort a list of primitive types
@@ -9,7 +10,6 @@ Sorting, Aggregate
 - sort a list of objects
 	List<Node> nodeList = new ArrayList<>();
 	Collections.sort(list, Comparator.comparingInt(Node::getSeq).thenComparingInt(Node::getValue));
-
 
 String
 - cannot compare string by >, <
@@ -37,7 +37,8 @@ String
 
 PriorityQueue - default = MinPriorityQueue
 
-Stack??
+Stack
+- Stack<Integer> stack = new Stack<>();
 
 SET
 	Set<Integer> setA = new HashSet<>();
