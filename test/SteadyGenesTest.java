@@ -71,4 +71,10 @@ public class SteadyGenesTest {
 	public void test16XUnsteadyGene4() {
 		assertGene("AATAATATAAACATAC", 8);
 	}
+
+	// TGATGCCGTCCCCTCAACTTGAGTGCTCCTAATGCGTTGC => A - 6, C - 13, G - 9, T - 12,
+	@Test
+	public void test40XUnsteadyGene() {
+		assertGene("TGATGCCGTCCCCTCAACTTGAGTGCTCCTAATGCGTTGC", 5);
+	}
 }

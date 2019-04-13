@@ -1,83 +1,101 @@
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class SteadyGenes {
 
-	// Complete the steadyGene function below.
 	static int steadyGene(String gene) {
-		int requiredForEach = gene.length() / 4;
-		int[] count = countGenes(gene);
-		int[] canBeReplaced = countCanBeReplaced(count, requiredForEach);
-		int result = findSubstring(gene, canBeReplaced, 0, gene.length());
-		return result;
-	}
+		int size = gene.length() / 4;
+		int[] count = new int[4];
+		Map<String, Integer> answers = new HashMap<>();
 
-	private static int[] countCanBeReplaced(int[] count, int requiredForEach) {
-		int[] canBeReplaced = new int[4];
-		for (int i = 0; i < count.length; i++) {
-			if (count[i] > requiredForEach) {
-				canBeReplaced[i] = requiredForEach;
+		for (int i = 0; i < gene.length(); i++) {
+			count[getKey(gene.charAt(i))]++;
+		}
+
+		Integer[] total = new Integer[4];
+		int[] required = new int[4];
+		for (int i = 0; i < 4; i++) {
+			if (count[i] > size) {
+				required[i] = count[i] - size;
+				total[i] = count[i];
 			} else {
-				canBeReplaced[i] = count[i];
+				total[i] = null;
 			}
 		}
-		return canBeReplaced;
+
+		return findSubstring(gene, 0, gene.length() - 1, total, required, answers);
 	}
 
-	private static int findSubstring(String gene, int[] canBeReplaced, int start, int end) {
-
-		if (start >= end) {
+	private static int findSubstring(String gene, int left, int right, Integer[] total, int[] required,
+			Map<String, Integer> answers) {
+		if (left > right) {
 			return 0;
 		}
 
-		boolean done = true;
-		for (int i = 0; i < canBeReplaced.length; i++) {
-			if (canBeReplaced[i] != 0) {
-				done = false;
-			}
+		String answerKey = gene.substring(left, right + 1);
+
+		int leftKey = getKey(gene.charAt(left));
+		int rightKey = getKey(gene.charAt(right));
+		if (total[leftKey] == null) {
+			int res = findSubstring(gene, left + 1, right, total, required, answers);
+			answers.put(answerKey, res);
+			return res;
 		}
 
-		if (done) {
-			return end - start;
+		if (total[rightKey] == null) {
+			int res = findSubstring(gene, left, right - 1, total, required, answers);
+			answers.put(answerKey, res);
+			return res;
 		}
 
-		int[] clone1 = canBeReplaced.clone();
-		int removeLeft = -1;
-		int leftValue = convertGeneToValue(gene.charAt(start));
-		if (clone1[leftValue] > 0) {
-			clone1[leftValue]--;
-			removeLeft = findSubstring(gene, clone1, start + 1, end);
+		if (total[leftKey] == required[leftKey] && total[rightKey] == required[rightKey]) {
+			answers.put(answerKey, right - left + 1);
+			return right - left + 1;
 		}
 
-		int[] clone2 = canBeReplaced.clone();
-		int removeRight = -1;
-		int rightValue = convertGeneToValue(gene.charAt(end - 1));
-		if (clone2[rightValue] > 0) {
-			clone2[rightValue]--;
-			removeRight = findSubstring(gene, clone2, start, end - 1);
+		if (total[leftKey] == required[leftKey]) {
+			total[rightKey]--;
+			int res = findSubstring(gene, left, right - 1, total, required, answers);
+			total[rightKey]++;
+
+			answers.put(answerKey, res);
+			return res;
 		}
 
-		if (removeLeft == -1 && removeRight == -1) {
-			return end - start;
+		if (total[rightKey] == required[rightKey]) {
+			total[leftKey]--;
+			int res = findSubstring(gene, left + 1, right, total, required, answers);
+			total[leftKey]++;
+			return res;
 		}
-		if (removeLeft == -1) {
-			return removeRight;
+
+		int res1 = Integer.MAX_VALUE;
+		int res2 = Integer.MAX_VALUE;
+		if (total[leftKey] > required[leftKey]) {
+			total[leftKey]--;
+			res1 = findSubstring(gene, left + 1, right, total, required, answers);
+			total[leftKey]++;
 		}
-		if (removeRight == -1) {
-			return removeLeft;
+
+		if (total[rightKey] > required[rightKey]) {
+			total[rightKey]--;
+			res2 = findSubstring(gene, left, right - 1, total, required, answers);
+			total[rightKey]++;
 		}
-		return Math.min(removeLeft, removeRight);
+
+		int result = Math.min(res1, res2);
+		if (result == Integer.MAX_VALUE) {
+			answers.put(answerKey, right - left + 1);
+			return right - left + 1;
+		} else {
+			answers.put(answerKey, result);
+			return result;
+		}
 	}
 
-	private static int[] countGenes(String gene) {
-		int[] count = new int[4];
-		for (int i = 0; i < gene.length(); i++) {
-			count[convertGeneToValue(gene.charAt(i))]++;
-		}
-		return count;
-	}
-
-	private static int convertGeneToValue(char c) {
+	private static int getKey(char c) {
 		if (c == 'A') {
 			return 0;
 		}

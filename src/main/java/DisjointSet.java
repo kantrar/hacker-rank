@@ -1,7 +1,7 @@
 public class DisjointSet {
 
 	public static void main(String[] args) {
-		int V = 3, E = 3;
+		int V = 4, E = 3;
 		Graph graph = new Graph(V, E);
 
 		// add edge 0-1
@@ -39,40 +39,46 @@ class Graph {
 	}
 
 	public int isCycle(Graph graph) {
-		Subset[] subsets = new Subset[graph.edge.length];
+		Subset[] subsets = new Subset[graph.V];
 
 		for (int i = 0; i < subsets.length; i++) {
-			Subset subset = new Subset();
-			subset.rank = 0;
-			subset.parent = i;
-			subsets[i] = subset;
+			subsets[i] = new Subset();
+			subsets[i].parent = i;
+			subsets[i].rank = 0;
 		}
 
 		for (int i = 0; i < graph.edge.length; i++) {
-			int s = graph.edge[i].src;
-			int d = graph.edge[i].dest;
+			Edge edge = graph.edge[i];
+			int src = edge.src;
+			int dest = edge.dest;
 
-			int sRoot = findRoot(subsets, s);
-			int dRoot = findRoot(subsets, d);
+			int srcRoot = findRoot(subsets, src);
+			int destRoot = findRoot(subsets, dest);
 
-			if (sRoot != dRoot) {
-				union(subsets, sRoot, dRoot);
-			} else {
+			if (srcRoot == destRoot) {
 				return 1;
 			}
+			union(subsets, srcRoot, destRoot);
 		}
 
 		return 0;
 	}
 
-	private void union(Subset[] subsets, int sRoot, int dRoot) {
-		if (subsets[sRoot].rank > subsets[dRoot].rank) {
-			subsets[dRoot].parent = sRoot;
-		} else if (subsets[sRoot].rank < subsets[dRoot].rank) {
-			subsets[sRoot].parent = dRoot;
+	private void union(Subset[] subsets, int a, int b) {
+		int rootA = findRoot(subsets, a);
+		int rootB = findRoot(subsets, b);
+
+		if (rootA == rootB) {
+			return;
+		}
+
+		if (subsets[rootA].rank < subsets[rootB].rank) {
+			subsets[rootA].parent = rootB;
+		} else if (subsets[rootA].rank > subsets[rootB].rank) {
+			subsets[rootB].parent = rootA;
 		} else {
-			subsets[dRoot].parent = sRoot;
-			subsets[sRoot].rank++;
+			subsets[rootA].parent = rootB;
+			subsets[rootB].rank++;
 		}
 	}
 

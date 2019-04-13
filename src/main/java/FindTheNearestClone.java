@@ -1,8 +1,10 @@
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class FindTheNearestClone {
 	public static class Graph {
@@ -27,7 +29,6 @@ public class FindTheNearestClone {
 			edges[from].add(to);
 			edges[to].add(from);
 		}
-
 
 		// Timeout, incorrect, incomplete
 		public int DFS(int color, int startNode, List<Integer> nodesOfSameColor) {
@@ -101,40 +102,74 @@ public class FindTheNearestClone {
 		return graph.DFS(colorToMatch, startNode, nodesOfSameColor);
 	}
 
-	private static final Scanner scanner = new Scanner(System.in);
-
 	public static void main(String[] args) throws IOException {
 
-		String[] graphNodesEdges = scanner.nextLine().split(" ");
-		int graph_nodes = Integer.parseInt(graphNodesEdges[0].trim());
-		int graphEdges = Integer.parseInt(graphNodesEdges[1].trim());
+		FastReader bufferedReader = new FastReader();
+
+		int graph_nodes = bufferedReader.nextInt();
+		int graphEdges = bufferedReader.nextInt();
 
 		int[] graphFrom = new int[graphEdges];
 		int[] graphTo = new int[graphEdges];
 
 		for (int i = 0; i < graphEdges; i++) {
-			String[] graphFromTo = scanner.nextLine().split(" ");
-			graphFrom[i] = Integer.parseInt(graphFromTo[0].trim());
-			graphTo[i] = Integer.parseInt(graphFromTo[1].trim());
+			graphFrom[i] = bufferedReader.nextInt();
+			graphTo[i] = bufferedReader.nextInt();
 		}
 
 		int[] ids = new int[graph_nodes];
 
-		String[] idsItems = scanner.nextLine().split(" ");
-		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
 		for (int i = 0; i < graph_nodes; i++) {
-			int idsItem = Integer.parseInt(idsItems[i]);
-			ids[i] = idsItem;
+			ids[i] = bufferedReader.nextInt();
 		}
 
-		int val = scanner.nextInt();
-		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+		int val = bufferedReader.nextInt();
 
 		int ans = findTheNearestClone(graph_nodes, graphFrom, graphTo, ids, val);
 
 		System.out.println(ans);
 
-		scanner.close();
+	}
+
+	static class FastReader {
+		BufferedReader br;
+		StringTokenizer st;
+
+		public FastReader() {
+			br = new BufferedReader(new InputStreamReader(System.in));
+		}
+
+		String next() {
+			while (st == null || !st.hasMoreElements()) {
+				try {
+					st = new StringTokenizer(br.readLine());
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			return st.nextToken();
+		}
+
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
+
+		long nextLong() {
+			return Long.parseLong(next());
+		}
+
+		double nextDouble() {
+			return Double.parseDouble(next());
+		}
+
+		String nextLine() {
+			String str = "";
+			try {
+				str = br.readLine();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			return str;
+		}
 	}
 }
