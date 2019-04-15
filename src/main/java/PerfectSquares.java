@@ -7,28 +7,26 @@ public class PerfectSquares {
 		Queue<Integer> queue = new LinkedList<>();
 		queue.offer(n);
 		int distance = 0;
-		visited[n] = true;
 
 		while (!queue.isEmpty()) {
 			Queue<Integer> nextQueue = new LinkedList<>();
+			distance++;
 
 			for (Integer current : queue) {
 				int max = (int) Math.sqrt(current);
 				for (int i = 1; i <= max; i++) {
 
-					int nextTarget = n - (int) Math.pow(i, 2);
+					int nextTarget = current - (int) Math.pow(i, 2);
 					if (nextTarget == 0) {
 						return distance;
 					}
-					if (visited[nextTarget]) {
-						continue;
+					if (nextTarget > 0) {
+						nextQueue.add(nextTarget);
 					}
-					visited[nextTarget] = true;
-					nextQueue.add(nextTarget);
 				}
 			}
 			queue = nextQueue;
-			distance++;
+
 		}
 
 		return -1;

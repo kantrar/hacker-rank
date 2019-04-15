@@ -1,11 +1,10 @@
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.Queue;
-import java.util.stream.Collectors;
+import java.util.Set;
 
 // Incomplete
 public class JeaniesRoute {
@@ -15,133 +14,118 @@ public class JeaniesRoute {
 		int to;
 		int weight;
 
-		public Edge(int fromCity, PrimMST.Node road) {
-			from = fromCity;
-			to = road.node;
-			weight = road.weight;
+		public Edge(int f, int t, int w) {
+			from = f;
+			to = t;
+			weight = w;
 		}
 	}
 
 	static int jeanisRoute(int[] destination, int[][] roads) {
-		Map<Integer, List<PrimMST.Node>> adjCities = buildGraph(roads);
-		List<Integer> destinationCities = Arrays.stream(destination).boxed().collect(Collectors.toList());
+		int noNodes = roads.length + 1;
+		List<Edge>[] edgeList = readEdges(noNodes, roads);
+		Set<Integer> destinationSet = getDestinationSet(destination);
 
-		int minDistance = -1;
-		for (Integer destinationCity : destinationCities) {
-			int distanceFromCurrentCity = findShortestPath(destinationCity, destinationCities, adjCities);
-			if (minDistance == -1 || distanceFromCurrentCity < minDistance) {
-				minDistance = distanceFromCurrentCity;
-			}
-		}
+		boolean[] removedNodes = getRemovedNodes(noNodes, destinationSet, edgeList);
 
-		return minDistance;
+		int[] result = findDistance(noNodes, edgeList, removedNodes, destination[0]);
+
+		int totalWeight = result[0];
+		int startNode = result[1];
+
+		int diameter = findDistance(noNodes, edgeList, removedNodes, startNode)[2];
+
+		return totalWeight * 2 - diameter;
 	}
 
-	private static int findGraphDiameter(List<Integer> destinationCities, Map<Integer, List<PrimMST.Node>> adjCities) {
+	private static Set<Integer> getDestinationSet(int[] destination) {
+		Set<Integer> set = new HashSet<>();
+		for (int i = 0; i < destination.length; i++) {
+			set.add(destination[i]);
+		}
+
+		return set;
+	}
+
+	private static int[] findDistance(int noNodes, List<Edge>[] edgeList, boolean[] removedNodes, int source) {
+		boolean[] visited = new boolean[noNodes + 1];
+		int[] distances = new int[noNodes + 1];
+		Arrays.fill(distances, -1);
+
+		int total = 0;
+		int lastNode = 0;
 		int diameter = 0;
-		for (Integer destinationCity : destinationCities) {
-			int maxDistance = findLongestPath(destinationCity, destinationCities, adjCities);
-			if (maxDistance > diameter) {
-				diameter = maxDistance;
-			}
-		}
-		return diameter;
-	}
 
-	private static int findLongestPath(Integer city, List<Integer> destinationCities,
-			Map<Integer, List<PrimMST.Node>> adjCities) {
 		Queue<Integer> queue = new LinkedList<>();
-		List<Integer> visited = new LinkedList<>();
-		Map<Integer, Integer> shortestPath = new HashMap<>();
+		queue.offer(source);
+		visited[source] = true;
+		distances[source] = 0;
 
-		queue.add(city);
-		shortestPath.put(city, 0);
 		while (!queue.isEmpty()) {
-			int currentCity = queue.remove();
-			visited.add(currentCity);
-
-			int distanceToCurrentCity = shortestPath.get(currentCity);
-
-			for (PrimMST.Node node : adjCities.get(currentCity)) {
-				if (visited.contains(node.node)) {
-					continue;
+			int current = queue.poll();
+			for (Edge edge : edgeList[current]) {
+				if (!removedNodes[edge.to] && !visited[edge.to]) {
+					visited[edge.to] = true;
+					total += edge.weight;
+					distances[edge.to] = distances[edge.from] + edge.weight;
+					if (diameter < distances[edge.to]) {
+						diameter = distances[edge.to];
+						lastNode = edge.to;
+					}
+					queue.offer(edge.to);
 				}
-
-				Integer currentDistance = shortestPath.getOrDefault(node.node, null);
-				if (currentDistance == null) {
-					shortestPath.put(node.node, distanceToCurrentCity + node.weight);
-				} else if (currentDistance > distanceToCurrentCity + node.weight) {
-					shortestPath.put(node.node, distanceToCurrentCity + node.weight);
-				}
-				queue.add(node.node);
 			}
 		}
-		int maxDistance = 0;
-		for (Integer c : shortestPath.keySet()) {
-			if (destinationCities.contains(c) && maxDistance < shortestPath.get(c)) {
-				maxDistance = shortestPath.get(c);
-			}
-		}
-		return maxDistance;
+
+		return new int[] {total, lastNode, diameter};
 	}
 
-	private static int findShortestPath(Integer startCity, List<Integer> destinationCities,
-			Map<Integer, List<PrimMST.Node>> adjCities) {
+	private static boolean[] getRemovedNodes(int noNodes, Set<Integer> destinationSet, List<Edge>[] edgeList) {
+		boolean[] removedNodes = new boolean[noNodes + 1];
+		int[] degrees = new int[noNodes + 1];
 		Queue<Integer> queue = new LinkedList<>();
-		List<Integer> visited = new LinkedList<>();
-		Map<Integer, Integer> shortestPath = new HashMap<>();
-		List<Edge> potentialRoads = new LinkedList<>();
-		List<Integer> destinationAlreadyVisited = new LinkedList<>();
-		int distance = 0;
+		for (int i = 1; i <= noNodes; i++) {
+			degrees[i] = edgeList[i].size();
+			if (!destinationSet.contains(i) && degrees[i] == 1) {
+				queue.offer(i);
+			}
+		}
 
-		destinationAlreadyVisited.add(startCity);
-		queue.add(startCity);
-		shortestPath.put(startCity, 0);
-		while (destinationAlreadyVisited.size() != destinationCities.size()) {
-			int currentCity = queue.remove();
-			visited.add(currentCity);
-
-			for (PrimMST.Node road : adjCities.get(currentCity)) {
-				if (!visited.contains(road.node)) {
-					potentialRoads.add(new Edge(currentCity, road));
+		while (!queue.isEmpty()) {
+			int current = queue.poll();
+			removedNodes[current] = true;
+			for (Edge edge : edgeList[current]) {
+				int next = edge.to;
+				if (destinationSet.contains(next)) {
+					break;
+				} else if (!removedNodes[next]) {
+					degrees[next]--;
+					if (degrees[next] == 1) {
+						queue.offer(next);
+					}
 				}
 			}
-
-			potentialRoads = potentialRoads.stream().sorted(Comparator.comparingInt(o -> o.weight)).collect(Collectors.toList());
-			Edge edgeToExplore = potentialRoads.remove(0);
-
-			Integer currentMinDistance = shortestPath.getOrDefault(edgeToExplore.to, null);
-			int currentDistance = shortestPath.get(edgeToExplore.from) + edgeToExplore.weight;
-			if (currentMinDistance == null || currentMinDistance > currentDistance) {
-				currentMinDistance = currentDistance;
-				shortestPath.put(edgeToExplore.to, currentMinDistance);
-			}
-
-			if (destinationCities.contains(edgeToExplore.to) && !destinationAlreadyVisited.contains(edgeToExplore.to)) {
-				distance += currentMinDistance;
-				destinationAlreadyVisited.add(edgeToExplore.to);
-				potentialRoads = new LinkedList<>();
-				shortestPath = new HashMap<>();
-				queue = new LinkedList<>();
-				visited = new LinkedList<>();
-				shortestPath.put(edgeToExplore.to, 0);
-			}
-			queue.add(edgeToExplore.to);
-		}
-		return distance;
-	}
-
-	static Map<Integer, List<PrimMST.Node>> buildGraph(int[][] roads) {
-		Map<Integer, List<PrimMST.Node>> adjCities = new HashMap<>();
-
-		for (int[] road : roads) {
-			int fromNode = road[0];
-			int toNode = road[1];
-			int weight = road[2];
-
-			PrimMST.updateMap(adjCities, fromNode, toNode, weight);
 		}
 
-		return adjCities;
+		return removedNodes;
 	}
+
+	private static List<Edge>[] readEdges(int noNodes, int[][] roads) {
+		List<Edge>[] edgeList = new ArrayList[noNodes + 1];
+		for (int i = 1; i <= noNodes; i++) {
+			edgeList[i] = new ArrayList<>();
+		}
+
+		for (int i = 0; i < roads.length; i++) {
+			int f = roads[i][0];
+			int t = roads[i][1];
+			int w = roads[i][2];
+
+			edgeList[f].add(new Edge(f, t, w));
+			edgeList[t].add(new Edge(t, f, w));
+		}
+
+		return edgeList;
+	}
+
 }

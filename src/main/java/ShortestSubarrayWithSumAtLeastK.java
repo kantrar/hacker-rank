@@ -1,27 +1,32 @@
-import java.util.Deque;
-import java.util.LinkedList;
-
 public class ShortestSubarrayWithSumAtLeastK {
 	public int shortestSubarray(int[] A, int K) {
-		int N = A.length;
-		long[] P = new long[N+1];
-		for (int i = 0; i < N; ++i)
-			P[i+1] = P[i] + (long) A[i];
-
-		// Want smallest y-x with P[y] - P[x] >= K
-		int ans = N+1; // N+1 is impossible
-		Deque<Integer> monoq = new LinkedList(); //opt(y) candidates, as indices of P
-
-		for (int y = 0; y < P.length; ++y) {
-			// Want opt(y) = largest x with P[x] <= P[y] - K;
-			while (!monoq.isEmpty() && P[y] <= P[monoq.getLast()])
-				monoq.removeLast();
-			while (!monoq.isEmpty() && P[y] >= P[monoq.getFirst()] + K)
-				ans = Math.min(ans, y - monoq.removeFirst());
-
-			monoq.addLast(y);
+		if (A.length == 0) {
+			return -1;
 		}
 
-		return ans < N+1 ? ans : -1;
+		int right = 0;
+		int left = 0;
+		int answer = Integer.MAX_VALUE;
+		int sum = 0;
+
+		while (right < A.length) {
+			sum += A[right];
+
+			if (sum >= K) {
+				answer = Math.min(answer, right - left + 1);
+			}
+
+			while (left < right && (sum >= K || A[left] <= 0)) {
+				sum -= A[left];
+				left++;
+				if (sum >= K) {
+					answer = Math.min(answer, right - left + 1);
+				}
+			}
+
+			right++;
+		}
+
+		return answer == Integer.MAX_VALUE ? -1 : answer;
 	}
 }
