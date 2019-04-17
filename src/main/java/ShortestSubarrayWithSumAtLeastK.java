@@ -1,32 +1,32 @@
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class ShortestSubarrayWithSumAtLeastK {
 	public int shortestSubarray(int[] A, int K) {
 		if (A.length == 0) {
 			return -1;
 		}
 
-		int right = 0;
-		int left = 0;
+		int[] sum = new int[A.length + 1];
+		for (int i = 0; i < A.length; i++) {
+			sum[i + 1] = sum[i] + A[i];
+		}
+
 		int answer = Integer.MAX_VALUE;
-		int sum = 0;
-
-		while (right < A.length) {
-			sum += A[right];
-
-			if (sum >= K) {
-				answer = Math.min(answer, right - left + 1);
+		Deque<Integer> stack = new LinkedList<>();
+		for (int i = 0; i < sum.length; i++) {
+			while (!stack.isEmpty() && sum[i] <= sum[stack.peekLast()]) {
+				stack.removeLast();
 			}
 
-			while (left < right && (sum >= K || A[left] <= 0)) {
-				sum -= A[left];
-				left++;
-				if (sum >= K) {
-					answer = Math.min(answer, right - left + 1);
-				}
+			while (!stack.isEmpty() && sum[i] - sum[stack.peekFirst()] >= K) {
+				answer = Math.min(answer, i - stack.removeFirst());
 			}
 
-			right++;
+			stack.addLast(i);
 		}
 
 		return answer == Integer.MAX_VALUE ? -1 : answer;
 	}
+
 }

@@ -1,11 +1,13 @@
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.Set;
 
 public class ShortestDistanceFromAllBuildings {
 	public class Point {
 		int row;
 		int col;
-		int distance;
 
 		public Point(int r, int c) {
 			this.row = r;
@@ -18,81 +20,90 @@ public class ShortestDistanceFromAllBuildings {
 			return 0;
 		}
 
-		int buildings = 0;
 		boolean canBuild = false;
 		int[][][][] distances = new int[grid.length][grid[0].length][grid.length][grid[0].length];
 		int[][] totalDistance = new int[grid.length][grid[0].length];
+
+		Set<Point> buildingSet = new HashSet<>();
 		for (int i = 0; i < grid.length; i++) {
 			for (int j = 0; j < grid[0].length; j++) {
 				if (grid[i][j] == 1) {
-					buildings++;
-				} else if (grid[i][j] == 0 && totalDistance[i][j] == 0) {
-					canBuild = true;
-					boolean[][] visited = new boolean[grid.length][grid[0].length];
-					updateDistance(distances, totalDistance, grid, new Point(i, j), visited);
+					buildingSet.add(new Point(i, j));
 				}
 			}
 		}
 
-		if (buildings == 0 && canBuild) {
+		boolean[][] visited = new boolean[grid.length][grid[0].length];
+		for (int i = 0; i < grid.length; i++) {
+			for (int j = 0; j < grid[0].length; j++) {
+				if (grid[i][j] == 0 && !visited[i][j]) {
+					canBuild = true;
+					updateDistance(distances, totalDistance, grid, new Point(i, j), visited, buildingSet);
+				}
+			}
+		}
+
+		if (buildingSet.isEmpty() && canBuild) {
 			return 0;
 		}
 
-		int rowIdx = -1;
-		int colIdx = -1;
 		int minDistance = Integer.MAX_VALUE;
 		for (int i = 0; i < grid.length; i++) {
 			for (int j = 0; j < grid[i].length; j++) {
 				if (totalDistance[i][j] > 0) {
-					rowIdx = i;
-					colIdx = j;
 					minDistance = Math.min(minDistance, totalDistance[i][j]);
 				}
 			}
 		}
 
-		System.out.println(rowIdx + "-" + colIdx);
 		return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
 	}
 
-	private void updateDistance(int[][][][] distances, int[][] totalDistance, int[][] grid, Point point, boolean[][] visited) {
+	private void updateDistance(int[][][][] distances, int[][] totalDistance, int[][] grid, Point point, boolean[][] visited,
+			Set<Point> buildingSet) {
 		visited[point.row][point.col] = true;
+		Queue<Point> queue = new LinkedList<>();
 		for (Point next : getNextPoints(grid, point)) {
 			if (visited[next.row][next.col]) {
-				copyDistance(distances, grid, point, next);
+				copyDistance(distances, point, next, buildingSet);
 				continue;
 			}
 			if (grid[next.row][next.col] == 1) {
 				distances[point.row][point.col][next.row][next.col] = 1;
 			} else {
-				updateDistance(distances, totalDistance, grid, next, visited);
-				copyDistance(distances, grid, point, next);
+				queue.offer(next);
 			}
 		}
 
+		for (Point p : queue) {
+			updateDistance(distances, totalDistance, grid, p, visited, buildingSet);
+			copyDistance(distances, point, p, buildingSet);
+		}
+
+		int count = 0;
 		for (int i = 0; i < grid.length; i++) {
 			for (int j = 0; j < grid[0].length; j++) {
-				if (grid[i][j] == 1 && distances[point.row][point.col][i][j] == 0) {
-					totalDistance[point.row][point.col] = -1;
-					return;
-				}
-				if (grid[i][j] == 1) {
+				if (grid[i][j] == 1 && distances[point.row][point.col][i][j] != 0) {
+					count++;
 					totalDistance[point.row][point.col] += distances[point.row][point.col][i][j];
 				}
 			}
 		}
 
+		if (count != buildingSet.size()) {
+			totalDistance[point.row][point.col] = -1;
+		}
 	}
 
-	private void copyDistance(int[][][][] distances, int[][] grid, Point current, Point next) {
-		for (int i = 0; i < grid.length; i++) {
-			for (int j = 0; j < grid[0].length; j++) {
-				if (current.row == i && current.col == j) {
-					distances[i][j][i][j] = 0;
-				} else if (distances[next.row][next.col][i][j] > 0 && (distances[current.row][current.col][i][j] == 0
-						|| distances[current.row][current.col][i][j] > distances[next.row][next.col][i][j] + 1)) {
-					distances[current.row][current.col][i][j] = distances[next.row][next.col][i][j] + 1;
-				}
+	private void copyDistance(int[][][][] distances, Point current, Point next, Set<Point> buildingSet) {
+		for (Point building : buildingSet) {
+			int row = building.row;
+			int col = building.col;
+			if (current.row == row && current.col == col) {
+				distances[row][col][row][col] = 0;
+			} else if (distances[next.row][next.col][row][col] > 0 && (distances[current.row][current.col][row][col] == 0
+					|| distances[current.row][current.col][row][col] > distances[next.row][next.col][row][col] + 1)) {
+				distances[current.row][current.col][row][col] = distances[next.row][next.col][row][col] + 1;
 			}
 		}
 	}
