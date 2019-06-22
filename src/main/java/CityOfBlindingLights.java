@@ -1,17 +1,15 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class CityOfBlindingLights {
 
-	public static int findShortestPath(Map<Integer, Integer>[] edgeMap, int source, int destination, int[][] distances,
-			boolean[] visited) {
-		if (source == destination) {
-			distances[source][source] = 0;
-			return 0;
-		}
-
+	// Timeout
+	public static void findShortestPath(Map<Integer, Integer>[] edgeMap, int source, int[][] distances, boolean[] visited) {
 		visited[source] = true;
 
 		for (int next : edgeMap[source].keySet()) {
@@ -19,25 +17,26 @@ public class CityOfBlindingLights {
 				continue;
 			}
 
-			if (distances[source][next] != -1) {
-				distances[source][next] = Math
-						.min(distances[source][next], distances[source][source] + edgeMap[source].get(next));
-			} else {
+			if (distances[source][next] < 0 || distances[source][next] > edgeMap[source].get(next)) {
 				distances[source][next] = edgeMap[source].get(next);
-				;
-			}
+				findShortestPath(edgeMap, next, distances, visited);
 
-			int minDistance = findShortestPath(edgeMap, next, destination, distances, visited);
-
-			if (minDistance == -1) {
-				continue;
-			}
-			if (distances[source][destination] == -1 || distances[source][destination] > distances[source][next] + minDistance) {
-				distances[source][destination] = distances[source][next] + minDistance;
+				updateDistances(distances, source, next);
 			}
 		}
 
-		return distances[source][destination];
+		visited[source] = false;
+	}
+
+	private static void updateDistances(int[][] distances, int source, int next) {
+		for (int i = 0; i < distances.length; i++) {
+			if (distances[next][i] < 0) {
+				continue;
+			}
+			if (distances[source][i] < 0 || distances[source][i] > distances[source][next] + distances[next][i]) {
+				distances[source][i] = distances[source][next] + distances[next][i];
+			}
+		}
 	}
 
 	public static Map<Integer, Integer>[] readRoads(int roadNodes, int[] roadFrom, int[] roadTo, int[] roadWeight) {
@@ -57,51 +56,90 @@ public class CityOfBlindingLights {
 		return edgeMap;
 	}
 
-	private static final Scanner scanner = new Scanner(System.in);
-
 	public static void main(String[] args) {
-		String[] roadNodesEdges = scanner.nextLine().split(" ");
-		int roadNodes = Integer.parseInt(roadNodesEdges[0].trim());
-		int roadEdges = Integer.parseInt(roadNodesEdges[1].trim());
+		FastReader bufferedReader = new FastReader();
+
+		int roadNodes = bufferedReader.nextInt();
+		int roadEdges = bufferedReader.nextInt();
 
 		int[] roadFrom = new int[roadEdges];
 		int[] roadTo = new int[roadEdges];
 		int[] roadWeight = new int[roadEdges];
 
 		for (int i = 0; i < roadEdges; i++) {
-			String[] roadFromToWeight = scanner.nextLine().split(" ");
-			roadFrom[i] = Integer.parseInt(roadFromToWeight[0].trim());
-			roadTo[i] = Integer.parseInt(roadFromToWeight[1].trim());
-			roadWeight[i] = Integer.parseInt(roadFromToWeight[2].trim());
+			roadFrom[i] = bufferedReader.nextInt();
+			roadTo[i] = bufferedReader.nextInt();
+			roadWeight[i] = bufferedReader.nextInt();
 		}
 
-		int q = scanner.nextInt();
-		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+		int q = bufferedReader.nextInt();
 
 		Map<Integer, Integer>[] edgeMap = readRoads(roadNodes, roadFrom, roadTo, roadWeight);
 		boolean[] visited = new boolean[roadNodes + 1];
 		int[][] distances = new int[roadNodes + 1][roadNodes + 1];
 
 		for (int i = 1; i <= roadNodes; i++) {
-			Arrays.fill(distances[i], -1);
+			Arrays.fill(distances[i], -2);
 			distances[i][i] = 0;
 		}
 
+		String answer = "";
 		for (int qItr = 0; qItr < q; qItr++) {
-			String[] xy = scanner.nextLine().split(" ");
 
-			int x = Integer.parseInt(xy[0]);
+			int x = bufferedReader.nextInt();
 
-			int y = Integer.parseInt(xy[1]);
+			int y = bufferedReader.nextInt();
 
-			//			if (distances[x][y] == -1) {
-			findShortestPath(edgeMap, x, y, distances, new boolean[roadNodes + 1]);
-			//			}
+			if (distances[x][y] == -2) {
+				findShortestPath(edgeMap, x, distances, visited);
+			}
 
-			System.out.println(distances[x][y]);
-
+			int res = distances[x][y] == -2 ? -1 : distances[x][y];
+			answer += res + "\n";
 		}
 
-		scanner.close();
+		System.out.print(answer);
+	}
+
+	static class FastReader {
+		BufferedReader br;
+		StringTokenizer st;
+
+		public FastReader() {
+			br = new BufferedReader(new InputStreamReader(System.in));
+		}
+
+		String next() {
+			while (st == null || !st.hasMoreElements()) {
+				try {
+					st = new StringTokenizer(br.readLine());
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			return st.nextToken();
+		}
+
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
+
+		long nextLong() {
+			return Long.parseLong(next());
+		}
+
+		double nextDouble() {
+			return Double.parseDouble(next());
+		}
+
+		String nextLine() {
+			String str = "";
+			try {
+				str = br.readLine();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			return str;
+		}
 	}
 }

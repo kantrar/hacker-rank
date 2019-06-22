@@ -11,6 +11,9 @@ Sorting, Aggregate
 	List<Node> nodeList = new ArrayList<>();
 	Collections.sort(list, Comparator.comparingInt(Node::getSeq).thenComparingInt(Node::getValue));
 
+- List to Array
+	list.toArray(new int[list.size()])
+
 String
 - cannot compare string by >, <
 - String a = "abc";

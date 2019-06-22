@@ -2,52 +2,56 @@ import java.util.Arrays;
 
 public class MaximalRectangle {
 	public int maximalRectangle(char[][] matrix) {
-		if (matrix.length == 0) {
+		if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
 			return 0;
 		}
-		int m = matrix.length;
-		int n = matrix[0].length;
 
-		int[] left = new int[n]; // initialize left as the leftmost boundary possible
-		int[] right = new int[n];
-		int[] height = new int[n];
+		int maxArea = 0;
 
-		Arrays.fill(right, n); // initialize right as the rightmost boundary possible
+		int[] height = new int[matrix[0].length];
 
-		int maxarea = 0;
-		for (int i = 0; i < m; i++) {
-			int cur_left = 0, cur_right = n;
-			// update height
-			for (int j = 0; j < n; j++) {
+		int[] left = new int[matrix[0].length];
+
+		int[] right = new int[matrix[0].length];
+		Arrays.fill(right, matrix[0].length);
+
+
+		// 1 1
+		// height 1 1
+		// left 0 0
+		// right 2 2
+		for (int i = 0; i < matrix.length; i++) {
+		int currentLeft = 0;
+			int currentRight = matrix[0].length;
+			for (int j = 0; j < matrix[i].length; j++) {
 				if (matrix[i][j] == '1') {
-					height[j]++;
+					height[j] = height[j] + 1;
 				} else {
-					height[j] = 0;
+					height[j] = matrix[i][j] - '0';
 				}
-			}
-			// update left
-			for (int j = 0; j < n; j++) {
+
 				if (matrix[i][j] == '1') {
-					left[j] = Math.max(left[j], cur_left);
+					left[j] = Math.max(left[j], currentLeft);
 				} else {
 					left[j] = 0;
-					cur_left = j + 1;
+					currentLeft = j + 1;
 				}
 			}
-			// update right
-			for (int j = n - 1; j >= 0; j--) {
+
+			for (int j = matrix[i].length - 1; j >= 0; j--) {
 				if (matrix[i][j] == '1') {
-					right[j] = Math.min(right[j], cur_right);
+					right[j] = Math.min(right[j], currentRight);
 				} else {
-					right[j] = n;
-					cur_right = j;
+					right[j] = matrix[0].length;
+					currentRight = j;
 				}
 			}
-			// update area
-			for (int j = 0; j < n; j++) {
-				maxarea = Math.max(maxarea, (right[j] - left[j]) * height[j]);
+
+			for (int j = 0; j < matrix[i].length; j++) {
+				maxArea = Math.max(maxArea, height[j] * (right[j] - left[j]));
 			}
 		}
-		return maxarea;
+
+		return maxArea;
 	}
 }
