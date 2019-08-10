@@ -4,44 +4,45 @@ import java.util.LinkedList;
 public class ContainsDuplicateIII {
 
 	public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
-		Deque<Integer> deque = new LinkedList<>();
-
-		int minDistance = Integer.MAX_VALUE;
-		for (int i = 0; i < nums.length; i++) {
-			while (!deque.isEmpty() && i - deque.peekFirst() > k) {
-				deque.removeFirst();
+		Integer[] min = new Integer[nums.length];
+		Deque<Integer> stack = new LinkedList<>();
+		stack.push(0);
+		for (int i = 1; i < nums.length; i++) {
+			if (i - stack.peekFirst() > k) {
+				stack.pollFirst();
 			}
-
-			while (!deque.isEmpty() && nums[deque.peekLast()] > nums[i]) {
-				minDistance = Math.min(minDistance, nums[deque.peekLast()] - nums[i]);
-				deque.removeLast();
+			Integer temp = null;
+			while (!stack.isEmpty() && nums[stack.peekLast()] >= nums[i]) {
+				temp = stack.pollLast();
 			}
-
-			if (!deque.isEmpty()) {
-				minDistance = Math.min(minDistance, nums[i] - nums[deque.peekLast()]);
-			}
-
-			deque.addLast(i);
+			min[i] = stack.isEmpty() ? temp : stack.peekFirst();
+			stack.addLast(i);
 		}
 
-		deque = new LinkedList<>();
-		for (int i = 0; i < nums.length; i++) {
-			while (!deque.isEmpty() && i - deque.peekFirst() > k) {
-				deque.removeFirst();
+		Integer[] max = new Integer[nums.length];
+		stack = new LinkedList<>();
+		stack.push(0);
+		for (int i = 1; i < nums.length; i++) {
+			if (i - stack.peekFirst() > k) {
+				stack.pollFirst();
 			}
-
-			while (!deque.isEmpty() && nums[deque.peekLast()] < nums[i]) {
-				minDistance = Math.min(minDistance, nums[i] - nums[deque.peekLast()]);
-				deque.removeLast();
+			Integer temp = null;
+			while (!stack.isEmpty() && nums[stack.peekLast()] <= nums[i]) {
+				temp = stack.pollLast();
 			}
-
-			if (!deque.isEmpty()) {
-				minDistance = Math.min(minDistance, nums[deque.peekLast()] - nums[i]);
-			}
-
-			deque.addLast(i);
+			max[i] = stack.isEmpty() ? temp : stack.peekFirst();
+			stack.addLast(i);
 		}
 
-		return minDistance <= t;
+		for (int i = 0; i < nums.length; i++) {
+			if (min[i] != null && Math.abs(nums[i] - nums[min[i]]) <= t) {
+				return true;
+			}
+			if (max[i] != null && Math.abs(nums[i] - nums[max[i]]) <= t) {
+				return true;
+			}
+		}
+
+		return false;
 	}
 }

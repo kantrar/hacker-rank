@@ -1,42 +1,45 @@
 public class OutOfBoundaryPaths {
-	private static int[][] directions = new int[][] {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
+	private static int[][] moves = new int[][] {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+	private static int MOD = 1_000_000_007;
 
-	public int findPaths(int maxRow, int maxCol, int moves, int row, int col) {
-
-		int[][] dp = new int[maxRow][maxCol];
-		for (int i = 0; i < maxRow; i++) {
-			for (int j = 0; j < maxCol; j++) {
-				for (int k = 0; k < directions.length; k++) {
-					int newRow = i + directions[k][0];
-					int newCol = j + directions[k][1];
-
-					if (newRow < 0 || newRow >= maxRow || newCol < 0 || newCol >= maxCol) {
-						dp[i][j]++;
+	public int findPaths(int m, int n, int N, int row, int col) {
+		int ans = 0;
+		int[][][] dp = new int[m][n][N + 1];
+		dp[row][col][0] = 1;
+		for (int move = 1; move <= N; move++) {
+			for (int i = 0; i < m; i++) {
+				for (int j = 0; j < n; j++) {
+					if (i == 0) {
+						ans = (ans + dp[i][j][move - 1]) % MOD;
 					}
-				}
-			}
-		}
+					if (j == 0) {
+						ans = (ans + dp[i][j][move - 1]) % MOD;
+					}
 
-		for (int m = 1; m < moves; m++) {
-			int[][] newdp = new int[maxRow][maxCol];
-			for (int i = 0; i < maxRow; i++) {
-				for (int j = 0; j < maxCol; j++) {
-					for (int k = 0; k < directions.length; k++) {
-						int newRow = i + directions[k][0];
-						int newCol = j + directions[k][1];
+					if (i == m - 1) {
+						ans = (ans + dp[i][j][move - 1]) % MOD;
+					}
 
-						if (newRow < 0 || newRow >= maxRow || newCol < 0 || newCol >= maxCol) {
-							newdp[i][j]++;
-						} else {
-							newdp[i][j] += dp[newRow][newCol];
+					if (j == n - 1) {
+						ans = (ans + dp[i][j][move - 1]) % MOD;
+					}
+
+					for (int[] mv : moves) {
+						int nr = i + mv[0];
+						int nc = j + mv[1];
+
+						if (validate(nr, nc, m, n)) {
+							dp[i][j][move] = (dp[i][j][move] + dp[nr][nc][move - 1]) % MOD;
 						}
 					}
-
 				}
 			}
-			dp = newdp;
 		}
 
-		return dp[row][col];
+		return ans;
+	}
+
+	public boolean validate(int row, int col, int maxRow, int maxCol) {
+		return row >= 0 && row < maxRow && col >= 0 && col < maxCol;
 	}
 }

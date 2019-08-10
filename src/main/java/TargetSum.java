@@ -1,24 +1,35 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 
 public class TargetSum {
-	public int findTargetSumWays(int[] nums, int target) {
-		Map<Integer, Integer> possibleSums = new HashMap<>();
-		possibleSums.put(0, 1);
+	public int findTargetSumWays(int[] nums, int S) {
+		int sum = 0;
+		for (int num : nums) {
+			sum += num;
+		}
+		Arrays.sort(nums);
 
-		for (int i = nums.length - 1; i >= 0; i--) {
-			Map<Integer, Integer> nextPossibleSums = new HashMap<>();
-			for (int s : possibleSums.keySet()) {
-				int v1 = nextPossibleSums.getOrDefault(s + nums[i], 0) + 1 * possibleSums.get(s);
-				nextPossibleSums.put(s + nums[i], v1);
-
-				int v2 = nextPossibleSums.getOrDefault(s - nums[i], 0) + 1 * possibleSums.get(s);
-				nextPossibleSums.put(s - nums[i], v2);
-			}
-
-			possibleSums = nextPossibleSums;
+		if ((S + sum) % 2 != 0) {
+			return 0;
 		}
 
-		return possibleSums.getOrDefault(target, 0);
+		int target = (S + sum) / 2;
+
+		int[][] dp = new int[nums.length][target + 1];
+		dp[0][0] = 1;
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = 0; j <= target; j++) {
+				if (i >= 1) {
+					dp[i][j] += dp[i - 1][j];
+				}
+
+				if (j == nums[i] && i == 0) {
+					dp[i][j]++;
+				} else if (j >= nums[i] && i >= 1) {
+					dp[i][j] += dp[i - 1][j - nums[i]];
+				}
+			}
+		}
+
+		return dp[nums.length - 1][target];
 	}
 }

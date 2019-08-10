@@ -5,213 +5,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639c5f65-f285-4475-8ac3-115bcc8acc9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArithmeticSlicesIISubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BulbSwitcherII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CandyCrush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CapacityToShipPackagesWithinDDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChampagneTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CheapestFlightsWithinKStops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CityOfBlindingLights2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CoinPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CoinPath2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ContainsDuplicateIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CouplesHoldingHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CourseScheduleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DFSConnectedCellInAGrid2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DijkstraShortestReach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DistantBarcodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FindKthSmallestPairDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FindPeakElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FirstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FlowerPlantingWithNoAdjacent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FourSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IncreasingSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterleaveString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterleavingStringII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KClosestPointToOrigin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KingdomConnectivity2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KnightDialer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KnightProbabilityInChessboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KokoEatingBananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KthLargestElementInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LargestRectangleInHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestArithmeticSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestArithmeticSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestPalindromeSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatchsticksToSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MaxAreaOfIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MaxConsecutiveOnesIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MaximalRectangle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MaximalRectangle3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MaximumAverageSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MaximumSumOf3NonOverlappingSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinimizeMaxDistanceToGasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinimizeSizeSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinimumPenaltyPath3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovingStonesUntilConsecutiveII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NonNegativeIntegersWithoutConsecutiveOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NthMagicalNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NthSuperUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NumberOfDistinctIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OccurencesAfterBigram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OddEvenJumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OutOfBoundaryPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PancakeSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PartitionArrayForMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PartitionEqualSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PartitionToKEqualSumSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PerfectSquares2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrisonCellsAfterNDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PushDominoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReachableNodesInSubdividedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicateLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReorganizeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RobotBoundedInCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShortestPathToGetAllKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingleNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SmallestRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SmallestSubsequenceOfDistinctCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SoupServings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpiralMatrixIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SplitArrayIntoConsecutiveSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SubArrayMins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SumOfSubarrayMinimums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SuperUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TaskScheduler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreeSumWithMultiplicity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TotalHammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrappingRainWaterII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UniquePathsIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ValidBoomerang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ValidPermutationsForDISequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ValidSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WallsAndGates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ArithmeticSlicesIISubsequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BulbSwitcherIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CandyCrushTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CapacityToShipPackagesWithinDDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ChampagneTowerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CheapestFlightsWithinKStopsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CoinPath2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CoinPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ContainsDuplicateIIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CouplesHoldingHandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CourseScheduleIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DFSConnectedCellInAGrid2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DijkstraShortestReachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DistantBarcodesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FindKClosestElementsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FindPeakElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FindTheDifferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FirstMissingPositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FlowerPlantingWithNoAdjacentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FourSumsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Game24Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/IncreasingSubsequencesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/InsertIntervalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/InterleaveStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/InterleavingStringIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/KClosestPointToOriginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/KnightDialerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/KnightProbabilityInChessboardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/KokoEatingBananasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/KthLargestElementInAnArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/LargestRectangleInHistogramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/LongestArithmeticSequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/LongestArithmeticSubsequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/LongestCommonSubstringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/LongestPalindromeSubsequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/LongestRepeatingCharacterReplacementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MatchsticksToSquareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaxAreaOfIslandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaxConsecutiveOnesIIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaximalRectangle2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaximalRectangle3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaximumAverageSubarrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaximumSumCircularSubarrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaximumSumOf3NonOverlappingSubarraysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MinimizeMaxDistanceToGasStationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MinimizeSizeSubarraySumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MinimumWindowSubstringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MissingNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MovingStonesUntilConsecutiveIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NonNegativeIntegersWithoutConsecutiveOnesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NthMagicalNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NthSuperUglyNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NumberOfDistinctIslandsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OccurencesAfterBigramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OddEvenJumpsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OutOfBoundaryPathsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PalindromePartitioningTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PancakeSortingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PartitionArrayForMaxSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PartitionEqualSubsetSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PartitionToKEqualSumSubsetsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PerfectSquares2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PermutationInStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PrisonCellsAfterNDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ProductOfArrayExceptSelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PushDominoesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ReachableNodesInSubdividedGraphTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/RemoveDuplicateLettersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ReorganizeStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/RobotBoundedInCircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SearchInRotatedSortedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ShortestPathToGetAllKeysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SingleNumbersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SlidingWindowMaximumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SmallestRangeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SmallestSubsequenceOfDistinctCharactersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SoupServingsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SpiralMatrixIIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SplitArrayIntoConsecutiveSubsequencesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SubArrayMinsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SudokuSolverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SumOfSubarrayMinimumsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SuperUglyNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TargetSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskScheduler2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskSchedulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ThreeSumWithMultiplicityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TotalHammingDistanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TrappingRainWaterIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TrappingRainWaterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/UniquePathsIIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ValidBoomerangTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ValidPermutationsForDISequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ValidSquareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/WallsAndGatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AsteroidCollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStockWithTransactionFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BitwiseOrsOfSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CherryPickup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CountNumbersWithUniqueDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DecreaseElementsToMakeArrayZigzag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DistinctSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DistributeCandiesToPeople.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DungeonGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EliminationGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FillingBookcaseShelves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FindKthPairWithSmallestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GuessNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GuessNumberHigherOrLowerII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IncreasingTripletSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntegerBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LargestSumOfAverages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LastStoneWeightsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LetterTilePossibilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LongestStringChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MCTFromLeafValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MaximumNestingDepthofTwoValidParenthesesStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MinimumScoreTriangulationOfPolygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumberAtMostNGiveNDigitSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumberOfEnclaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumberOfSquarefulArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioningII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ParlindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PathInZigZagLabelledBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReplaceWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ScoreOfParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ShortestPathWithAlternatingColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmallestRotationWithHighestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SnapshotArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SplitArrayIntoFibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SubstringWithConcatenationOfAllWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SumOfSubsequenceWidths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SumOfTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isPowerOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AsteroidCollisionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BestTimeToBuyAndSellStockWithTransactionFeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BitwiseOrsOfSubarrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CherryPickupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CountNumbersWithUniqueDigitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DecreaseElementsToMakeArrayZigzagTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DistinctSubsequencesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DistributeCandiesToPeopleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DungeonGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/EliminationGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FillingBookcaseShelvesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FindKthPairWithSmallestSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FindKthSmallestPairDistanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/GuessNumberHigherOrLowerIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/IncreasingTripletSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/IntegerBreakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/LargestSumOfAveragesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/LastStoneWeightsIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/LetterTilePossibilitiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/LongestStringChainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MCTFromLeafValuesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MaximumNestingDepthofTwoValidParenthesesStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MinimumScoreTriangulationOfPolygonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/NumberAtMostNGiveNDigitSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/NumberOfEnclavesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/NumberOfSquarefulArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PalindromePartitioningIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ParlindromePartitioningTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PathInZigZagLabelledBinaryTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ReplaceWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ScoreOfParenthesesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ShortestPathWithAlternatingColorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SmallestRotationWithHighestScoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SplitArrayIntoFibonacciSequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SubstringWithConcatenationOfAllWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SumOfSubsequenceWidthsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SumOfTwoIntegersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/isPowerOfFourTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AScratch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AScratch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CityOfBlindingLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CityOfBlindingLights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MaximalRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximalRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PossibleCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PossibleCombinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Summary" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Summary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AScratch$Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AScratch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AScratch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ContainsDuplicateIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ContainsDuplicateIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindKthSmallestPairDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKthSmallestPairDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InterleaveString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterleaveString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OutOfBoundaryPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OutOfBoundaryPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/PossibleCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PossibleCombinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/MaximalRectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MaximalRectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ContainsDuplicateIIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ContainsDuplicateIIITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MinimumWindowSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MinimumWindowSubstringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/OutOfBoundaryPathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/OutOfBoundaryPathsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TargetSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TargetSumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -254,25 +136,26 @@
     <session id="145310645">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="136" />
+          <entry key="project.closed" value="163" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="42" />
-          <entry key="project.open.time.10" value="7" />
+          <entry key="project.open.time.1" value="45" />
+          <entry key="project.open.time.10" value="8" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="3" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="43" />
+          <entry key="project.open.time.2" value="53" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="11" />
+          <entry key="project.open.time.3" value="15" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="12" />
-          <entry key="project.opened" value="138" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="14" />
+          <entry key="project.opened" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -280,7 +163,7 @@
           <entry key="JAVA/PossibleCombinations" value="1" />
           <entry key="Summary" value="11" />
           <entry key="class" value="17" />
-          <entry key="java" value="827" />
+          <entry key="java" value="945" />
           <entry key="js" value="1" />
           <entry key="snippet" value="3" />
           <entry key="swp" value="1" />
@@ -290,7 +173,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="17" />
-          <entry key="JAVA" value="824" />
+          <entry key="JAVA" value="942" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Scratch" value="6" />
           <entry key="UML" value="1" />
@@ -300,16 +183,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Summary" value="1330" />
-          <entry key="dummy" value="161" />
-          <entry key="java" value="225930" />
+          <entry key="dummy" value="169" />
+          <entry key="java" value="248669" />
           <entry key="txt" value="97" />
           <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="225930" />
-          <entry key="PLAIN_TEXT" value="1588" />
+          <entry key="JAVA" value="248669" />
+          <entry key="PLAIN_TEXT" value="1596" />
           <entry key="XML" value="115" />
         </counts>
       </usages-collector>
@@ -317,14 +200,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PossibleCombinations.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/InterleaveString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state>
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfSquarefulArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SplitArrayIntoFibonacciSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FindKthPairWithSmallestSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/FindKthPairWithSmallestSumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/SplitArrayIntoFibonacciSequenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/NumberOfSquarefulArraysTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/InterleaveStringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -342,12 +298,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>12</find>
-      <find>new Node</find>
-      <find>S</find>
-      <find>Arrays.sort(</find>
-      <find>Collections.sort</find>
-      <find>Collections.reve</find>
       <find>Graph</find>
       <find>new PriorityQueue</find>
       <find>substring</find>
@@ -367,11 +317,17 @@
       <find>Collections.reverse</find>
       <find>nato</find>
       <find>kuzntqeuvaszrspkgjvxrupwxwrexztptsowceibeewxbslvosbobmyymikdscshybtmanuxeqtanrjekbwirmhgvfmzipfiqxcilarfyasoayepgfzmdytlpjymeaztsyubkbmblepwozffxiitdhwaquozlfmnascomqczrbhxcnzugppddtudxrigfeaozzojpeamnobapgwksudbiwdedvprwonmzardsodhxmkgghqzfhorjaijdvwzsnfpdfklwibbsnwqsoajcpjisbgizgttlnmclawbgnhbmtcpuusuammvgxnopdngclxumgfgwjrinamevhirpmlkwtyxkrmoffrreotdosjghsrkgxyiyrytbbofgczndgmdalyvvoljczcztxitxelywqemjigtuanubpstndwzvtiejtoqvetaehvcuujyupncumjnkesmoadzyvkwvjqgqewvvvpheyyvkewefbjjqzajxnhouodanyruqpzdcjmgnxkmhsgqjhpcyviewmrkfioudzqivmmguxjxuxdmpsmkwnvbxcomifgxqmcovlkooptjpfxjllwtlkkoaayzduodgsusaogswmoqkznynwiukkrrxzkwcknwlazxnlmghybxmyvquzbdqlpfydhnnuvlmyjmixyzso</find>
-      <find>sehoeyslmrsxseyxdkpnanapjjfophmhnwxswpdijxhbbiyhspwudwlofsewztdprchnsmxbkhenpcujuqdxoqntjspkluzcxirrvouhvyukcptwhytwpjrybjiofksesjvnzpuvnrhqidmpbinsrhsusbixlccflztmppjegruoujgxrvqkckgulquysyefxzrmqbrxunnqwtnprfbtqhqdxmerkkwjloybrraleobdjquayywqfovfazymlvvwlvacmaptoswaksciqyyymwfmvdajywflrfpggezwyvyjpbrgzsgoolclodupzcasjqyruxovuoempvurpahfljtbmpqnrtibjgsfgiaczeqqckjtkqzxauzojrcdkkgtsabajbfkivakikfscgscattmkvpvhvqbvtcgvjqfetrofwhhdbmfufrecgbjdumbnohkxapevguafbjiexnyehdipgttcguqudcufsaaaucfyopcnfdsmiadowwrcsjyylsdfugirkppyftmmwgaeidvecogwzfukzaswgcnqreryzfmwlmcvszcuniqmplzrltntvcjogcpfhbduqiqihscvcujuhilubanyczpibepjhvdxdvhkplhsgronbzidzxdbwslyycjixofckpnbawvgpjwrigwjdzmauzauclcbzkelztnzpkifugyemuopvcrrctmgeqhgalrbegdurlbntzrftfwqkoimhwsomzuplnqrwtlngoazntgizdbjrjxahpqtqkidybvwwijfxlemenxfqyqhjpjsganxmwamzxivgtafehtlwqsmqlvbaethghgtfgfggodmjetqnmbjdvxvgsxjyssfbyaigfomvsyfyrvneyyjvvgenfnlyhsbfsklayyxsyeqsbdyzbhxypbnvqztxtwemgpohplzqqqirvgtzpqxetlzlmukfrotxfhevvgnlwvetdzssrsykdyxruhylvslbbrywxljvioplnhfhzdredpxyywluoyxrqxqpkzlspcffjkmlnfrrwprvlcrbboutnkixkvrbxwgjgswvanowefrpkksnaninxqmjodlnbrwjmuhokvkodegpoycpnkelcrwswhgybejpzqdjmpxrtfgkekbrwfeyydrvmzvpdeeevjnjznausgeysfsonymlbfiqgdfmimqdvgmwvorpwxooficsiqfmyocerhqzvjerpsnmigbeersjzwdiniulwyrohkpdtwukqjwzsxdwpyhqukahsuurumhcwyfrubbnmxmeurclpjckvctozqftcoxamcthfuusriynzbbrkddghwwgmdcqrzsdelmlhidaqeosfrjrwozdmxmbaqttrmxxzljhuohmsxexoprkdqqsoctqsmkjyjhaushqgqdzohyezppeghwwjpmdeyoehxeepnuwexvuhvyilpmtwlrhcfkgezllwrrmfmkllhfscdcpvpircbzehlllmyyjpqxwejhpqmkssmkndugfwhkdtxofvmqmepjiyqaodkjvytkcpqhlytorqcylrpaxejifzitesebszlupceaaxrtovrbmgbmnmuumcpswuuovflmhppjmgccbugqcjcrwwlkabcyxwmuezhnowxdczhfvnvazztvxfhzijxhimbmlizcgyfkamqvcnxbpryoyfogqlpazqmlbonhosuogkmkzjnqanfauvglgvlgoatpqgyeastiefvgqiwtwdtqycdhzrpnriejqdnqxiacpvkgggbcmuukyaryrgnkqutgzgywpzagwkmctngfkdpkdjiupyeisxorfnpwoqdmarpthxytaqdfzozqmfygenzkcoisgnejfveotfhvvkbwacmmknuocvaemjwswcddyirtnaqiltglwsaghwwjsxneglyeqckokbjzczjptpcrjexrbtatsqzadxftzrjluskwstnniseswbjxwlspbtpfrwasnkgicqgwmwjwonqkqbknneeqyvxruyljirtmkcjwysuoilyymknzptqppngllruvloivqttqnnevyewlpjmgdexusfffwzdjpnefgzxvnbrngpaxypfdtcxnhevfgypvnvdvxaqkejzkycjzrockscyzgtgotxkgtndqptctfdfdfocwehjwlhxtceixdsfyhiqwbssgyxmdmqcsxlpiumcwsktweawlinjjfbsfbglpwnhuaweulisfundynalvnvguyaazglofayzcufwhqqnkfslsswphtxcuyevgrmlrkmteurokjbuotfioezvxwxtwbpfsbqllfgrbzflkghycpisthnsenmcqdhleayphfgigmvrucryraqmjghpvvsnybycbztkebsmnnfkqxkjzdyilhagcstctugxtzhzcalsptchqotrrrbcabictegpymotnvspxfhnylwqaphtgjwgkgkgksvkejdtgxledstdgpuifbbnmxwxgidsbadhjibrimvngqqmikwnoycaxyzdjcwkebtpluhtiegrvzfdjcszauaxvzdeezqicjynghjqlrhgqnlcpddpadovfrblstvucvikctbokiwdvihmlkbnosivjlicedwjzgtdzwrmforcyypliszykhvuvdyzhuiideleafsftjkrhbcqtdqelmagpyhyuqixuwcwbuewgonnprfivwoikoqbozajpkilgkihhodncsctmidjgstqijtzitiagqnmdxumlzbpsdignmpvginqthpdczfistvvsrjeqkvkneqdshyaroskvkqxjvgbqdyjuhpmtkzjqrmkzmmqafdxptvaqdchicqemhqfrpokjcuirharodrdymdprhwzmofyvvfonwywyvgregjsmaxkoabhkziynnwkkdzzzzxaudramcsyepkusmdenlcbaalldmmfokhinalbddzjvmgpajtnxvqxxckaqxhejopwrayufzfcnlrnvkbuhtrexehodqumhjkylkurmztznnnkxqehjxnjbwxgnruwdfuorohdpdfeqsopkswvqmetidcxxwtadpqvdyavbfzrxqgjifharnwbryzouuqykgvpevkfbmyachkmmtnfglgzjhnfcddmkydquoyvcwvgfhstchyjshibqyhsdmgpnkgjaggecdkklcdnkeyeljidhpwkdecqqizqohuslgeyjilvmmzzvhceyaqehswxayoqfklqrpoczczloamlirpitfoaylyajotoaeftvtvvxuilvxyfonphvekvpivawqoywvsspnpokzahwaomofwljggaqdaourmqmekbuzqgzsnxsdkiiitsobugfvuzmgrylcchduneoccifotnwohmqcsvzmwnupnhrpovldzbfdkkrfapthdjlxgkjexgulnncekqhktnpfzhkbyejcpubyhlcgtyrgmwkwouihjynihxmfdvjtrlrayvhruazgwmekgnspnhzuelbiindcywcyrjrlkqtieavkppbcwdwcozmzmpdmlfkfrbsduolaogndxoftrdwickjramdntoukrnpnbdqpjdujtbcneaxilgbnufcnvxaompensueexanqbrfhscrfitseywstvuhhllwehakeazxdqckkhcprvjwtiqodkxlvjhbqklxmkwqdaanhcfzxqvsyngexepupywhijgvwclzfnomsvnrmkkmxsquyhrpgnxqwfnskatpokdgfrxtbjgbeyxcgosobrgawuuiwoxmadsfuszxdhahfymnmedqxkqvgmeccdpcgjicdjcjqcqvcelpkohhazfiljlqocsxncbtlfcbiuzmzmbjakrdjwlxhynxafuqiyjtdlxlfyaekdqmohpxfbuobhlepiuxgdsjqrxxpxezaumqbdoiekyiujmjtgiblcldukaljeljyzcbcqjjchrwtffolpqysdbonbzyimjgnlisbtbeducyzkmmzekthnhwojuyxeflppdtkgzpabnblcnnizgqmqoczlbyrijgzobjuazweoxpsmeblltzbhccufalpmuoavzvyatcptthfyitlbsolwqfdsrsengfigcggxkxqghwerrrvlfgivnnpggutobeufmdcxctdjrjbkawvheferttabptpsxmxmpcjtxodqzeabcvigbmxwfzxxtmpsyneprpjofoegsehubrcedbalbxiwmxommvefmnvubzavfkrjbtnhuosxnctzbkmqhqvvfrpissfaeyjhtyopoinckgdmqrezjzvosmynefpkdaswygmnpbrbhupamtbvvwmpjmcpstavtsuuyihpjyrsugugawexuqmdcpvukvsenoynyhdhhubbcykcuozqgouifpfpmztzptonarwjnznqxxutnwktkgdrxkgjlckavapysnhhnuzktwgiuqbgyhxxtdiffshduxbomkwzhxmcvslpkmvkvuhpapuhjdkdcnspyqohncjjuuagjyqesxtuopcxvmbxcvmaldhyfqjcnkiwkzaewwzlnbkipngriuttxcufvdhippeboggncfasimaxairidmecryhmdqwvgcwwiclnjnfrahpaqiktwovnmfbqvxldbjakmlzxzgpbngbdolwkauambbeyzrcabcmppnmqtdrhjukzgjmifmwgnbeougrxkfoctdsmgmvqgipordwwptefwkvqtooduchpfcdoozewhvlybhwsccxymvrfjfldjssruyfixlfeisejzcccebcswtyiajlmdgdyekidxpjhhprjrvnxyppvlpflasxeaceeomjlesvnhowajlzjbpgmglzhexnebrlqfudlpyzwmxzxjyhkpnywzzfdwshaluqspteesfcecdelclxryxpzxucvomvbilwxhcdzhiflnjxpwwjvuautxzonnmpvxlvepafwknjywintfyqbzmuynklcyaawnvccxkaixkgvsvqzwicxxyvkjgphjpfymkbjwdrtpzqkvjlrroqomlbxrqhafobraecwhwrzvilsrwlkkbzzmcyesfgzwjswnutvqkwmuhgndsyqtzrgbpmvxuuteoprikobvknrtvfznfphginjxbeuvanboftypjzmwoepkloxsfeypthnwnjsnzvdeqbtadiwtondbedtljrbdaoznztcypfcfiyhngfhutkvznqkzhlcjbdwbzybqfexpcfdkmkgfwdemtrlceplgujjtjkloqjfuqiecsmkrpqdkhoomdbuxkftvrejippchzjmuvwlnooxwcokhpggalzveghmvyrfzcrtxnembumzyalfprmrelpjryxpyouxqltqaxeduqfssqykkkdoxuxruvislcsepnwrkawetbznuxxejdsixszunhoalgectavgdsmyvllpklttoocngdhvnwvaecdaeagjsuhqitfsgboursjxvruiprlttotaobjjytzgogauhoqyizxesrohlzbgpwggyspwlqebwevgvngdmgjfzymkzprpmzvmrmiecohaseiprptgxenwcbhcratfzortczzenhghlpzfguldyyzbzifskyxmoqfqpgwencobrngzhtchreismpnxpmjddqvuwrbmwrppgxpnqrujvfdkwqhmfsrikneigfwcwlscijraaojyvnirfrfklzsvmxdueczdntfyczyenkckxkdcbjnmihjwgpslrrogmvgouftjpvvoizqlifyspjovyiipayymwedslwectzqdyjpiqpafyqdxznobompmrseeqkhmkzpkievbtvisolrpbfsrshdlajrsuyegawskcnlwluqbhjqkoibipgvrsnmonqwnmoypclnphfqrogbeqfnhnkzfzltndpcsgcjkoyzxfpotvqznxoukzvqyilnodqgjsrtiruiwjwrgoqtlfpwgloetbsjgkpreimnzgvxptovihqtogruthaojuypenhjytyzcvxrqnpyuhsinlegtfvczttgicriyriamfrcuidpqxzfieobljfmebsodlxbchdqovtifyxvvzdddrhocoagpvwvgvwjcazsxubeuacpzfveweuysvgkscfaabjedlxchahealtcqqgmubmnysxswesyhedlpapyayccjygzonnjqzyqtxisbaqietvvvlwxlaavagwpvkanladhznzaqrkwnguitqgesibtoykmimzvofcnudpkvzhihdsctyhngkixiulsikowrslowaytahbjktmfuvvcfdzqykiixyfqtqeprfktmlezgqgclbftfgjfrtpquugnnnegsobgbffjwomjptcwzndqjtidnpsccwiwkjcnpkwnykyndbkdqpvbieeyvyazulvgwxtnhsafczvgchluwgwfmcfhbfgxsdepbzcktdsweneiurcqzaxmdcvgkedchjrkjuxezpcfcgpyzrqzuonxsifcoifysyidufjvumcyurwulntfdievsjyhrfflfpqavaxrmasgroccdxhgfncywcfqjmdobuqywoqkqkshavmesvmyjoyhsfxbrbssxirvyjfovzyvukzphmpqcnyxsxyjasdxdwubhzsczqyvcxkjlzcooclgblrcgvbjrwmzxebywzuazgmkiqawundvzwxhrzqlxemujpvhrpiqxwcfmdcgqhbrdbaxcqizvwvglqpchzshvxmjaqpsxtmdwmayfkzcguitnxwwzqdunqepivkiqwlmknkpzlthibavbwtanxwcpcsxycfoasdkfncgbvnjzogcmzcbyaendyndauranumukobnmqwlecntdrucrarwygzabtcqppmbfporgkemotfumcygepcfycfbxitmxfoevcwbpcpfyvbkzzqdrvipzqqwyjixqybldzoucebabdmccdhtyskzicvgnfdeeerjeidimekpjwrmzyhzqsyauvgiblmhsfqynvibbsqlojzqkgrcyqdtlldozrvtwnrkkznmtgzhpyzbergfjjauwdlxuiqqyhciiqwdwvnnvmrcdxhmihjekwcgeswccblmthsrffearxcxuljcsuheqlkvfjzjkkyfuqwbvcdmagjutvxmrgsitdfymeiyrgdnybotdrhfztcvozhhhzpcewasdkqusvjqyzlcstjumlpamwhtxzxcvywyknufkfxjejnxcwroigquezqbanfwncwartfdycmdlbcpytdizvefvwivmotbssblniolldqyesqentoopttmrchdsdfmvixirnvesoexiudwqsmhngtekckcfroabnksciyvwfsezxcrrpyevrlhuxjbozcpookqwklspfzpdbgwqhdnyouundwdeassoelnpwfecgvhiedylimlygglmcosejnsnyfeunlytihdmnezvqluythmvwfzfstuqbbmqmllwupjhtkflvbjoiwledmlviiljjzzxmmthbeqwpxhmytbhrolubzplhcuqbvpqhixlpphenpqlktsbkgvlfmwoosgrpvhyfgjuwrajitwsoptyxqlccjssbyjsttrazavxtxibqfvfwqdtipxkypccnouijlikofihdslvxiavzgqhxnuxeyztmwdvjmgxtqfwissiaudbaujxjfxodyjsunnebvdulirwaledfheibphnuebadmszzhdcdjxqtqmwbsziadqdtaqpetpjghjhrokuxjmrzbnctmmvrfzmfrclntvtdgcuuoquxclydacxopufwtubnyoarlvurxqomgiljvmovonlfiqddmgqkvqcglyalpozvymgtyvopizwqrauggmqddumqtmdkcchapotpljetkdmddijlucpzwbsrpvdtaltpbogmznhlqvqvdagaexbcaturrzkrmfintobublhtgyomyxoewpgxlcoccbvogdecrhwvseobcfnccbiysoxdrohvpclxhrzbzywtcmugrjktmsufitibhsyyukwcdvdctbyxnufferaqlwxuqixxawywiualrdqngokuksboldhxagtqoqpqonnwjnkdtaqzqcvauyrgcafcgyuvqlnfbadkqpnjrfkhiikegdkidrmjpggisunvwsfmivxzakjksvpaybjbtvkketsyphtlaaakxzlalukfrzgpdpqwmdgswzsnilaioculcgnpcyvuzbjcsaagfhzditqqhqbvvvixdwogwjavmlaenalsjmvtfnmmgnjbksaoqowmayjmjjrxmervsnrxcdmksvlepnsfeqteofqyojvcpmyhbrhgutqmqeqgrlnvbjzqosqednhvzhcdyjluebgvfydzlsupbwhpqxwvkdqlmvqmgbglfoimonlafirhgyywvutfzkqnfhznkfypvickvpmbxdkdbibwfvdehvsoerbpzcewkigiyulxzvbadcyixbpgxhudawsbyzykjgshddfcaifemdomhfsgonjrjeshdsrmbmwgpdiqnnwztmlcseiirtzaxsjcmcrponvgsgyftueoisqcwalpukpteawtcnitcgzumxbhthwdzogvptkldbekdadgnnzrtalhzmpsunvvbdtswfdchimmkrsagtrcvdjuryonnmjppchohnqqvedhvxhdtzfoepjvpxldjusbybphohylldtiaaltbrifitdxqoackudiwupmbpamsvwtxhozaygirjgkxgojdrrbnjnoypctkymifcjibpqsbweyfskklblymaonqqgcoumwwvexnwsovyoarykecxfoxtbnkhsadeyacczpztfusvwluipyfumeqquczmcdsbfufelgyqcsmydiiugpruuhmojoanrsoypwcacctfwhfbrqwzfptzyiphwrwnknlbjpdluwsqfaswqqvxfrxdzomvgiksxxtgowuivobcotbglyesrdxqrlnxtzprykznjtxeiyiytjfgijybmvsdghdcjsvjfwyoqysawcasmfawqzxcwrifbljmfgvkcuausswqxxkjenhvogzkahrbucpckkongpjajgtgffrjsyeghethnmikpzmzjaosryubgpjlvbupbbwihrpudzeuyswkvmemmypuozflccaffyomrfgvhnrhfptacxnqyelmdszhuznbadnrkuorjiboxupbuessifgoxfvsgktgnjyyfmrouucuprvlxpdgujusqpmwahdpqdpxrhlmdoiuhfffvknrvhllyxiahnqzqfxhokvuydoijupgeezallnlkvmtictyjsiacdudhknsecalgzntkaexyqqiujhgdpiguejbowvvaviivvdhxhgvaxgwinememsysdchzxebvmjsjmzgvgevfkunzyzfntffwjovjsweehwptvwrdcmioiynhxuwrbbplslukjyrtugorefxgshwcfljfffwhjlubyonkoedknrdrxaarkwtpkfupmsyvguygimsyqxifpmzoozhyxcqhjmzwhztnuuvegqdynneezduqebobgglrtmpanlphfmolcrjqenugspwwsmaatnsmzjooudwzpkksdwkjlerevncqceqxrkjsuzhqcfqtrcnuyxfmexsbmurobilsuwnoxufzbxvszkoaitooqgpfchtdrhylflcdhjekgbchmqjwjxkcdzhiicnzlllrypwhyareevlqlvmxuwzaxiigkvhwjupjjlthnknribjtwvssttstbaboyimjdbsoolwdyjvgmgbicudxpvqrwrhwatffwztklrnldkrptuavqdugylzwcgsebzlxzhjmyyxblqtektbbyvhyiivnoprrpfqomzckzzokrhobcrecnnaxvvklneccjssvtuhtvvfmewpinumcjnafkksxoxzzrtunnegkblwihmsxifzrsbycmtacqbcjvywkeevgqtozhgwplyjfzjinckqulugiuctzhqhzjvardzirxtwyfgmhqeeeakmuohvxzcyjzzcdamuzgsxlzjuppatpmimdrharmbcnaeqcsmbyfylekivzkrpxzdcsmcjydlmfrejktkkyjyevizusqlrrotkdyvbdjplawukrfxrqvvldwhxptpgjksmioqoxhzzftmwajnsgkdjhniwixetixisnygmhhnpbzndibwonbzuoisyhxsrwamlaszjamydomiypencioxyyrxiopzmrlxrgyaglblzntxeamgkdfidxhlnylcpyziealmnmzmbvlfxalhftriszwfzhhrhjzmjkywwykzvxeszszglspftlmtuukbflpqwoouoaujzadzucfhuwmojzjfvvjagyseoizeivnjxqksuszromhalqfgloirpcwdkxiuuxdrqojkglbwxiykagslucfjedpqaxmuurnkfzxnkymjjmvlsnzpreaxhpnjmzfhqstytqndrbocojngymvpqwmznbiacnjvicvbvihmmxoahbihqgzgenirpqttgcoohjpcuyqgweifhqmxwngabouqgnjmsaczjsddsvlobttkkiiivqlwgfoouabmadnlxsrqnegoyczkkjuhbfgjmwxhwyvyejmbdftrjchheitqtoxwvfficdradmbjx</find>
       <find>Comparator</find>
       <find>implements Comparator</find>
       <find>54</find>
       <find>comparingInt(</find>
+      <find>sehoeyslmrsxseyxdkpnanapjjfophmhnwxswpdijxhbbiyhspwudwlofsewztdprchnsmxbkhenpcujuqdxoqntjspkluzcxirrvouhvyukcptwhytwpjrybjiofksesjvnzpuvnrhqidmpbinsrhsusbixlccflztmppjegruoujgxrvqkckgulquysyefxzrmqbrxunnqwtnprfbtqhqdxmerkkwjloybrraleobdjquayywqfovfazymlvvwlvacmaptoswaksciqyyymwfmvdajywflrfpggezwyvyjpbrgzsgoolclodupzcasjqyruxovuoempvurpahfljtbmpqnrtibjgsfgiaczeqqckjtkqzxauzojrcdkkgtsabajbfkivakikfscgscattmkvpvhvqbvtcgvjqfetrofwhhdbmfufrecgbjdumbnohkxapevguafbjiexnyehdipgttcguqudcufsaaaucfyopcnfdsmiadowwrcsjyylsdfugirkppyftmmwgaeidvecogwzfukzaswgcnqreryzfmwlmcvszcuniqmplzrltntvcjogcpfhbduqiqihscvcujuhilubanyczpibepjhvdxdvhkplhsgronbzidzxdbwslyycjixofckpnbawvgpjwrigwjdzmauzauclcbzkelztnzpkifugyemuopvcrrctmgeqhgalrbegdurlbntzrftfwqkoimhwsomzuplnqrwtlngoazntgizdbjrjxahpqtqkidybvwwijfxlemenxfqyqhjpjsganxmwamzxivgtafehtlwqsmqlvbaethghgtfgfggodmjetqnmbjdvxvgsxjyssfbyaigfomvsyfyrvneyyjvvgenfnlyhsbfsklayyxsyeqsbdyzbhxypbnvqztxtwemgpohplzqqqirvgtzpqxetlzlmukfrotxfhevvgnlwvetdzssrsykdyxruhylvslbbrywxljvioplnhfhzdredpxyywluoyxrqxqpkzlspcffjkmlnfrrwprvlcrbboutnkixkvrbxwgjgswvanowefrpkksnaninxqmjodlnbrwjmuhokvkodegpoycpnkelcrwswhgybejpzqdjmpxrtfgkekbrwfeyydrvmzvpdeeevjnjznausgeysfsonymlbfiqgdfmimqdvgmwvorpwxooficsiqfmyocerhqzvjerpsnmigbeersjzwdiniulwyrohkpdtwukqjwzsxdwpyhqukahsuurumhcwyfrubbnmxmeurclpjckvctozqftcoxamcthfuusriynzbbrkddghwwgmdcqrzsdelmlhidaqeosfrjrwozdmxmbaqttrmxxzljhuohmsxexoprkdqqsoctqsmkjyjhaushqgqdzohyezppeghwwjpmdeyoehxeepnuwexvuhvyilpmtwlrhcfkgezllwrrmfmkllhfscdcpvpircbzehlllmyyjpqxwejhpqmkssmkndugfwhkdtxofvmqmepjiyqaodkjvytkcpqhlytorqcylrpaxejifzitesebszlupceaaxrtovrbmgbmnmuumcpswuuovflmhppjmgccbugqcjcrwwlkabcyxwmuezhnowxdczhfvnvazztvxfhzijxhimbmlizcgyfkamqvcnxbpryoyfogqlpazqmlbonhosuogkmkzjnqanfauvglgvlgoatpqgyeastiefvgqiwtwdtqycdhzrpnriejqdnqxiacpvkgggbcmuukyaryrgnkqutgzgywpzagwkmctngfkdpkdjiupyeisxorfnpwoqdmarpthxytaqdfzozqmfygenzkcoisgnejfveotfhvvkbwacmmknuocvaemjwswcddyirtnaqiltglwsaghwwjsxneglyeqckokbjzczjptpcrjexrbtatsqzadxftzrjluskwstnniseswbjxwlspbtpfrwasnkgicqgwmwjwonqkqbknneeqyvxruyljirtmkcjwysuoilyymknzptqppngllruvloivqttqnnevyewlpjmgdexusfffwzdjpnefgzxvnbrngpaxypfdtcxnhevfgypvnvdvxaqkejzkycjzrockscyzgtgotxkgtndqptctfdfdfocwehjwlhxtceixdsfyhiqwbssgyxmdmqcsxlpiumcwsktweawlinjjfbsfbglpwnhuaweulisfundynalvnvguyaazglofayzcufwhqqnkfslsswphtxcuyevgrmlrkmteurokjbuotfioezvxwxtwbpfsbqllfgrbzflkghycpisthnsenmcqdhleayphfgigmvrucryraqmjghpvvsnybycbztkebsmnnfkqxkjzdyilhagcstctugxtzhzcalsptchqotrrrbcabictegpymotnvspxfhnylwqaphtgjwgkgkgksvkejdtgxledstdgpuifbbnmxwxgidsbadhjibrimvngqqmikwnoycaxyzdjcwkebtpluhtiegrvzfdjcszauaxvzdeezqicjynghjqlrhgqnlcpddpadovfrblstvucvikctbokiwdvihmlkbnosivjlicedwjzgtdzwrmforcyypliszykhvuvdyzhuiideleafsftjkrhbcqtdqelmagpyhyuqixuwcwbuewgonnprfivwoikoqbozajpkilgkihhodncsctmidjgstqijtzitiagqnmdxumlzbpsdignmpvginqthpdczfistvvsrjeqkvkneqdshyaroskvkqxjvgbqdyjuhpmtkzjqrmkzmmqafdxptvaqdchicqemhqfrpokjcuirharodrdymdprhwzmofyvvfonwywyvgregjsmaxkoabhkziynnwkkdzzzzxaudramcsyepkusmdenlcbaalldmmfokhinalbddzjvmgpajtnxvqxxckaqxhejopwrayufzfcnlrnvkbuhtrexehodqumhjkylkurmztznnnkxqehjxnjbwxgnruwdfuorohdpdfeqsopkswvqmetidcxxwtadpqvdyavbfzrxqgjifharnwbryzouuqykgvpevkfbmyachkmmtnfglgzjhnfcddmkydquoyvcwvgfhstchyjshibqyhsdmgpnkgjaggecdkklcdnkeyeljidhpwkdecqqizqohuslgeyjilvmmzzvhceyaqehswxayoqfklqrpoczczloamlirpitfoaylyajotoaeftvtvvxuilvxyfonphvekvpivawqoywvsspnpokzahwaomofwljggaqdaourmqmekbuzqgzsnxsdkiiitsobugfvuzmgrylcchduneoccifotnwohmqcsvzmwnupnhrpovldzbfdkkrfapthdjlxgkjexgulnncekqhktnpfzhkbyejcpubyhlcgtyrgmwkwouihjynihxmfdvjtrlrayvhruazgwmekgnspnhzuelbiindcywcyrjrlkqtieavkppbcwdwcozmzmpdmlfkfrbsduolaogndxoftrdwickjramdntoukrnpnbdqpjdujtbcneaxilgbnufcnvxaompensueexanqbrfhscrfitseywstvuhhllwehakeazxdqckkhcprvjwtiqodkxlvjhbqklxmkwqdaanhcfzxqvsyngexepupywhijgvwclzfnomsvnrmkkmxsquyhrpgnxqwfnskatpokdgfrxtbjgbeyxcgosobrgawuuiwoxmadsfuszxdhahfymnmedqxkqvgmeccdpcgjicdjcjqcqvcelpkohhazfiljlqocsxncbtlfcbiuzmzmbjakrdjwlxhynxafuqiyjtdlxlfyaekdqmohpxfbuobhlepiuxgdsjqrxxpxezaumqbdoiekyiujmjtgiblcldukaljeljyzcbcqjjchrwtffolpqysdbonbzyimjgnlisbtbeducyzkmmzekthnhwojuyxeflppdtkgzpabnblcnnizgqmqoczlbyrijgzobjuazweoxpsmeblltzbhccufalpmuoavzvyatcptthfyitlbsolwqfdsrsengfigcggxkxqghwerrrvlfgivnnpggutobeufmdcxctdjrjbkawvheferttabptpsxmxmpcjtxodqzeabcvigbmxwfzxxtmpsyneprpjofoegsehubrcedbalbxiwmxommvefmnvubzavfkrjbtnhuosxnctzbkmqhqvvfrpissfaeyjhtyopoinckgdmqrezjzvosmynefpkdaswygmnpbrbhupamtbvvwmpjmcpstavtsuuyihpjyrsugugawexuqmdcpvukvsenoynyhdhhubbcykcuozqgouifpfpmztzptonarwjnznqxxutnwktkgdrxkgjlckavapysnhhnuzktwgiuqbgyhxxtdiffshduxbomkwzhxmcvslpkmvkvuhpapuhjdkdcnspyqohncjjuuagjyqesxtuopcxvmbxcvmaldhyfqjcnkiwkzaewwzlnbkipngriuttxcufvdhippeboggncfasimaxairidmecryhmdqwvgcwwiclnjnfrahpaqiktwovnmfbqvxldbjakmlzxzgpbngbdolwkauambbeyzrcabcmppnmqtdrhjukzgjmifmwgnbeougrxkfoctdsmgmvqgipordwwptefwkvqtooduchpfcdoozewhvlybhwsccxymvrfjfldjssruyfixlfeisejzcccebcswtyiajlmdgdyekidxpjhhprjrvnxyppvlpflasxeaceeomjlesvnhowajlzjbpgmglzhexnebrlqfudlpyzwmxzxjyhkpnywzzfdwshaluqspteesfcecdelclxryxpzxucvomvbilwxhcdzhiflnjxpwwjvuautxzonnmpvxlvepafwknjywintfyqbzmuynklcyaawnvccxkaixkgvsvqzwicxxyvkjgphjpfymkbjwdrtpzqkvjlrroqomlbxrqhafobraecwhwrzvilsrwlkkbzzmcyesfgzwjswnutvqkwmuhgndsyqtzrgbpmvxuuteoprikobvknrtvfznfphginjxbeuvanboftypjzmwoepkloxsfeypthnwnjsnzvdeqbtadiwtondbedtljrbdaoznztcypfcfiyhngfhutkvznqkzhlcjbdwbzybqfexpcfdkmkgfwdemtrlceplgujjtjkloqjfuqiecsmkrpqdkhoomdbuxkftvrejippchzjmuvwlnooxwcokhpggalzveghmvyrfzcrtxnembumzyalfprmrelpjryxpyouxqltqaxeduqfssqykkkdoxuxruvislcsepnwrkawetbznuxxejdsixszunhoalgectavgdsmyvllpklttoocngdhvnwvaecdaeagjsuhqitfsgboursjxvruiprlttotaobjjytzgogauhoqyizxesrohlzbgpwggyspwlqebwevgvngdmgjfzymkzprpmzvmrmiecohaseiprptgxenwcbhcratfzortczzenhghlpzfguldyyzbzifskyxmoqfqpgwencobrngzhtchreismpnxpmjddqvuwrbmwrppgxpnqrujvfdkwqhmfsrikneigfwcwlscijraaojyvnirfrfklzsvmxdueczdntfyczyenkckxkdcbjnmihjwgpslrrogmvgouftjpvvoizqlifyspjovyiipayymwedslwectzqdyjpiqpafyqdxznobompmrseeqkhmkzpkievbtvisolrpbfsrshdlajrsuyegawskcnlwluqbhjqkoibipgvrsnmonqwnmoypclnphfqrogbeqfnhnkzfzltndpcsgcjkoyzxfpotvqznxoukzvqyilnodqgjsrtiruiwjwrgoqtlfpwgloetbsjgkpreimnzgvxptovihqtogruthaojuypenhjytyzcvxrqnpyuhsinlegtfvczttgicriyriamfrcuidpqxzfieobljfmebsodlxbchdqovtifyxvvzdddrhocoagpvwvgvwjcazsxubeuacpzfveweuysvgkscfaabjedlxchahealtcqqgmubmnysxswesyhedlpapyayccjygzonnjqzyqtxisbaqietvvvlwxlaavagwpvkanladhznzaqrkwnguitqgesibtoykmimzvofcnudpkvzhihdsctyhngkixiulsikowrslowaytahbjktmfuvvcfdzqykiixyfqtqeprfktmlezgqgclbftfgjfrtpquugnnnegsobgbffjwomjptcwzndqjtidnpsccwiwkjcnpkwnykyndbkdqpvbieeyvyazulvgwxtnhsafczvgchluwgwfmcfhbfgxsdepbzcktdsweneiurcqzaxmdcvgkedchjrkjuxezpcfcgpyzrqzuonxsifcoifysyidufjvumcyurwulntfdievsjyhrfflfpqavaxrmasgroccdxhgfncywcfqjmdobuqywoqkqkshavmesvmyjoyhsfxbrbssxirvyjfovzyvukzphmpqcnyxsxyjasdxdwubhzsczqyvcxkjlzcooclgblrcgvbjrwmzxebywzuazgmkiqawundvzwxhrzqlxemujpvhrpiqxwcfmdcgqhbrdbaxcqizvwvglqpchzshvxmjaqpsxtmdwmayfkzcguitnxwwzqdunqepivkiqwlmknkpzlthibavbwtanxwcpcsxycfoasdkfncgbvnjzogcmzcbyaendyndauranumukobnmqwlecntdrucrarwygzabtcqppmbfporgkemotfumcygepcfycfbxitmxfoevcwbpcpfyvbkzzqdrvipzqqwyjixqybldzoucebabdmccdhtyskzicvgnfdeeerjeidimekpjwrmzyhzqsyauvgiblmhsfqynvibbsqlojzqkgrcyqdtlldozrvtwnrkkznmtgzhpyzbergfjjauwdlxuiqqyhciiqwdwvnnvmrcdxhmihjekwcgeswccblmthsrffearxcxuljcsuheqlkvfjzjkkyfuqwbvcdmagjutvxmrgsitdfymeiyrgdnybotdrhfztcvozhhhzpcewasdkqusvjqyzlcstjumlpamwhtxzxcvywyknufkfxjejnxcwroigquezqbanfwncwartfdycmdlbcpytdizvefvwivmotbssblniolldqyesqentoopttmrchdsdfmvixirnvesoexiudwqsmhngtekckcfroabnksciyvwfsezxcrrpyevrlhuxjbozcpookqwklspfzpdbgwqhdnyouundwdeassoelnpwfecgvhiedylimlygglmcosejnsnyfeunlytihdmnezvqluythmvwfzfstuqbbmqmllwupjhtkflvbjoiwledmlviiljjzzxmmthbeqwpxhmytbhrolubzplhcuqbvpqhixlpphenpqlktsbkgvlfmwoosgrpvhyfgjuwrajitwsoptyxqlccjssbyjsttrazavxtxibqfvfwqdtipxkypccnouijlikofihdslvxiavzgqhxnuxeyztmwdvjmgxtqfwissiaudbaujxjfxodyjsunnebvdulirwaledfheibphnuebadmszzhdcdjxqtqmwbsziadqdtaqpetpjghjhrokuxjmrzbnctmmvrfzmfrclntvtdgcuuoquxclydacxopufwtubnyoarlvurxqomgiljvmovonlfiqddmgqkvqcglyalpozvymgtyvopizwqrauggmqddumqtmdkcchapotpljetkdmddijlucpzwbsrpvdtaltpbogmznhlqvqvdagaexbcaturrzkrmfintobublhtgyomyxoewpgxlcoccbvogdecrhwvseobcfnccbiysoxdrohvpclxhrzbzywtcmugrjktmsufitibhsyyukwcdvdctbyxnufferaqlwxuqixxawywiualrdqngokuksboldhxagtqoqpqonnwjnkdtaqzqcvauyrgcafcgyuvqlnfbadkqpnjrfkhiikegdkidrmjpggisunvwsfmivxzakjksvpaybjbtvkketsyphtlaaakxzlalukfrzgpdpqwmdgswzsnilaioculcgnpcyvuzbjcsaagfhzditqqhqbvvvixdwogwjavmlaenalsjmvtfnmmgnjbksaoqowmayjmjjrxmervsnrxcdmksvlepnsfeqteofqyojvcpmyhbrhgutqmqeqgrlnvbjzqosqednhvzhcdyjluebgvfydzlsupbwhpqxwvkdqlmvqmgbglfoimonlafirhgyywvutfzkqnfhznkfypvickvpmbxdkdbibwfvdehvsoerbpzcewkigiyulxzvbadcyixbpgxhudawsbyzykjgshddfcaifemdomhfsgonjrjeshdsrmbmwgpdiqnnwztmlcseiirtzaxsjcmcrponvgsgyftueoisqcwalpukpteawtcnitcgzumxbhthwdzogvptkldbekdadgnnzrtalhzmpsunvvbdtswfdchimmkrsagtrcvdjuryonnmjppchohnqqvedhvxhdtzfoepjvpxldjusbybphohylldtiaaltbrifitdxqoackudiwupmbpamsvwtxhozaygirjgkxgojdrrbnjnoypctkymifcjibpqsbweyfskklblymaonqqgcoumwwvexnwsovyoarykecxfoxtbnkhsadeyacczpztfusvwluipyfumeqquczmcdsbfufelgyqcsmydiiugpruuhmojoanrsoypwcacctfwhfbrqwzfptzyiphwrwnknlbjpdluwsqfaswqqvxfrxdzomvgiksxxtgowuivobcotbglyesrdxqrlnxtzprykznjtxeiyiytjfgijybmvsdghdcjsvjfwyoqysawcasmfawqzxcwrifbljmfgvkcuausswqxxkjenhvogzkahrbucpckkongpjajgtgffrjsyeghethnmikpzmzjaosryubgpjlvbupbbwihrpudzeuyswkvmemmypuozflccaffyomrfgvhnrhfptacxnqyelmdszhuznbadnrkuorjiboxupbuessifgoxfvsgktgnjyyfmrouucuprvlxpdgujusqpmwahdpqdpxrhlmdoiuhfffvknrvhllyxiahnqzqfxhokvuydoijupgeezallnlkvmtictyjsiacdudhknsecalgzntkaexyqqiujhgdpiguejbowvvaviivvdhxhgvaxgwinememsysdchzxebvmjsjmzgvgevfkunzyzfntffwjovjsweehwptvwrdcmioiynhxuwrbbplslukjyrtugorefxgshwcfljfffwhjlubyonkoedknrdrxaarkwtpkfupmsyvguygimsyqxifpmzoozhyxcqhjmzwhztnuuvegqdynneezduqebobgglrtmpanlphfmolcrjqenugspwwsmaatnsmzjooudwzpkksdwkjlerevncqceqxrkjsuzhqcfqtrcnuyxfmexsbmurobilsuwnoxufzbxvszkoaitooqgpfchtdrhylflcdhjekgbchmqjwjxkcdzhiicnzlllrypwhyareevlqlvmxuwzaxiigkvhwjupjjlthnknribjtwvssttstbaboyimjdbsoolwdyjvgmgbicudxpvqrwrhwatffwztklrnldkrptuavqdugylzwcgsebzlxzhjmyyxblqtektbbyvhyiivnoprrpfqomzckzzokrhobcrecnnaxvvklneccjssvtuhtvvfmewpinumcjnafkksxoxzzrtunnegkblwihmsxifzrsbycmtacqbcjvywkeevgqtozhgwplyjfzjinckqulugiuctzhqhzjvardzirxtwyfgmhqeeeakmuohvxzcyjzzcdamuzgsxlzjuppatpmimdrharmbcnaeqcsmbyfylekivzkrpxzdcsmcjydlmfrejktkkyjyevizusqlrrotkdyvbdjplawukrfxrqvvldwhxptpgjksmioqoxhzzftmwajnsgkdjhniwixetixisnygmhhnpbzndibwonbzuoisyhxsrwamlaszjamydomiypencioxyyrxiopzmrlxrgyaglblzntxeamgkdfidxhlnylcpyziealmnmzmbvlfxalhftriszwfzhhrhjzmjkywwykzvxeszszglspftlmtuukbflpqwoouoaujzadzucfhuwmojzjfvvjagyseoizeivnjxqksuszromhalqfgloirpcwdkxiuuxdrqojkglbwxiykagslucfjedpqaxmuurnkfzxnkymjjmvlsnzpreaxhpnjmzfhqstytqndrbocojngymvpqwmznbiacnjvicvbvihmmxoahbihqgzgenirpqttgcoohjpcuyqgweifhqmxwngabouqgnjmsaczjsddsvlobttkkiiivqlwgfoouabmadnlxsrqnegoyczkkjuhbfgjmwxhwyvyejmbdftrjchheitqtoxwvfficdradmbjx</find>
+      <find>`</find>
+      <find>value</find>
+      <find>new String</find>
+      <find>new String(</find>
+      <find>Map&lt;String</find>
+      <find>Linked</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -387,57 +343,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/InsertInterval.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AScratch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
-        <option value="$PROJECT_DIR$/test/FourSumsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FourSums.java" />
-        <option value="$PROJECT_DIR$/test/SudokuSolverTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SudokuSolver.java" />
-        <option value="$PROJECT_DIR$/test/FirstMissingPositiveTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FirstMissingPositive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MissingNumber.java" />
-        <option value="$PROJECT_DIR$/test/MissingNumberTest.java" />
-        <option value="$PROJECT_DIR$/test/ShortestPathToGetAllKeysTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TrappingRainWater.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ShortestPathToGetAllKeys.java" />
-        <option value="$PROJECT_DIR$/test/CouplesHoldingHandTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CouplesHoldingHand.java" />
-        <option value="$PROJECT_DIR$/test/MovingStonesUntilConsecutiveIITest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MovingStonesUntilConsecutiveII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ArithmeticSlicesIISubsequence.java" />
-        <option value="$PROJECT_DIR$/test/ArithmeticSlicesIISubsequenceTest.java" />
-        <option value="$PROJECT_DIR$/test/SumOfSubarrayMinimumsTest.java" />
-        <option value="$PROJECT_DIR$/test/ComponentsInAGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SumOfSubarrayMinimums.java" />
-        <option value="$PROJECT_DIR$/test/SuperUglyNumberTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SuperUglyNumber.java" />
-        <option value="$PROJECT_DIR$/test/OccurencesAfterBigramTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/OccurencesAfterBigram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SmallestSubsequenceOfDistinctCharacters.java" />
-        <option value="$PROJECT_DIR$/test/SmallestSubsequenceOfDistinctCharactersTest.java" />
-        <option value="$PROJECT_DIR$/test/ReachableNodesInSubdividedGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReachableNodesInSubdividedGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReachableNodesInSubdividedGraph2.java" />
-        <option value="$PROJECT_DIR$/test/SplitArrayIntoConsecutiveSubsequencesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SplitArrayIntoConsecutiveSubsequences.java" />
-        <option value="$PROJECT_DIR$/test/NthSuperUglyNumberTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NthSuperUglyNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CandyCrush.java" />
-        <option value="$PROJECT_DIR$/test/CandyCrushTest.java" />
-        <option value="$PROJECT_DIR$/test/CapacityToShipPackagesWithinDDaysTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CapacityToShipPackagesWithinDDays.java" />
-        <option value="$PROJECT_DIR$/test/LongestRepeatingCharacterReplacementTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LongestRepeatingCharacterReplacement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreeSumWithMultiplicity.java" />
-        <option value="$PROJECT_DIR$/test/ThreeSumWithMultiplicityTest.java" />
-        <option value="$PROJECT_DIR$/test/PushDominoesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PushDominoes.java" />
-        <option value="$PROJECT_DIR$/test/ProductOfArrayExceptSelfTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProductOfArrayExceptSelf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SmallestRange.java" />
-        <option value="$PROJECT_DIR$/test/SmallestRangeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PossibleCombinations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScoreOfParentheses.java" />
+        <option value="$PROJECT_DIR$/test/AsteroidCollisionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AsteroidCollision.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GuessNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GuessNumberHigherOrLowerII.java" />
+        <option value="$PROJECT_DIR$/test/GuessNumberHigherOrLowerIITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BitwiseOrsOfSubarray.java" />
+        <option value="$PROJECT_DIR$/test/BitwiseOrsOfSubarrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OutOfBoundaryPaths.java" />
+        <option value="$PROJECT_DIR$/test/OutOfBoundaryPathsTest.java" />
+        <option value="$PROJECT_DIR$/test/MinimumWindowSubstringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/test/TargetSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TargetSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NumberOfEnclaves.java" />
+        <option value="$PROJECT_DIR$/test/NumberOfEnclavesTest.java" />
+        <option value="$PROJECT_DIR$/test/BestTimeToBuyAndSellStockWithTransactionFeeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStockWithTransactionFee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FindKthSmallestPairDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ContainsDuplicateIII.java" />
+        <option value="$PROJECT_DIR$/test/ContainsDuplicateIIITest.java" />
+        <option value="$PROJECT_DIR$/test/ShortestPathWithAlternatingColorsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ShortestPathWithAlternatingColors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MCTFromLeafValues.java" />
+        <option value="$PROJECT_DIR$/test/MCTFromLeafValuesTest.java" />
+        <option value="$PROJECT_DIR$/test/MinimumScoreTriangulationOfPolygonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MinimumScoreTriangulationOfPolygon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DistinctSubsequences.java" />
+        <option value="$PROJECT_DIR$/test/DistinctSubsequencesTest.java" />
+        <option value="$PROJECT_DIR$/test/IncreasingTripletSubsequenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IncreasingTripletSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isPowerOfFour.java" />
+        <option value="$PROJECT_DIR$/test/isPowerOfFourTest.java" />
+        <option value="$PROJECT_DIR$/test/LetterTilePossibilitiesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LetterTilePossibilities.java" />
+        <option value="$PROJECT_DIR$/test/CherryPickupTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CherryPickup.java" />
+        <option value="$PROJECT_DIR$/test/LargestSumOfAveragesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LargestSumOfAverages.java" />
+        <option value="$PROJECT_DIR$/test/EliminationGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EliminationGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SnapshotArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DecreaseElementsToMakeArrayZigzag.java" />
+        <option value="$PROJECT_DIR$/test/DecreaseElementsToMakeArrayZigzagTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InterleaveString.java" />
+        <option value="$PROJECT_DIR$/test/NumberOfSquarefulArraysTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NumberOfSquarefulArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SplitArrayIntoFibonacciSequence.java" />
+        <option value="$PROJECT_DIR$/test/SplitArrayIntoFibonacciSequenceTest.java" />
+        <option value="$PROJECT_DIR$/test/FindKthPairWithSmallestSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FindKthPairWithSmallestSum.java" />
       </list>
     </option>
   </component>
@@ -492,8 +448,36 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StringCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StringCalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StringCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StringCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StringCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StringCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StringCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StringCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,10 +507,10 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -545,46 +529,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PossibleCombinations">
-    <configuration name="PossibleCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PossibleCombinations" />
+  <component name="RunManager" selected="JUnit.FindKthPairWithSmallestSumTest">
+    <configuration name="DecreaseElementsToMakeArrayZigzagTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DecreaseElementsToMakeArrayZigzagTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelfTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindKthPairWithSmallestSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductOfArrayExceptSelfTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="FindKthPairWithSmallestSumTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PushDominoesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InterleaveStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PushDominoesTest" />
+      <option name="MAIN_CLASS_NAME" value="InterleaveStringTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PushDominoesTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfSquarefulArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PushDominoesTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="NumberOfSquarefulArraysTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestRangeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SplitArrayIntoFibonacciSequenceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SmallestRangeTest" />
+      <option name="MAIN_CLASS_NAME" value="SplitArrayIntoFibonacciSequenceTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -592,19 +573,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PushDominoesTest.test" />
-      <item itemvalue="JUnit.PushDominoesTest" />
-      <item itemvalue="JUnit.ProductOfArrayExceptSelfTest.test" />
-      <item itemvalue="JUnit.SmallestRangeTest.test" />
-      <item itemvalue="Application.PossibleCombinations" />
+      <item itemvalue="JUnit.DecreaseElementsToMakeArrayZigzagTest" />
+      <item itemvalue="JUnit.InterleaveStringTest" />
+      <item itemvalue="JUnit.NumberOfSquarefulArraysTest" />
+      <item itemvalue="JUnit.SplitArrayIntoFibonacciSequenceTest.test" />
+      <item itemvalue="JUnit.FindKthPairWithSmallestSumTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PossibleCombinations" />
-        <item itemvalue="JUnit.SmallestRangeTest.test" />
-        <item itemvalue="JUnit.ProductOfArrayExceptSelfTest.test" />
-        <item itemvalue="JUnit.PushDominoesTest" />
-        <item itemvalue="JUnit.PushDominoesTest.test" />
+        <item itemvalue="JUnit.FindKthPairWithSmallestSumTest" />
+        <item itemvalue="JUnit.SplitArrayIntoFibonacciSequenceTest.test" />
+        <item itemvalue="JUnit.NumberOfSquarefulArraysTest" />
+        <item itemvalue="JUnit.InterleaveStringTest" />
+        <item itemvalue="JUnit.DecreaseElementsToMakeArrayZigzagTest" />
       </list>
     </recent_temporary>
   </component>
@@ -735,35 +716,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 01m 19s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 45m 13s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 01m 24s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 46m 47s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 02m 41s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 48m 45s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 03m 26s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 52m 26s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 03m 30s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 52m 29s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 04m 04s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 54m 15s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 04m 29s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 54m 18s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 04m 59s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 54m 33s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 05m 12s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 56m 39s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmallestRangeTest_test - 2019.06.14 at 23h 05m 26s.xml">
-      <configuration name="SmallestRangeTest.test" configurationId="JUnit" />
+    <history-entry file="FindKthPairWithSmallestSumTest - 2019.08.10 at 09h 56m 42s.xml">
+      <configuration name="FindKthPairWithSmallestSumTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -780,8 +761,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900597" weight="0.3748212" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900597" weight="0.49642345" />
       <window_info id="Structure" order="1" sideWeight="0.500994" side_tool="true" weight="0.31402004" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -789,16 +771,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32409638" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.3048193" />
-      <window_info anchor="bottom" x="21" y="286" width="1398" height="327" id="Debug" order="3" weight="0.413253" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32342008" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.30111524" />
+      <window_info anchor="bottom" x="21" y="286" width="1398" height="327" id="Debug" order="3" weight="0.40024784" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" visible="true" weight="0.32342008" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.32342008" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" weight="0.32409638" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32289156" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3283767" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32218093" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -814,7 +796,7 @@
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="10" side_tool="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900597" visible="true" weight="0.3397711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49900597" visible="true" weight="0.4134478" />
       <window_info id="Structure" order="1" sideWeight="0.500994" side_tool="true" weight="0.31402004" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -823,15 +805,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32409638" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.3048193" />
-      <window_info anchor="bottom" x="21" y="286" width="1398" height="327" id="Debug" order="3" weight="0.4253012" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.3023544" />
+      <window_info anchor="bottom" x="21" y="286" width="1398" height="327" id="Debug" order="3" weight="0.4126394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.32409638" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.32342008" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" weight="0.32409638" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32289156" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32218093" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1189,12 +1171,6 @@
           <option name="timeStamp" value="954" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/InterleaveString.java</url>
-          <line>4</line>
-          <properties />
-          <option name="timeStamp" value="955" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/PancakeSorting.java</url>
           <line>11</line>
           <properties />
@@ -1315,499 +1291,573 @@
           <properties />
           <option name="timeStamp" value="1173" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DistributeCandiesToPeople.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="1189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ReplaceWords.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="1244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LongestStringChain.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="1252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SumOfTwoIntegers.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="1259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GuessNumber.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="1261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MinimumWindowSubstring.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="1275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MCTFromLeafValues.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="1293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MinimumScoreTriangulationOfPolygon.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="1297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LargestSumOfAverages.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="1305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/EliminationGame.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="1306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/InterleaveString.java</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="1307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/FindKthPairWithSmallestSumTest.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="1309" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="current[0] * primes[j]" language="JAVA" />
-        <watch expression="cnt[res.get(res.size() -1) - 'a']" language="JAVA" />
-        <watch expression="g.nodesVisited" language="JAVA" />
-        <watch expression="g.minEnd" language="JAVA" />
-        <watch expression="g.maxEnd" language="JAVA" />
-        <watch expression="fact(100)" language="JAVA" />
-        <watch expression="v * (v-1) * (v-2)" language="JAVA" />
-        <watch expression="v * (v-1)" language="JAVA" />
-        <watch expression="(v-2) / 6" language="JAVA" />
-        <watch expression="v * (v-1) *499" language="JAVA" />
+        <watch expression="4 &amp; (4-1)" language="JAVA" />
+        <watch expression="0xAAAAAAAA" language="JAVA" />
+        <watch expression="sum[s]" language="JAVA" />
+        <watch expression="sum[e]" language="JAVA" />
+        <watch expression="s.charAt(start)" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="map.get(currentSnapId)[index]" language="JAVA" />
+        <watch expression="diffMap.get(currentSnapId).getOrDefault(index, 0)" language="JAVA" />
+        <watch expression="snapshotToValue.floorKey(snapId)" language="JAVA" />
+        <watch expression="snapshotToValue.floorKey(0)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
-        <expression-string>i == 3</expression-string>
+        <expression-string>start == 0</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>end==3</expression-string>
+        <expression-string>current ==4.75</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>end == 5</expression-string>
+        <expression-string>k==3</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>g.minEnd == 0  &amp;&amp; g.maxEnd == 2</expression-string>
+        <expression-string>i==2 &amp;&amp; j== 1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>current == 0 &amp;&amp; g.maxEnd == 2</expression-string>
+        <expression-string>i == 2 &amp;&amp; j==1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>current == 0 &amp;&amp; g.maxEnd ==2</expression-string>
+        <expression-string>i == 3 &amp;&amp; j==1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>key == 1</expression-string>
+        <expression-string>i == 1 &amp;&amp; j ==1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i==6</expression-string>
+        <expression-string>i == 1 &amp;&amp; j == 1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i==2 &amp;&amp; board[0][2] == '4'</expression-string>
+        <expression-string>i == 1 &amp;&amp; j == 2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i==2</expression-string>
+        <expression-string>c=='A'</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>v * (v-1) *499</expression-string>
+        <expression-string>s.charAt(start)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(v-2) / 6</expression-string>
+        <expression-string>snapshotToValue.floorKey(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>v-2</expression-string>
+        <expression-string>snapshotToValue.floorKey(snapId)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>v * (v-1)</expression-string>
+        <expression-string>diffMap.get(currentSnapId).getOrDefault(index, 0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>v * (v-1) * (v-2)</expression-string>
+        <expression-string>diffMap.get(currentSnapId)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fact(100)</expression-string>
+        <expression-string>map.get(currentSnapId)[index]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fact(200)</expression-string>
+        <expression-string>map.get(currentSnapId)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fact(500)</expression-string>
+        <expression-string>sum[e]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fact(1000)</expression-string>
+        <expression-string>sum[s]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fact(9)</expression-string>
+        <expression-string>0xAAAAAAAA</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/FourSumsTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        <state relative-caret-position="240">
+          <caret line="891" column="15" selection-start-line="891" selection-start-column="15" selection-end-line="891" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/FirstMissingPositiveTest.java">
+    <entry file="file://$PROJECT_DIR$/test/MinimumWindowSubstringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TrappingRainWater.java">
+    <entry file="file://$PROJECT_DIR$/test/OutOfBoundaryPathsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="210">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TrappingRainWaterTest.java">
+    <entry file="file://$PROJECT_DIR$/test/GuessNumberHigherOrLowerIITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/MissingNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TargetSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SudokuSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfEnclaves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FirstMissingPositive.java">
+    <entry file="file://$PROJECT_DIR$/test/NumberOfEnclavesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ShortestPathToGetAllKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ShortestPathToGetAllKeysTest.java">
+    <entry file="file://$PROJECT_DIR$/test/TargetSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SudokuSolverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CouplesHoldingHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/CouplesHoldingHandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArithmeticSlicesIISubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ComponentsInAGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="82" column="48" lean-forward="true" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MovingStonesUntilConsecutiveII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ArithmeticSlicesIISubsequenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MovingStonesUntilConsecutiveIITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SumOfSubarrayMinimumsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ShortestPathWithAlternatingColors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SumOfSubarrayMinimums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SuperUglyNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/test/ContainsDuplicateIIITest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SuperUglyNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ContainsDuplicateIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="258">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReachableNodesInSubdividedGraph2.java" />
-    <entry file="file://$PROJECT_DIR$/test/ReachableNodesInSubdividedGraphTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindKthSmallestPairDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReachableNodesInSubdividedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmallestSubsequenceOfDistinctCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OccurencesAfterBigram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SmallestSubsequenceOfDistinctCharactersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/OccurencesAfterBigramTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStockWithTransactionFee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SplitArrayIntoConsecutiveSubsequencesTest.java">
+    <entry file="file://$PROJECT_DIR$/test/ShortestPathWithAlternatingColorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SplitArrayIntoConsecutiveSubsequences.java">
+    <entry file="file://$PROJECT_DIR$/test/FindKthSmallestPairDistanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-132">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NthSuperUglyNumber.java">
+    <entry file="file://$PROJECT_DIR$/test/BestTimeToBuyAndSellStockWithTransactionFeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CandyCrush.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DistinctSubsequences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/CandyCrushTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="58" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CapacityToShipPackagesWithinDDays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LongestRepeatingCharacterReplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreeSumWithMultiplicity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PushDominoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmallestRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProductOfArrayExceptSelf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MinimumScoreTriangulationOfPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SmallestRangeTest.java">
+    <entry file="file://$PROJECT_DIR$/test/MCTFromLeafValuesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ProductOfArrayExceptSelfTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MCTFromLeafValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DistinctSubsequencesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MinimumScoreTriangulationOfPolygonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SteadyGenes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isPowerOfFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IncreasingTripletSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="566" column="20" selection-start-line="566" selection-start-column="20" selection-end-line="566" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/isPowerOfFourTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/PushDominoesTest.java">
+    <entry file="file://$PROJECT_DIR$/test/IncreasingTripletSubsequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CherryPickup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LargestSumOfAverages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ThreeSumWithMultiplicityTest.java">
+    <entry file="file://$PROJECT_DIR$/test/LargestSumOfAveragesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/LongestRepeatingCharacterReplacementTest.java">
+    <entry file="file://$PROJECT_DIR$/test/CherryPickupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EliminationGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LetterTilePossibilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/EliminationGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/LetterTilePossibilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/CapacityToShipPackagesWithinDDaysTest.java">
+    <entry file="file://$PROJECT_DIR$/test/DecreaseElementsToMakeArrayZigzagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SnapshotArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DecreaseElementsToMakeArrayZigzag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="587" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InterleaveString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SplitArrayIntoFibonacciSequenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/NthSuperUglyNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/PossibleCombinations">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>PossibleCombinations</OriginalElement>
-          <nodes>
-            <node x="" y="">PossibleCombinations</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="93.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PossibleCombinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/NumberOfSquarefulArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/InterleaveStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfSquarefulArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SplitArrayIntoFibonacciSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="4420" column="31" lean-forward="true" selection-start-line="4420" selection-start-column="31" selection-end-line="4420" selection-end-column="31" />
+          <folding>
+            <element signature="e#175306#175307#0" expanded="true" />
+            <element signature="e#175349#175350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FindKthPairWithSmallestSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindKthPairWithSmallestSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
           </folding>
         </state>
       </provider>
