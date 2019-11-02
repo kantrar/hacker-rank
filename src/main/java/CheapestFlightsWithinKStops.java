@@ -22,7 +22,7 @@ public class CheapestFlightsWithinKStops {
 		}
 	}
 
-	// The main challenge of this problem is to find how to avoid repeated task, and thus dp.
+	// The main challenge of this problem is place find how place avoid repeated task, and thus dp.
 	public int findCheapestPrice(int n, int[][] flights, int src, int dst, int K) {
 		if (src == dst) {
 			return 0;

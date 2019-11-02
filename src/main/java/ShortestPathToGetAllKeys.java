@@ -1,126 +1,82 @@
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class ShortestPathToGetAllKeys {
-	private static int[][] moves = new int[][] {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
-
-	public class Path {
-		char start;
-		char end;
-		int distance;
-	}
-
+	private int[][] moves = new int[][] {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
 	public int shortestPathAllKeys(String[] grid) {
-		// @.a.#
-		// ###.#
-		// b.A.B
+		int[] start = getStart(grid);
+		int target = getTargetKey(grid);
 
-		// @..aA
-		// ..B#.
-		// ....b
-		List<int[]>[][] paths = initPaths(grid);
-		int keys = 0;
-		int row = 0;
-		int col = 0;
-		for (int i = 0; i < grid.length; i++) {
-			for (int j = 0; j < grid[i].length(); j++) {
-				if (grid[i].charAt(j) == '@') {
-					row = i;
-					col = j;
-				}
-				if (isKey(i, j, grid)) {
-					keys++;
-				}
-			}
-		}
-
-		boolean[] acquired = new boolean[keys];
-		findShortestPath(paths, grid, row, col, acquired, keys);
-
-		return 0;
-	}
-
-	private void findShortestPath(List<int[]>[][] paths, String[] grid, int row, int col, boolean[] acquired, int keys) {
-		int count = 0;
-		Queue<int[]> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a[2]));
-		queue.offer(new int[] {row, col, 0});
-		while (!queue.isEmpty()) {
-			for (int[] current : queue) {
-				for (int[] next : paths[current[0]][current[1]]) {
-					if (isKey(next[0], next[1], grid)) {
-						acquired[convertCharToInt(grid[next[0]].charAt(next[1]))] = true;
-						count++;
-						queue.offer(new int[] {next[0], next[1], current[2] + next[2]});
-						if (count == keys) {
-							return;
-						}
-					}
-				}
-			}
-		}
-	}
-
-	private int convertCharToInt(char c) {
-		return c - 'a';
-	}
-
-	private boolean isKey(int row, int col, String[] grid) {
-		return grid[row].charAt(col) >= 'a' && grid[row].charAt(col) <= 'f';
-	}
-
-	private List<int[]>[][] initPaths(String[] grid) {
-		List<int[]>[][] paths = new ArrayList[grid.length][grid[0].length()];
-
-		for (int i = 0; i < grid.length; i++) {
-			for (int j = 0; j < grid[0].length(); j++) {
-				paths[i][j] = new ArrayList<>();
-			}
-		}
-
-		for (int i = 0; i < grid.length; i++) {
-			for (int j = 0; j < grid[0].length(); j++) {
-				if (grid[i].charAt(j) == '.' || grid[i].charAt(j) == '#') {
-					continue;
-				}
-				findPath(grid, i, j, paths);
-			}
-		}
-		return paths;
-	}
-
-	public void findPath(String[] grid, int row, int col, List<int[]>[][] paths) {
 		Queue<int[]> queue = new LinkedList<>();
-		queue.offer(new int[] {row, col});
-		int distance = 0;
+		queue.offer(start);
+
+		boolean[][][] visited = new boolean[grid.length][grid[0].length()][target + 1];
+		visited[start[0]][start[1]][0] = true;
+
+		int steps = 0;
 
 		while (!queue.isEmpty()) {
 			Queue<int[]> nextQueue = new LinkedList<>();
-			for (int[] current : queue) {
-				for (int[] move : moves) {
-					int nextRow = current[0] + move[0];
-					int nextCol = current[1] + move[1];
-
-					if (nextRow < 0 || nextRow >= grid.length || nextCol < 0 || nextCol >= grid[0].length()) {
+			steps++;
+			for (int[] cur: queue) {
+				for (int[] move: moves) {
+					int nr = cur[0] + move[0], nc = cur[1] + move[1], key = cur[2];
+					if (nr < 0 || nr >= grid.length || nc < 0 || nc >= grid[0].length() || grid[nr].charAt(nc) == '#') {
 						continue;
 					}
-
-					if (grid[nextRow].charAt(nextCol) == '.') {
-						nextQueue.offer(new int[] {nextRow, nextCol});
-						continue;
+					char c = grid[nr].charAt(nc);
+					int acquiredKey = getKey(c);
+					int lock = getLock(c);
+					if (acquiredKey != 0) {
+						key = key | acquiredKey;
 					}
-
-					if (grid[nextRow].charAt(nextCol) != '.' && grid[nextRow].charAt(nextCol) != '#') {
-						paths[row][col].add(new int[] {nextRow, nextCol, distance});
+					if (key == target) return steps;
+					if (visited[nr][nc][key]) continue;
+					visited[nr][nc][key] = true;
+					if (lock == 0 || (key & lock) != 0) {
+						nextQueue.offer(new int[]{nr, nc, key});
 					}
 				}
 			}
-
 			queue = nextQueue;
-			distance++;
 		}
+		return -1;
+	}
+
+	private int[] getStart(String[] grid) {
+		int[] start = new int[] {0, 0, 0};
+
+		for (int i = 0; i < grid.length; i++) {
+			for (int j = 0; j < grid[0].length(); j++) {
+				char c = grid[i].charAt(j);
+				if (c == '@') {
+					start = new int[] {i, j, 0};
+				}
+
+			}
+		}
+		return start;
+	}
+
+	private int getTargetKey(String[] grid) {
+		int target = 0;
+		for (int i = 0; i < grid.length; i++) {
+			for (int j = 0; j < grid[0].length(); j++) {
+				char c = grid[i].charAt(j);
+				int key = getKey(c);
+				if (key != 0) {
+					target = target | key;
+				}
+			}
+		}
+		return target;
+	}
+
+	private int getKey(char c) {
+		return c >= 'a' && c <= 'f' ? (1 << (c - 'a')) : 0;
+	}
+
+	private int getLock(char c) {
+		return c >= 'A' && c <= 'F' ? (1 << (c - 'A')) : 0;
 	}
 }

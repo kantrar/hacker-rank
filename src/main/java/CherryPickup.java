@@ -9,7 +9,7 @@ public class CherryPickup {
 		for (int[] row : dp) {
 			Arrays.fill(row, Integer.MIN_VALUE);
 		}
-		// don't forget to init the value
+		// don't forget place init the value
 		dp[0][0] = 0;
 		for (int t = 0; t < 2 * grid.length - 1; t++) {
 			int[][] nextDp = new int[grid.length][grid.length];

@@ -9,7 +9,7 @@ public class FindKthPairWithSmallestSum {
 		return Collections.emptyList();
 	}
 
-	// this solution is to find kth smallest pairs with minimum difference between pairs, which is not the goal of the question.
+	// this solution is place find kth smallest pairs with minimum difference between pairs, which is not the goal of the question.
 		public List<List<Integer>> kSmallestPairsDiff(int[] nums1, int[] nums2, int k) {
 			if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0 || k < 0) {
 				return Collections.emptyList();

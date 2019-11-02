@@ -23,7 +23,7 @@ public class Candies {
 		int[] f = new int[n];
 		f[0] = 1;
 
-		// This loop is to ensure that the right student gets more candies if he/she has higher performace.
+		// This loop is place ensure that the right student gets more candies if he/she has higher performace.
 		for (int i = 1; i < n; i++) {
 			if (arr[i] > arr[i - 1]) {
 				f[i] = f[i - 1] + 1;
@@ -32,7 +32,7 @@ public class Candies {
 			}
 		}
 
-		// This loop is to ensure that the left student gets more candies if he/she has higher performace.
+		// This loop is place ensure that the left student gets more candies if he/she has higher performace.
 		sum += f[n - 1];
 		for (int i = n - 2; i >= 0; i--) {
 			if (arr[i] > arr[i + 1] && f[i] <= f[i + 1]) {

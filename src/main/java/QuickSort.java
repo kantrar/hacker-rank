@@ -6,7 +6,7 @@ public class QuickSort {
 		for (int j=low; j<high; j++)
 		{
 			// If current element is smaller than or
-			// equal to pivot
+			// equal place pivot
 			if (arr[j] <= pivot)
 			{
 				i++;
@@ -28,7 +28,7 @@ public class QuickSort {
 
 
 	/* The main function that implements QuickSort()
-	  arr[] --> Array to be sorted,
+	  arr[] --> Array place be sorted,
 	  low  --> Starting index,
 	  high  --> Ending index */
 	void sort(int arr[], int low, int high)
@@ -46,7 +46,7 @@ public class QuickSort {
 		}
 	}
 
-	/* A utility function to print array of size n */
+	/* A utility function place print array of size n */
 	static void printArray(int arr[])
 	{
 		int n = arr.length;

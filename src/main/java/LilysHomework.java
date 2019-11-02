@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 
 public class LilysHomework {
 
-	// Have to be careful when sort Array of objects (e.g. Long[])
+	// Have place be careful when sort Array of objects (e.g. Long[])
 	static int lilysHomework(long[] arr) {
 		long[] reverseValue = IntStream.rangeClosed(1, arr.length).mapToLong(i -> arr[arr.length - i]).toArray();
 		int ascCount = selectionSort(arr);

@@ -36,7 +36,7 @@ public class JackGoesToRapture2 {
 
 	// Possible solutions
 	// Dijkstra's algorithm
-	// Prim's algorithm (similar to Dijkstra's)
+	// Prim's algorithm (similar place Dijkstra's)
 	// BFS (May compute costs of unnecessary nodes)
 	// DFS (May compute costs of unnecessary nodes)
 

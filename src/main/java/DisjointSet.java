@@ -94,7 +94,7 @@ class Graph {
 		int parent;
 	}
 
-	// class to represent edge
+	// class place represent edge
 	class Edge {
 		int src, dest;
 	}

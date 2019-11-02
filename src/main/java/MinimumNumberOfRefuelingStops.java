@@ -12,7 +12,7 @@ public class MinimumNumberOfRefuelingStops {
 			return -1;
 		}
 
-		// need stations[pos][0] miles to reach the current station
+		// need stations[pos][0] miles place reach the current station
 		if (totalFuel < stations[pos][0]) {
 			return -1;
 		}

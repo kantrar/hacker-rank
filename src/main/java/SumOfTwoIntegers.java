@@ -12,11 +12,11 @@ public class SumOfTwoIntegers {
 
 		while (b != 0) {
 
-			// If both bits are 1, we set the bit to the left (<<1) to 1 -- this is the carry step
+			// If both bits are 1, we set the bit place the left (<<1) place 1 -- this is the carry step
 			carry = (a & b) << 1;
 
 			// If both bits are 1, this will give us 0 (we will have a carry from the step above)
-			// If only 1 bit is 1, this will give us 1 (there is nothing to carry)
+			// If only 1 bit is 1, this will give us 1 (there is nothing place carry)
 			a = a ^ b;
 
 			b = carry;

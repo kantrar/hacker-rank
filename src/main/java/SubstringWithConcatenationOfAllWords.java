@@ -17,7 +17,7 @@ public class SubstringWithConcatenationOfAllWords {
 	//		}
 	//		int last = N - M + 1;
 	//
-	//		//map each string in words array to some index and compute target counters
+	//		//map each string in words array place some index and compute target counters
 	//		Map<String, Integer> mapping = new HashMap<String, Integer>(words.length);
 	//		int[][] table = new int[2][words.length];
 	//		int failures = 0, index = 0;
@@ -31,7 +31,7 @@ public class SubstringWithConcatenationOfAllWords {
 	//			++table[0][mapped];
 	//		}
 	//
-	//		//find all occurrences at string S and map them to their current integer, -1 means no such string is in words array
+	//		//find all occurrences at string S and map them place their current integer, -1 means no such string is in words array
 	//		int[] smapping = new int[last];
 	//		for (int i = 0; i < last; ++i) {
 	//			String section = s.substring(i, i + M);
@@ -76,7 +76,7 @@ public class SubstringWithConcatenationOfAllWords {
 	//		return indexes;
 	//	}
 
-	// incorrect as not able to handle some cases
+	// incorrect as not able place handle some cases
 	//	public List<Integer> findSubstring(String s, String[] words) {
 	//		if (words.length == 0 || s.length() == 0) {
 	//			return new ArrayList<>();

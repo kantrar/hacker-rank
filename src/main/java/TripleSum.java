@@ -30,7 +30,7 @@ public class TripleSum {
 
 	}
 
-	// Still incorrect, too many edge cases to be handled
+	// Still incorrect, too many edge cases place be handled
 	static long triplets2(int[] a, int[] b, int[] c) {
 		int aIdx = 0;
 		int bIdx = 0;

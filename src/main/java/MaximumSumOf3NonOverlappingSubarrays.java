@@ -1,56 +1,30 @@
 public class MaximumSumOf3NonOverlappingSubarrays {
-	public static int max = 0;
-
 	public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
-		max = 0;
-
-		int[] sum = new int[nums.length - k + 1];
-
-		for (int i = 0; i < k; i++) {
-			sum[0] += nums[i];
-		}
-
-		for (int i = 1; i <= nums.length - k; i++) {
-			sum[i] = sum[i - 1] + nums[k + i - 1] - nums[i - 1];
-		}
-
-		int[][][] dp = new int[sum.length][3][4];
-
-		for (int m = 0; m < 3; m++) {
-			if (m == 0) {
-				dp[sum.length - 1][m][m] = sum.length - 1;
-				dp[sum.length - 1][m][3] = sum[sum.length - 1];
-			} else {
-				dp[sum.length - 1 - m * k][m] = dp[sum.length - 1 - (m - 1) * k][m - 1];
-				dp[sum.length - 1 - m * k][m][m] = sum.length - 1 - m * k;
-				dp[sum.length - 1 - m * k][m][3] = sum[sum.length - 1 - m * k] + dp[sum.length - 1 - (m - 1) * k][m - 1][3];
-			}
-			for (int i = sum.length - 2 - m * k; i >= 0; i--) {
-				if (m == 0) {
-					if (sum[i] >= sum[dp[i + 1][m][m]]) {
-						dp[i][m][m] = i;
-						dp[i][m][3] = sum[i];
-					} else {
-						dp[i][m][m] = i + 1;
-						dp[i][m][3] = sum[i + 1];
+		int curSum = 0;
+		int[][] dp = new int[4][nums.length + 1];
+		int[][] idx = new int[4][nums.length + 1];
+		for (int i = 1; i < 4; i++) {
+			for (int j = 0; j < nums.length; j++) {
+				curSum += nums[j];
+				if (j >= k - 1) {
+					if (dp[i][j + 1] < dp[i][j]) {
+						dp[i][j + 1] = dp[i][j];
+						idx[i][j + 1] = idx[i][j];
 					}
-				} else {
-					if (sum[i] + dp[i + k][m - 1][3] >= dp[i + 1][m][3]) {
-						System.arraycopy(dp[i + k][m - 1], 0, dp[i][m], 0, 4);
-						dp[i][m][m] = i;
-						dp[i][m][3] = sum[i] + dp[i + k][m - 1][3];
-					} else {
-						System.arraycopy(dp[i + 1][m], 0, dp[i][m], 0, 4);
+					if (dp[i][j + 1] < dp[i - 1][j - k + 1] + curSum) {
+						dp[i][j + 1] = curSum + dp[i - 1][j - k + 1];
+						idx[i][j + 1] = j - k + 1;
 					}
+					curSum -= nums[j - k + 1];
 				}
 			}
 		}
 
-		int[] answer = new int[3];
-		for (int i = 0; i < 3; i++) {
-			answer[i] = dp[0][2][3 - i - 1];
-		}
-		return answer;
+		int[] res = new int[3];
+		res[2] = idx[3][nums.length];
+		res[1] = idx[2][res[2]];
+		res[0] = idx[1][res[1]];
+		return res;
 	}
 
 }

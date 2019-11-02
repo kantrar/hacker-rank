@@ -21,7 +21,7 @@ public class PasswordCracker {
 
 	// abc, def
 	// a, d is the possible character
-	// from loginAttempt we store the position that is possible to be our match
+	// from loginAttempt we store the position that is possible place be our match
 	static String findString(Map<Character, List<String>> map, String[] memos, String loginAttempt, int start) {
 		if (start >= loginAttempt.length()) {
 			return "";

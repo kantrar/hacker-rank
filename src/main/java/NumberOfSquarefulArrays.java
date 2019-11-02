@@ -1,58 +1,50 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class NumberOfSquarefulArrays {
-	int count;
-
 	public int numSquarefulPerms(int[] A) {
-		if (A == null || A.length < 2) {
-			return 0;
-		}
-		count = 0;
-		Arrays.sort(A);
-		Map<Integer, List<Integer>> map = new HashMap<>();
+		Map<Integer, Integer> map = new HashMap<>();
 		for (int i = 0; i < A.length; i++) {
-			for (int j = i + 1; j < A.length; j++) {
-				int sqrt = (int) Math.sqrt(A[i] + A[j]);
-				if (sqrt * sqrt == A[i] + A[j]) {
-					if (!map.containsKey(i)) {
-						map.put(i, new ArrayList<>());
-					}
-					map.get(i).add(j);
-					if (!map.containsKey(j)) {
-						map.put(j, new ArrayList<>());
-					}
-					map.get(j).add(i);
-				}
+			map.put(A[i], map.getOrDefault(A[i], 0) + 1);
+		}
+
+		int count = 0;
+		for (int cur : map.keySet()) {
+			count += perm(map, cur, new int[] {map.size()});
+		}
+		return count;
+	}
+
+	private int perm(Map<Integer, Integer> remaining, int cur, int[] unique) {
+		int currentRemaining = remaining.get(cur) - 1;
+
+		if (currentRemaining == 0) {
+			unique[0]--;
+		}
+		if (unique[0] == 0) {
+			unique[0]++;
+			return 1;
+		}
+
+		int count = 0;
+
+		remaining.put(cur, currentRemaining);
+
+		for (int next : remaining.keySet()) {
+			if (remaining.get(next) > 0 && isSquareful(cur, next)) {
+				count += perm(remaining, next, unique);
 			}
 		}
-
-		for (int i = 0; i < A.length; i++) {
-			boolean[] visited = new boolean[A.length];
-			dfs(map, i, -1, A.length - 1, visited);
+		if (currentRemaining == 0) {
+			unique[0]++;
 		}
+		remaining.put(cur, currentRemaining + 1);
 
 		return count;
 	}
 
-	private void dfs(Map<Integer, List<Integer>> map, int current, int parent, int todo, boolean[] visited) {
-		if (todo == 0) {
-			count++;
-			return;
-		}
-
-		visited[current] = true;
-
-		for (int next : map.get(current)) {
-			if (visited[next]) {
-				continue;
-			}
-			dfs(map, next, current, todo - 1, visited);
-		}
-
-		visited[current] = false;
+	private boolean isSquareful(int a, int b) {
+		int r = (int) Math.sqrt(a + b);
+		return r * r == a + b;
 	}
 }

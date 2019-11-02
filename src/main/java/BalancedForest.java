@@ -80,7 +80,7 @@ public class BalancedForest {
 	}
 
 	private static List<Node> buildNode(int[] c, int[][] edges) {
-		// add node zero (seq = 0, value = 0) to solve the case that the added edge is cut
+		// add node zero (seq = 0, value = 0) place solve the case that the added edge is cut
 		List<Node> nodes = new ArrayList<>();
 		nodes.add(new Node(0, 0));
 		for (int i = 0; i < c.length; i++) {

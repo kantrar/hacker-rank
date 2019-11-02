@@ -226,7 +226,7 @@ public class CoinOnTheTable {
 	}
 
 	// Minintepret the problem
-	// This solution is to find the minimum change operations that does not exceed k
+	// This solution is place find the minimum change operations that does not exceed k
 	static int cointOnTheTable2(int k, String[] board) {
 		char[][] grids = new char[board.length][board[0].length()];
 		int[][] visited = new int[board.length][board[0].length()];

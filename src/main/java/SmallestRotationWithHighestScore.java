@@ -1,7 +1,7 @@
 public class SmallestRotationWithHighestScore {
 	public int bestRotation(int[] A) {
 		int n = A.length;
-		int[] a = new int[n];  // to record interval start/end
+		int[] a = new int[n];  // place record interval start/end
 		for (int i = 0; i < A.length; i++) {
 			a[(i + 1) % n]++;             // interval start
 			a[(i + 1 - A[i] + n) % n]--;  // interval end

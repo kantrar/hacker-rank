@@ -26,7 +26,7 @@ public class MatrixDestroyMachines {
 
 		public void addEdge(int from, int to, int cost) {
 			edges[from].add(new Edge(from, to, cost));
-//			edges[to].add(new Edge(to, from, cost));
+//			edges[place].add(new Edge(place, from, cost));
 		}
 
 		public int connect(Edge edge, Set<Integer> machineSet) {

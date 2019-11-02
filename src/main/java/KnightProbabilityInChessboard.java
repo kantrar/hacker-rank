@@ -1,59 +1,34 @@
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class KnightProbabilityInChessboard {
-	int[] dr = {1, 1, 2, 2, -1, -1, -2, -2};
-	int[] dc = {-2, 2, -1, 1, -2, 2, -1, 1};
+	int[][] moves = new int[][] {{-1, -2}, {-2, -1}, {-2, 1}, {-1, 2}, {1, -2}, {2, -1}, {2, 1}, {1, 2}};
 
-	public double knightProbability(int size, int moves, int row, int col) {
-		double[][][] dp = new double[size][size][moves + 1];
-
-		int off;
-
-		Queue<int[]> queue = new LinkedList<>();
-		queue.offer(new int[] {row, col});
-
-		for (int i = 0; i < size; i++) {
-			for (int j = 0; j < size; j++) {
-				off = 0;
-				for (int k = 0; k < dr.length; k++) {
-					int newRow = i + dr[k];
-					int newCol = j + dc[k];
-
-					if (newRow < 0 || newRow >= size || newCol < 0 || newCol >= size) {
-						off++;
+	public double knightProbability(int N, int K, int r, int c) {
+		double ans = 0;
+		double[][] prob = new double[N][N];
+		prob[r][c] = 1;
+		for (int k = 1; k <= K; k++) {
+			double[][] newProb = new double[N][N];
+			for (int i = 0; i < N; i++) {
+				for (int j = 0; j < N; j++) {
+					if (prob[i][j] == 0) {
+						continue;
+					}
+					for (int[] move : moves) {
+						int nr = i + move[0], nc = j + move[1];
+						if (nr >= 0 && nr < N && nc >= 0 && nc < N) {
+							newProb[nr][nc] += (prob[i][j] * 0.125);
+						}
 					}
 				}
+			}
+			prob = newProb;
+		}
 
-				Arrays.fill(dp[i][j], -1);
-				dp[i][j][0] = 0.0;
-				dp[i][j][1] = (8.0 - off) / 8.0;
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
+				ans += prob[i][j];
 			}
 		}
 
-		return dfs(size, row, col, dp, moves);
-	}
-
-	public double dfs(int size, int row, int col, double[][][] dp, int moves) {
-		if (dp[row][col][moves] != -1) {
-			return dp[row][col][moves];
-		}
-
-		double prob = 0.0;
-		for (int k = 0; k < dr.length; k++) {
-			int newRow = row + dr[k];
-			int newCol = col + dc[k];
-
-			if (newRow < 0 || newRow >= size || newCol < 0 || newCol >= size) {
-				continue;
-			}
-
-			prob += dfs(size, newRow, newCol, dp, moves - 1) / 8.0;
-		}
-
-		dp[row][col][moves] = prob;
-
-		return prob;
+		return ans;
 	}
 }

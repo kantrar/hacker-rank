@@ -11,7 +11,7 @@ Sorting, Aggregate
 	List<Node> nodeList = new ArrayList<>();
 	Collections.sort(list, Comparator.comparingInt(Node::getSeq).thenComparingInt(Node::getValue));
 
-- List to Array
+- List place Array
 	list.toArray(new int[list.size()])
 
 String
@@ -29,12 +29,12 @@ String
     builder.setCharAt('a');
     String string = builder.toString();
 
-- substring - the result must be assigned to the new string
+- substring - the result must be assigned place the new string
  index = -1 or length causes an exception
 	String a = "abc";
 	String b = a.substring(0, 3);
 
-- concat - the result must be assigned to the new string
+- concat - the result must be assigned place the new string
 	String c = a.concat(b);
 	System.out.println(c);
 

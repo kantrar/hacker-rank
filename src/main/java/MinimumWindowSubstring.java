@@ -1,37 +1,38 @@
 public class MinimumWindowSubstring {
+
 	public String minWindow(String s, String t) {
-		char[] s_array = s.toCharArray();
-		char[] t_array = t.toCharArray();
-		int[] map = new int[256];
-		int end = 0;
-		int start = 0;
-		int min_length = Integer.MAX_VALUE;
-		for (int i = 0; i < t_array.length; i++) {
-			map[t_array[i]]++;
-		}
-		int count = t_array.length;
-		int min_start = 0;
-
-		while (end < s_array.length) {
-			if (map[s_array[end]] > 0) {
-				count--;
+		int[] count = new int[128];
+		int unique = 0;
+		for (char c : t.toCharArray()) {
+			count[c]++;
+			if (count[c] == 1) {
+				unique++;
 			}
-			map[s_array[end]]--;
-			while (count == 0) {
-				if ((end - start + 1) < min_length) {
-					min_length = end - start + 1;
-					min_start = start;
+		}
+		int left = 0;
+		int right = 0;
+		int maxRight = s.length();
+		int maxLeft = 0;
+		while (right < s.length()) {
+			char c = s.charAt(right);
+			count[c]--;
+			if (count[c] == 0) {
+				unique--;
+			}
+			while (unique == 0 && left < right) {
+				if (maxRight - maxLeft > right - left) {
+					maxRight = right;
+					maxLeft = left;
 				}
-				map[s_array[start]]++;
-				count++;
-				start++;
+				char leftChar = s.charAt(left);
+				count[leftChar]++;
+				if (count[leftChar] == 1) {
+					unique++;
+				}
+				left++;
 			}
-			end++;
-
+			right++;
 		}
-		if (min_start + min_length > s_array.length) {
-			return "";
-		}
-		return s.substring(min_start, min_start + min_length);
+		return s.substring(maxLeft, maxRight + 1);
 	}
 }

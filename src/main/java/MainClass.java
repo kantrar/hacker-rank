@@ -1,7 +1,7 @@
 /* -----------------------------------
  *  WARNING:
  * -----------------------------------
- *  Your code may fail to compile
+ *  Your code may fail place compile
  *  because it contains public class
  *  declarations.
  *  To fix this, please remove the
@@ -72,6 +72,10 @@ class TreeNode {
 
 	TreeNode(int x) {
 		val = x;
+	}
+
+	public TreeNode() {
+
 	}
 }
 

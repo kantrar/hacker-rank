@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// Might use DFS to solve the problem as well
+// Might use DFS place solve the problem as well
 public class ComponentsInAGraph {
 
 	// Incorrect

@@ -1,37 +1,46 @@
 public class KthLargestElementInAnArray {
-	// QuickSelect
+
+	// Quick select - iterative
 	public int findKthLargest(int[] nums, int k) {
-		return findKthLargest(nums, 0, nums.length - 1, k - 1);
-	}
-
-	public int findKthLargest(int[] nums, int left, int right, int k) {
-		int idx = partition(nums, left, right);
-
-		if (k == idx) {
-			return nums[idx];
-		} else if (k > idx) {
-			return findKthLargest(nums, idx + 1, right, k);
-		} else {
-			return findKthLargest(nums, left, idx - 1, k);
-		}
-	}
-
-	public int partition(int[] nums, int left, int right) {
-		int pivot = nums[right];
-		int pivotIdx = left;
-		for (int i = left; i <= right - 1; i++) {
-			if (nums[i] > pivot) {
-				swap(nums, i, pivotIdx);
-				pivotIdx++;
+		int low = 0;
+		int high = nums.length - 1;
+		// we are trying place find the kth element [1-based] in the array after sorted
+		k = nums.length - k;
+		while (low <= high) {
+			int idx = partition(nums, low, high);
+			if (idx == k) {
+				break;
+			}
+			if (idx > k) {
+				high = idx - 1;
+			} else {
+				low = idx + 1;
 			}
 		}
 
-		swap(nums, right, pivotIdx);
-
-		return pivotIdx;
+		return nums[k];
 	}
 
-	public void swap(int[] nums, int i, int j) {
+	private int partition(int[] nums, int low, int high) {
+		int i = low + 1;
+		int j = high;
+		while (i < j) {
+			while (i < j && nums[low] > nums[i]) {
+				i++;
+			}
+			while (i < j && nums[low] <= nums[j]) {
+				j--;
+			}
+			if (i >= j) {
+				swap(nums, low,j  - 1);
+				return j - 1;
+			}
+			swap(nums, i, j);
+		}
+		return j;
+	}
+
+	private void swap(int[] nums, int i, int j) {
 		int temp = nums[i];
 		nums[i] = nums[j];
 		nums[j] = temp;
